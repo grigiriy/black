@@ -1,5 +1,41 @@
 <?php
 
+//deregister unnessosary scripts
+function my_dequeue_scripts()
+{
+  wp_dequeue_script('jquery-ui-core');
+  wp_dequeue_script('jquery-ui-sortable');
+}
+//remove smthng
+add_filter('xmlrpc_enabled', '__return_false');
+remove_action('wp_head', 'adjacent_posts_rel_link_wp_head');
+remove_action('wp_head', 'wp_shortlink_wp_head');
+// remove hAtom micromarkup
+function remove_hentry($classes)
+{
+  $classes = array_diff($classes, array('hentry'));
+  return $classes;
+}
+add_filter('post_class', 'remove_hentry');
+// remove Emojii
+remove_action('wp_head', 'print_emoji_detection_script', 7);
+remove_action('admin_print_scripts', 'print_emoji_detection_script');
+remove_action('wp_print_styles', 'print_emoji_styles');
+remove_action('admin_print_styles', 'print_emoji_styles');
+remove_filter('the_content_feed', 'wp_staticize_emoji');
+remove_filter('comment_text_rss', 'wp_staticize_emoji');
+remove_filter('wp_mail', 'wp_staticize_emoji_for_email');
+add_filter('tiny_mce_plugins', 'disable_wp_emojis_in_tinymce');
+function disable_wp_emojis_in_tinymce($plugins)
+{
+  if (is_array($plugins)) {
+    return array_diff($plugins, array('wpemoji'));
+  } else {
+    return array();
+  }
+}
+
+
 /**
  * Theme setup.
  */
@@ -13,6 +49,7 @@ function tailpress_setup() {
 	);
 
 	add_theme_support(
+		// 'woocommerce',
 		'html5',
 		array(
 			'search-form',
@@ -42,7 +79,7 @@ function tailpress_enqueue_scripts() {
 	$theme = wp_get_theme();
 
 	wp_enqueue_style( 'tailpress', tailpress_asset( 'css/app.css' ), array(), $theme->get( 'Version' ) );
-	wp_enqueue_script( 'tailpress', tailpress_asset( 'js/app.js' ), array(), $theme->get( 'Version' ) );
+	wp_enqueue_script( 'tailpress', tailpress_asset( 'js/app.js' ), array(), $theme->get( 'Version' ), true );
 }
 
 add_action( 'wp_enqueue_scripts', 'tailpress_enqueue_scripts' );
@@ -107,3 +144,23 @@ function tailpress_nav_menu_add_submenu_class( $classes, $args, $depth ) {
 }
 
 add_filter( 'nav_menu_submenu_css_class', 'tailpress_nav_menu_add_submenu_class', 10, 3 );
+
+
+
+// start
+add_action('after_setup_theme', 'crb_load');
+function crb_load()
+{
+  require_once('vendor/autoload.php');
+  \Carbon_Fields\Carbon_Fields::boot();
+  // include_once __DIR__ . '/theme-helpers/custom-fields/base.php';
+}
+
+add_action('carbon_fields_register_fields', 'crb_register_custom_fields');
+function crb_register_custom_fields()
+{
+  include_once __DIR__ . '/theme-helpers/custom-fields/base.php';
+}
+
+// include parts
+// require_once __DIR__ . '/theme-helpers/funs/woo.php';

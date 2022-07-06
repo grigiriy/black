@@ -1,20 +1,22 @@
 <?php get_header(); ?>
 
-<div class="container mx-auto my-8">
+<main id="MainContent" class="main-content" role="main">
+	<div id="shopify-section-pagefly-home" class="shopify-section">
 
-	<?php if ( have_posts() ) : ?>
-		<?php
-		while ( have_posts() ) :
-			the_post();
+		<?php if (have_posts()) : ?>
+			<?php
+			while (have_posts()) :
+				the_post();
 			?>
 
-			<?php get_template_part( 'template-parts/content', get_post_format() ); ?>
+				
 
-		<?php endwhile; ?>
+			<?php endwhile; ?>
 
-	<?php endif; ?>
+		<?php endif; ?>
 
-</div>
+	</div>
+</main>
 
 <?php
 get_footer();

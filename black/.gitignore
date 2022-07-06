@@ -1,3 +1,6 @@
+/css/*
+/js/*
+!/resources/*
 /node_modules
 /.idea
 /.vscode
