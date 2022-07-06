@@ -48,8 +48,16 @@
   visibility: visible
 }
 
+.invisible {
+  visibility: hidden
+}
+
 .static {
   position: static
+}
+
+.fixed {
+  position: fixed
 }
 
 .sticky {
@@ -74,6 +82,16 @@
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem
+}
+
+.-mx-2 {
+  margin-left: -0.5rem;
+  margin-right: -0.5rem
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem
 }
 
 .mb-8 {
@@ -124,6 +142,10 @@
   width: 4rem
 }
 
+.w-1\/2 {
+  width: 50%
+}
+
 .max-w-sm {
   max-width: 24rem
 }
@@ -137,6 +159,14 @@
        columns: 2
 }
 
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr))
+}
+
+.grid-rows-2 {
+  grid-template-rows: repeat(2, minmax(0, 1fr))
+}
+
 .items-center {
   align-items: center
 }
@@ -147,6 +177,10 @@
 
 .rounded {
   border-radius: 0.25rem
+}
+
+.border {
+  border-width: 1px
 }
 
 .border-b {
@@ -173,6 +207,10 @@
   padding-bottom: 0.5rem
 }
 
+.text-center {
+  text-align: center
+}
+
 .text-right {
   text-align: right
 }
@@ -187,8 +225,17 @@
   line-height: 2rem
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem
+}
+
 .font-light {
   font-weight: 300
+}
+
+.uppercase {
+  text-transform: uppercase
 }
 
 .lowercase {
@@ -212,6 +259,14 @@
 
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)
+}
+
+.transition {
+  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms
 }
 
 .alignfull {
