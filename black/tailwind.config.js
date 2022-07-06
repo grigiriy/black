@@ -24,7 +24,7 @@ module.exports = {
         },
         screens: {
             'xs': '480px',
-            'sm': '600px',
+            'sm': '640px',
             'md': '782px',
             'lg': tailpress.theme('settings.layout.contentSize', theme),
             'xl': tailpress.theme('settings.layout.wideSize', theme),

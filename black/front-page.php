@@ -12,9 +12,11 @@
       <?php get_template_part('template-parts/section','video2'); ?>
       <div class="page-width">
         <?php get_template_part('template-parts/section','intro'); ?>
-        <?php get_template_part('template-parts/section','form'); ?>
-
+        <?php get_template_part('template-parts/section','form'); ?>	
       </div>
+			<?php get_template_part('template-parts/section','popular'); ?>
+			<div class="page-width">
+			</div>
 
 			<?php endwhile; ?>
 

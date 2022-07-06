@@ -567,9 +567,9 @@ video {
   }
 }
 
-@media (min-width: 600px){
+@media (min-width: 640px){
   .container{
-    max-width: 600px;
+    max-width: 640px;
     padding-right: 2rem;
     padding-left: 2rem;
   }
@@ -794,7 +794,7 @@ video {
   display: block;
 }
 
-@media (min-width: 600px){
+@media (min-width: 640px){
   .alignleft:not(.wp-block-button){
     margin-right: 0.5rem;
     float: left;
@@ -8516,7 +8516,7 @@ section.intro h1 {
   }
     }
 
-@media (min-width: 600px){
+@media (min-width: 640px){
     section.intro h3{
       margin-top: -2rem;
     }
@@ -8579,14 +8579,14 @@ section.form .wrapper{
     background-color: rgb(0 0 0 / var(--tw-bg-opacity));
   }
 
-@media (min-width: 600px){
+@media (min-width: 640px){
     section.form .wrapper{
       margin-left: 4rem;
       margin-right: 4rem;
     }
   }
 
-@media (min-width: 600px){
+@media (min-width: 640px){
     section.form .wrapper{
       margin-left: 5rem;
       margin-right: 5rem;
@@ -8635,6 +8635,13 @@ section.form .wrapper .form-wrapper form{
         display: flex;
       }
 
+ form{
+          flex-wrap: wrap;
+        }
+
+ form {
+        }
+
 section.form .wrapper .form-wrapper form {
         display: flex;
         width: 100%;
@@ -8643,6 +8650,13 @@ section.form .wrapper .form-wrapper form {
 section.form .wrapper .form-wrapper form {
         width: auto;
       }
+
+ form{
+          flex-wrap: wrap;
+        }
+
+ form {
+        }
 
 section.form .wrapper .form-wrapper form{
         flex-wrap: wrap;
@@ -8656,6 +8670,13 @@ section.form .wrapper .form-wrapper form >div{
           display: flex;
         }
 
+ >div{
+            flex-wrap: wrap;
+          }
+
+ >div {
+          }
+
 section.form .wrapper .form-wrapper form >div {
           display: flex;
           width: 100%;
@@ -8665,6 +8686,13 @@ section.form .wrapper .form-wrapper form >div {
           width: auto;
         }
 
+ >div{
+            flex-wrap: wrap;
+          }
+
+ >div {
+          }
+
 section.form .wrapper .form-wrapper form >div{
           flex-direction: column;
         }
@@ -8673,13 +8701,13 @@ section.form .wrapper .form-wrapper form >div{
           width: 100%;
         }
 
-@media (min-width: 600px){
+@media (min-width: 640px){
           section.form .wrapper .form-wrapper form >div{
             width: 50%;
           }
         }
 
-@media (min-width: 600px){
+@media (min-width: 640px){
             section.form .wrapper .form-wrapper form >div.full{
               width: 100%;
             }
@@ -8779,6 +8807,127 @@ section.form .wrapper .form-wrapper form >div input[type="submit"],section.form 
 section.form .wrapper .form-wrapper form >div input[type="submit"],section.form .wrapper .form-wrapper form >div select[type="submit"]{
               border-radius: 0.75rem;
             }
+
+section.popular{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 100vw;
+  left: 0px;
+}
+
+section.popular .headline{
+    text-transform: uppercase;
+  }
+
+section.popular .headline{
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
+
+section.popular .headline{
+    text-align: center;
+  }
+
+section.popular .headline {
+    text-align: center;
+  }
+
+section.popular .headline.rte ul, 
+section.popular .headline.rte ol, 
+section.popular .headline .rte ul, 
+section.popular .headline .rte ol {
+    margin-left: 0;
+    list-style-position: inside;
+  }
+
+section.popular .headline.rte ul, 
+section.popular .headline.rte ol, 
+section.popular .headline .rte ul, 
+section.popular .headline .rte ol {
+    margin-left: 0;
+    list-style-position: inside;
+  }
+
+section.popular .headline.rte ul, 
+section.popular .headline.rte ol, 
+section.popular .headline .rte ul, 
+section.popular .headline .rte ol {
+    margin-left: 0;
+    list-style-position: inside;
+  }
+
+section.popular .headline.rte ul, 
+section.popular .headline.rte ol, 
+section.popular .headline .rte ul, 
+section.popular .headline .rte ol {
+    margin-left: 0;
+    list-style-position: inside;
+  }
+
+section.popular .headline{
+    font-weight: 700;
+  }
+
+section.popular .headline {
+    font-family: "Cormorant SC";
+  }
+
+@media(min-width:640px) {
+
+section.popular .headline {
+      font-size: 40px
+  }
+    }
+
+section.popular .flex{
+    flex-wrap: wrap;
+  }
+
+section.popular .flex .item{
+      width: 50%;
+    }
+
+@media (min-width: 640px){
+      section.popular .flex .item{
+        width: 25%;
+      }
+    }
+
+section.popular .flex .item{
+      --tw-scale-x: .9;
+      --tw-scale-y: .9;
+      transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    }
+
+section.popular .flex .item:hover{
+      --tw-scale-x: 1;
+      --tw-scale-y: 1;
+      transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    }
+
+section.popular .flex .item{
+      transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+      transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+      transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-duration: 150ms;
+    }
+
+section.popular .flex .item{
+      transition-property: transform;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-duration: 150ms;
+    }
+
+section.popular .flex .item{
+      transition-duration: 500ms;
+    }
+
+section.popular .flex .item{
+      transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
 
 @media (min-width: 782px){
   .md\:my-6{
