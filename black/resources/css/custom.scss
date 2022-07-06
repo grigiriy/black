@@ -1,6 +1,28 @@
+@font-face {
+  font-family: "Cormorant SC";
+  font-weight: 400;
+  font-style: normal;
+  src: url('https://fonts.gstatic.com/s/cormorantsc/v16/0yb5GD4kxqXBmOVLG30OGwsuqzAx1zX--A.woff2');
+}
+
+@font-face {
+  font-family: "Cormorant SC";
+  font-weight: 700;
+  font-style: normal;
+  src: url('https://fonts.gstatic.com/s/cormorantsc/v16/0ybmGD4kxqXBmOVLG30OGwsmEBUk-hfz0jCGGQ.woff2');
+}
+
+
+
 .site-header__logo img {
   max-width: 150px;
 }
 #StickNavWrapper {
   height: 59px;
 }
+
+.main-content {
+  @apply mt-1;
+}
+
+

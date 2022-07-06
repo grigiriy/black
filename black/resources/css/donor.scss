@@ -45,40 +45,14 @@
 /*================ Product slider ================*/
 /*================ Collection Grid ================*/
 /*================ Typography Variables ================*/
-@font-face {
-  font-family: "Unica One";
-  font-weight: 400;
-  font-style: normal;
-  src: url("https://fonts.shopifycdn.com/unica_one/unicaone_n4.ff60fe9bbc5f46076f2d3df4a7f5572e1a7e80a6.woff2?h1=ZW1jZXhvdGljc21pYW1pLmNvbQ&hmac=eb23b236227bfa08a80d28c21855880a5eb6d0b311cacec7aed5daec92ad50dc") format("woff2"), url("https://fonts.shopifycdn.com/unica_one/unicaone_n4.92a8e215168d288dd1407fd86929132c532b4f69.woff?h1=ZW1jZXhvdGljc21pYW1pLmNvbQ&hmac=149fb335cc34978a812871593fc8fbe934b0bf5996034cb1209ab2f00095ad6e") format("woff");
-}
 
-@font-face {
-  font-family: Karla;
-  font-weight: 400;
-  font-style: normal;
-  src: url("https://fonts.shopifycdn.com/karla/karla_n4.187fb228d0a8055289c8663e90433b4a50e86848.woff2?h1=ZW1jZXhvdGljc21pYW1pLmNvbQ&hmac=c566145ee64e304b2fcb4e47ec4c0e88eadd4ec03ee8ea80afbb0d8dc46603ee") format("woff2"), url("https://fonts.shopifycdn.com/karla/karla_n4.24ba61101c1ba185880bec9c74d8e7cdb826ad49.woff?h1=ZW1jZXhvdGljc21pYW1pLmNvbQ&hmac=d55a819a8b353a842701d0d724d531ae32bfb9cefa6e3c0c4e4c2e4d222d2342") format("woff");
-}
 
-@font-face {
-  font-family: Karla;
-  font-weight: 700;
-  font-style: normal;
-  src: url("https://fonts.shopifycdn.com/karla/karla_n7.e8c0eb897464ccf45d5caa70ec8c7005d0f7b1b2.woff2?h1=ZW1jZXhvdGljc21pYW1pLmNvbQ&hmac=57061454f1901ca22744cd4c8971e3d2eabdca4e0437147b9a536d974e31e97e") format("woff2"), url("https://fonts.shopifycdn.com/karla/karla_n7.98d31f084a84db1ace8d046ddc8faa522b144349.woff?h1=ZW1jZXhvdGljc21pYW1pLmNvbQ&hmac=e8c72aaab7bf0af19d6c859f5e85a9792f533b8ba15fe302c67c4d37d999ba80") format("woff");
-}
 
-@font-face {
-  font-family: Karla;
-  font-weight: 400;
-  font-style: italic;
-  src: url("https://fonts.shopifycdn.com/karla/karla_i4.ce8a9af821b5675e15a4785a2318ed578e68e9c9.woff2?h1=ZW1jZXhvdGljc21pYW1pLmNvbQ&hmac=71ee3f4b6c2f7bb209d4eb237c64a12a08be60d4871bc980fceeb481fcd44b7e") format("woff2"), url("https://fonts.shopifycdn.com/karla/karla_i4.8addc6e90a0d45abd627fd1c26cd4dbae936fbbb.woff?h1=ZW1jZXhvdGljc21pYW1pLmNvbQ&hmac=d074fb94155cc958bb4bfe6cb4b64ea2ab81f03aba292cc303e03b3f2af0a08d") format("woff");
-}
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&family=Unica+One&display=swap');
 
-@font-face {
-  font-family: Karla;
-  font-weight: 700;
-  font-style: italic;
-  src: url("https://fonts.shopifycdn.com/karla/karla_i7.09a1f54d3edfd3142937b195898dad5acea092ce.woff2?h1=ZW1jZXhvdGljc21pYW1pLmNvbQ&hmac=1191ad38b3ae5ffe71f2547c86f95663f51a4166f3268c027c5a62c6ee153edb") format("woff2"), url("https://fonts.shopifycdn.com/karla/karla_i7.7088df7c28e0b13b5406d1a8a5978bdb24760ab1.woff?h1=ZW1jZXhvdGljc21pYW1pLmNvbQ&hmac=334b42c4aa29b09dd472e4d42f3e7e572020da8d9ef02ad0b049f1aa26abb307") format("woff");
-}
+
+
 
 /*================ Z-Index ================*/
 /*================ Drawers ================*/

@@ -1,0 +1,31 @@
+section.intro {
+  @apply text-center;
+  @apply mt-12;
+  @apply mb-8;
+
+  h1,
+  h3 {
+    font-family: "Cormorant SC";
+    font-size: 35px;
+  }
+  h1 {
+    @media(min-width:640px){
+      font-size: 50px;
+    }
+  }
+  h3 {
+    @apply sm:-mt-8;
+    @media(min-width:640px){
+      font-size: 40px;
+    }
+  }
+  p {
+    @apply px-2.5;
+    font-size: 17px;
+    @media(min-width:640px){
+      font-size: 20px;
+    }
+  }
+
+
+}
