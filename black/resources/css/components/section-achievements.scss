@@ -1,0 +1,54 @@
+section.achievements {
+  @apply bg-black;
+  @apply bg-no-repeat;
+  @apply bg-[length:70vw];
+  @apply sm:bg-contain;
+  @apply bg-center;
+  background-image: url(https://cdn.shopify.com/s/files/1/0587/6875/2824/t/6/assets/pf-bca29839--LMBO-NREGRO-3.jpeg);
+
+  .flex {
+    @apply pt-4;
+    @apply sm:pt-8;
+    @apply justify-between;
+    @apply flex-wrap;
+    @apply mb-28;
+    @apply sm:mb-16;
+
+    +.flex{
+      @apply mb-8;
+    }
+
+    div {
+      @apply w-full;
+      @apply sm:w-1/2;
+      @apply mb-8;
+
+      p {
+        @apply font-bold;
+        @apply text-center;
+        @apply sm:text-left;
+
+        &.number {
+          @apply text-amber-400;
+          @apply mb-0;
+          @apply sm:mb-4;
+          font-family: Roboto;
+          font-size: 50px;
+        }
+
+        &.text {
+          @apply text-base;
+          @apply text-white;
+          @apply uppercase;
+        }
+
+      }
+
+      &:nth-child(2n) {
+        p {
+          @apply sm:text-right;
+        }
+      }
+    }
+  }
+}

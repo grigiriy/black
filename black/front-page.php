@@ -15,6 +15,7 @@
         <?php get_template_part('template-parts/section','form'); ?>	
       </div>
 			<?php get_template_part('template-parts/section','popular'); ?>
+			<?php get_template_part('template-parts/section','achievements'); ?>
 			<div class="page-width">
 			</div>
 

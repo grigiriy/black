@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&family=Unica+One&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 /*
 ! tailwindcss v3.1.4 | MIT License | https://tailwindcss.com
 */
@@ -8635,12 +8637,58 @@ section.form .wrapper .form-wrapper form{
         display: flex;
       }
 
+ {
+
+ form {
+        }
+      }
+
+form +form{
+            margin-bottom: 2rem;
+          }
+
+ form{
+          padding-top: 1rem;
+        }
+
+@media (min-width: 640px){
+           form{
+            padding-top: 2rem;
+          }
+        }
+
+ form{
+          justify-content: space-between;
+        }
+
  form{
           flex-wrap: wrap;
         }
 
+ form{
+          flex-wrap: wrap;
+        }
+
+ form{
+          margin-bottom: 7rem;
+        }
+
  form {
         }
+
+@media (min-width: 640px){
+           form{
+            margin-bottom: 4rem;
+          }
+        }
+
+form +form{
+            margin-bottom: 2rem;
+          }
+
+form +form{
+            margin-bottom: 2rem;
+          }
 
 section.form .wrapper .form-wrapper form {
         display: flex;
@@ -8658,6 +8706,78 @@ section.form .wrapper .form-wrapper form {
  form {
         }
 
+ {
+        background-image: url(https://cdn.shopify.com/s/files/1/0587/6875/2824/t/6/assets/pf-bca29839--LMBO-NREGRO-3.jpeg);
+      }
+
+ form{
+          padding-top: 1rem;
+        }
+
+@media (min-width: 640px){
+           form{
+            padding-top: 2rem;
+          }
+        }
+
+ form{
+          justify-content: space-between;
+        }
+
+ form{
+          flex-wrap: wrap;
+        }
+
+ form{
+          margin-bottom: 7rem;
+        }
+
+@media (min-width: 640px){
+           form{
+            margin-bottom: 4rem;
+          }
+        }
+
+form +form{
+            margin-bottom: 2rem;
+          }
+
+ {
+        background-image: url(https://cdn.shopify.com/s/files/1/0587/6875/2824/t/6/assets/pf-bca29839--LMBO-NREGRO-3.jpeg);
+      }
+
+ form{
+          padding-top: 1rem;
+        }
+
+@media (min-width: 640px){
+           form{
+            padding-top: 2rem;
+          }
+        }
+
+ form{
+          justify-content: space-between;
+        }
+
+ form{
+          flex-wrap: wrap;
+        }
+
+ form{
+          margin-bottom: 7rem;
+        }
+
+@media (min-width: 640px){
+           form{
+            margin-bottom: 4rem;
+          }
+        }
+
+form +form{
+            margin-bottom: 2rem;
+          }
+
 section.form .wrapper .form-wrapper form{
         flex-wrap: wrap;
       }
@@ -8670,12 +8790,58 @@ section.form .wrapper .form-wrapper form >div{
           display: flex;
         }
 
+ {
+
+ >div {
+          }
+        }
+
+>div +>div{
+              margin-bottom: 2rem;
+            }
+
+ >div{
+            padding-top: 1rem;
+          }
+
+@media (min-width: 640px){
+             >div{
+              padding-top: 2rem;
+            }
+          }
+
+ >div{
+            justify-content: space-between;
+          }
+
  >div{
             flex-wrap: wrap;
           }
 
+ >div{
+            flex-wrap: wrap;
+          }
+
+ >div{
+            margin-bottom: 7rem;
+          }
+
  >div {
           }
+
+@media (min-width: 640px){
+             >div{
+              margin-bottom: 4rem;
+            }
+          }
+
+>div +>div{
+              margin-bottom: 2rem;
+            }
+
+>div +>div{
+              margin-bottom: 2rem;
+            }
 
 section.form .wrapper .form-wrapper form >div {
           display: flex;
@@ -8692,6 +8858,78 @@ section.form .wrapper .form-wrapper form >div {
 
  >div {
           }
+
+ {
+          background-image: url(https://cdn.shopify.com/s/files/1/0587/6875/2824/t/6/assets/pf-bca29839--LMBO-NREGRO-3.jpeg);
+        }
+
+ >div{
+            padding-top: 1rem;
+          }
+
+@media (min-width: 640px){
+             >div{
+              padding-top: 2rem;
+            }
+          }
+
+ >div{
+            justify-content: space-between;
+          }
+
+ >div{
+            flex-wrap: wrap;
+          }
+
+ >div{
+            margin-bottom: 7rem;
+          }
+
+@media (min-width: 640px){
+             >div{
+              margin-bottom: 4rem;
+            }
+          }
+
+>div +>div{
+              margin-bottom: 2rem;
+            }
+
+ {
+          background-image: url(https://cdn.shopify.com/s/files/1/0587/6875/2824/t/6/assets/pf-bca29839--LMBO-NREGRO-3.jpeg);
+        }
+
+ >div{
+            padding-top: 1rem;
+          }
+
+@media (min-width: 640px){
+             >div{
+              padding-top: 2rem;
+            }
+          }
+
+ >div{
+            justify-content: space-between;
+          }
+
+ >div{
+            flex-wrap: wrap;
+          }
+
+ >div{
+            margin-bottom: 7rem;
+          }
+
+@media (min-width: 640px){
+             >div{
+              margin-bottom: 4rem;
+            }
+          }
+
+>div +>div{
+              margin-bottom: 2rem;
+            }
 
 section.form .wrapper .form-wrapper form >div{
           flex-direction: column;
@@ -8928,6 +9166,160 @@ section.popular .flex .item{
 section.popular .flex .item{
       transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
     }
+
+section.achievements{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  background-repeat: no-repeat;
+  background-size: 70vw;
+}
+
+@media (min-width: 640px){
+  section.achievements{
+    background-size: contain;
+  }
+}
+
+section.achievements{
+  background-position: center;
+  background-image: url(https://cdn.shopify.com/s/files/1/0587/6875/2824/t/6/assets/pf-bca29839--LMBO-NREGRO-3.jpeg);
+}
+
+section.achievements .flex{
+    padding-top: 1rem;
+  }
+
+@media (min-width: 640px){
+    section.achievements .flex{
+      padding-top: 2rem;
+    }
+  }
+
+section.achievements .flex{
+    justify-content: space-between;
+  }
+
+section.achievements .flex{
+    flex-wrap: wrap;
+  }
+
+section.achievements .flex{
+    margin-bottom: 7rem;
+  }
+
+@media (min-width: 640px){
+    section.achievements .flex{
+      margin-bottom: 4rem;
+    }
+  }
+
+section.achievements .flex +.flex{
+      margin-bottom: 2rem;
+    }
+
+section.achievements .flex div{
+      width: 100%;
+    }
+
+@media (min-width: 640px){
+      section.achievements .flex div{
+        width: 50%;
+      }
+    }
+
+section.achievements .flex div{
+      margin-bottom: 2rem;
+    }
+
+section.achievements .flex div p{
+        font-weight: 700;
+      }
+
+section.achievements .flex div p{
+        text-align: center;
+      }
+
+section.achievements .flex div p {
+        text-align: center;
+      }
+
+section.achievements .flex div p.rte ul, 
+section.achievements .flex div p.rte ol, 
+section.achievements .flex div p .rte ul, 
+section.achievements .flex div p .rte ol {
+        margin-left: 0;
+        list-style-position: inside;
+      }
+
+section.achievements .flex div p.rte ul, 
+section.achievements .flex div p.rte ol, 
+section.achievements .flex div p .rte ul, 
+section.achievements .flex div p .rte ol {
+        margin-left: 0;
+        list-style-position: inside;
+      }
+
+section.achievements .flex div p.rte ul, 
+section.achievements .flex div p.rte ol, 
+section.achievements .flex div p .rte ul, 
+section.achievements .flex div p .rte ol {
+        margin-left: 0;
+        list-style-position: inside;
+      }
+
+section.achievements .flex div p.rte ul, 
+section.achievements .flex div p.rte ol, 
+section.achievements .flex div p .rte ul, 
+section.achievements .flex div p .rte ol {
+        margin-left: 0;
+        list-style-position: inside;
+      }
+
+@media (min-width: 640px){
+        section.achievements .flex div p{
+          text-align: left;
+        }
+      }
+
+section.achievements .flex div p.number{
+          --tw-text-opacity: 1;
+          color: rgb(251 191 36 / var(--tw-text-opacity));
+        }
+
+section.achievements .flex div p.number{
+          margin-bottom: 0px;
+        }
+
+@media (min-width: 640px){
+          section.achievements .flex div p.number{
+            margin-bottom: 1rem;
+          }
+        }
+
+section.achievements .flex div p.number {
+          font-family: Roboto;
+          font-size: 50px;
+        }
+
+section.achievements .flex div p.text{
+          font-size: 1rem;
+          line-height: 1.5rem;
+        }
+
+section.achievements .flex div p.text{
+          --tw-text-opacity: 1;
+          color: rgb(255 255 255 / var(--tw-text-opacity));
+        }
+
+section.achievements .flex div p.text{
+          text-transform: uppercase;
+        }
+
+@media (min-width: 640px){
+          section.achievements .flex div:nth-child(2n) p{
+            text-align: right;
+          }
+        }
 
 @media (min-width: 782px){
   .md\:my-6{
