@@ -559,6 +559,8 @@ video {
 
 .container{
   width: 100%;
+  margin-right: auto;
+  margin-left: auto;
   padding-right: 1rem;
   padding-left: 1rem;
 }
@@ -586,8 +588,6 @@ video {
 @media (min-width: 960px){
   .container{
     max-width: 960px;
-    padding-right: 0rem;
-    padding-left: 0rem;
   }
 }
 
@@ -8488,6 +8488,22 @@ body.video-playing {
   margin-top: 0.25rem;
 }
 
+.container{
+  max-width: 80rem;
+}
+
+.page-width {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+@media only screen and (min-width: 750px) {
+  .page-width {
+    padding: 0 20px;
+  }
+}
+
 section.intro{
   text-align: center;
 }
@@ -8560,7 +8576,16 @@ section.form .rte ol {
 }
 
 section.form{
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 640px){
+  section.form{
+    margin-bottom: 2.5rem;
+  }
+}
+
+section.form{
   margin-left: auto;
   margin-right: auto;
   --tw-text-opacity: 1;
@@ -8573,7 +8598,16 @@ section.form .wrapper{
 
 section.form .wrapper{
     padding-top: 2rem;
-    padding-bottom: 2rem;
+  }
+
+section.form .wrapper{
+    padding-bottom: 1rem;
+  }
+
+@media (min-width: 640px){
+    section.form .wrapper{
+      padding-bottom: 2rem;
+    }
   }
 
 section.form .wrapper{
@@ -9320,6 +9354,67 @@ section.achievements .flex div p.text{
             text-align: right;
           }
         }
+
+section.catalog .headline {
+    font-size: 30px;
+  }
+
+section.catalog .headline{
+    text-transform: uppercase;
+  }
+
+section.catalog .headline{
+    text-transform: uppercase;
+  }
+
+section.catalog .headline{
+    text-align: center;
+  }
+
+section.catalog .headline {
+    text-align: center;
+  }
+
+section.catalog .headline.rte ul, 
+section.catalog .headline.rte ol, 
+section.catalog .headline .rte ul, 
+section.catalog .headline .rte ol {
+    margin-left: 0;
+    list-style-position: inside;
+  }
+
+section.catalog .headline.rte ul, 
+section.catalog .headline.rte ol, 
+section.catalog .headline .rte ul, 
+section.catalog .headline .rte ol {
+    margin-left: 0;
+    list-style-position: inside;
+  }
+
+section.catalog .headline.rte ul, 
+section.catalog .headline.rte ol, 
+section.catalog .headline .rte ul, 
+section.catalog .headline .rte ol {
+    margin-left: 0;
+    list-style-position: inside;
+  }
+
+section.catalog .headline.rte ul, 
+section.catalog .headline.rte ol, 
+section.catalog .headline .rte ul, 
+section.catalog .headline .rte ol {
+    margin-left: 0;
+    list-style-position: inside;
+  }
+
+section.catalog .headline{
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity));
+  }
+
+section.catalog .headline{
+    font-weight: 700;
+  }
 
 @media (min-width: 782px){
   .md\:my-6{

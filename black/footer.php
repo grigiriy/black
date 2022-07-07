@@ -2,7 +2,7 @@
 		<footer class="site-footer" role="contentinfo">
 
 
-			<div class="page-width">
+			<div class="container">
 				<div class="flex-footer">
 
 					<div class="flex__item">
@@ -157,7 +157,7 @@
 				</div>
 			</div>
 			<div class="site-footer__copyright">
-				<div class="page-width">
+				<div class="container">
 					<div class="grid medium-up--grid--table">
 						<div class="grid__item medium-up--one-half">
 							<small>© 2022, <a href="/" title="">Emcexoticrentals</a>. <a target="_blank" rel="nofollow" href="https://www.shopify.com?utm_campaign=poweredby&amp;utm_medium=shopify&amp;utm_source=onlinestore"> </a></small>

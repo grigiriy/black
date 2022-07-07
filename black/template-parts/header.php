@@ -1,5 +1,5 @@
 <header class="site-header page-element is-moved-by-drawer" role="banner" data-section-id="header" data-section-type="header">
-  <div class="site-header__upper page-width">
+  <div class="site-header__upper container">
     <div class="grid grid--table">
       <div class="grid__item small--one-quarter medium-up--hide">
         <button type="button" class="text-link site-header__link js-drawer-open-left" aria-expanded="false">
@@ -55,7 +55,7 @@
   <div id="StickNavWrapper">
     <div id="StickyBar" class="sticky">
       <nav class="nav-bar small--hide" role="navigation" id="StickyNav">
-        <div class="page-width">
+        <div class="container">
           <div class="grid grid--table">
             <div class="grid__item seven-eighths" id="SiteNavParent">
               <button type="button" class="hide text-link site-nav__link site-nav__link--compressed js-drawer-open-left" id="SiteNavCompressed" aria-expanded="false">
@@ -139,7 +139,7 @@
         </div>
       </nav>
       <div id="NotificationSuccess" class="notification notification--success" aria-hidden="true">
-        <div class="page-width notification__inner notification__inner--has-link">
+        <div class="container notification__inner notification__inner--has-link">
           <a href="/cart" class="notification__link">
             <span class="notification__message">Item added to cart. <span>View cart and check out</span>.</span>
           </a>
@@ -152,7 +152,7 @@
         </div>
       </div>
       <div id="NotificationError" class="notification notification--error" aria-hidden="true">
-        <div class="page-width notification__inner">
+        <div class="container notification__inner">
           <span class="notification__message notification__message--error" aria-live="assertive" aria-atomic="true"></span>
           <button type="button" class="text-link notification__close">
             <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 32 32">

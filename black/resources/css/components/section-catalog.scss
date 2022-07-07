@@ -1,0 +1,12 @@
+@import "/item-catalog.scss";
+
+section.catalog {
+  .headline {
+    font-size: 30px;
+    @apply uppercase;    
+    @apply uppercase;
+    @apply text-center;    
+    @apply text-black;    
+    @apply font-bold;    
+  }
+}

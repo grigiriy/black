@@ -27,7 +27,7 @@ $pb = [
 
 
 <section class="popular">
-  <div class="page-width">
+  <div class="container">
     <p class="headline">Popular Brands</p>
     <div class="flex">
       <?php foreach ($pb as $item) { ?>

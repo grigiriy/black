@@ -9,7 +9,7 @@ $achievs_2 = [
 ];
 ?>
 <section class="achievements">
-<div class="page-width">
+<div class="container">
   <div class="flex">
   <?php foreach ($achievs_1 as $item) { ?>
     <div>
