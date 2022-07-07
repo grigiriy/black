@@ -1,0 +1,32 @@
+section.new {
+  background-image: url(../images/rolls-bg.jpg);
+  @apply bg-cover;
+  @apply bg-center;
+  @apply bg-no-repeat;
+  @apply text-white;
+  @apply py-16;
+  @apply text-center;
+  @apply sm:text-left;
+  
+  p {
+    @apply my-8;
+    @apply text-sm;
+  }
+  .headline{
+    @apply font-bold;
+    @apply text-3xl;
+    @apply uppercase;
+  }
+  a {
+    @apply uppercase;
+    @apply px-6;
+    @apply py-3;
+    @apply bg-red-600;
+    @apply hover:bg-red-700;
+    @apply my-8;
+    @apply block;
+    @apply w-max;
+    @apply mx-auto;
+    @apply sm:ml-0;
+  }
+}
