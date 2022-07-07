@@ -1,4 +1,4 @@
-<section class="form">
+<section id="form">
   <div class="wrapper">
     <p class="headline">BOOK AN EXOTIC TODAY</p>
     <p>Give us your information and we will contact you in few minutes.</p>

@@ -1,4 +1,4 @@
-<section class="about">
+<section id="about">
   <p class="headline">About EMC Exotic Rentals</p>
   <div class="flex">
   <div class="item">

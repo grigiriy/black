@@ -15,8 +15,8 @@
 <body class="template-index">
 
 	<div id="shopify-section-header" class="shopify-section">
-		<?php if(1>2) get_template_part('template-parts/NavDrawer'); ?>
-		<?php if(1>2) get_template_part('template-parts/header'); ?>
+		<?php get_template_part('template-parts/burger'); ?>
+		<?php get_template_part('template-parts/header'); ?>
 	</div>
 
 	<div class="page-container page-element is-moved-by-drawer">

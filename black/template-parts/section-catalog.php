@@ -1,4 +1,4 @@
-<section class="catalog">
+<section id="catalog">
   <p class="headline">Our Fleet</p>
   <ul class="cats-list">
     <li class="selected">All cars</li>

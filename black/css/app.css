@@ -890,6 +890,633 @@ video {
   }
 }
 
+header.header{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+header.header .topline{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+@media (min-width: 480px){
+    header.header .topline{
+      max-width: 480px;
+    }
+  }
+
+@media (min-width: 640px){
+    header.header .topline{
+      max-width: 640px;
+      padding-right: 2rem;
+      padding-left: 2rem;
+    }
+  }
+
+@media (min-width: 782px){
+    header.header .topline{
+      max-width: 782px;
+    }
+  }
+
+@media (min-width: 960px){
+    header.header .topline{
+      max-width: 960px;
+    }
+  }
+
+@media (min-width: 1280px){
+    header.header .topline{
+      max-width: 1280px;
+    }
+  }
+
+@media (min-width: 1440px){
+    header.header .topline{
+      max-width: 1440px;
+    }
+  }
+
+header.header .topline{
+    max-width: 80rem;
+  }
+
+header.header .topline{
+    display: flex;
+  }
+
+ {
+
+ .topline {
+    }
+  }
+
+.topline +.topline{
+        margin-bottom: 2rem;
+      }
+
+ .topline{
+      padding-top: 1rem;
+    }
+
+@media (min-width: 640px){
+       .topline{
+        padding-top: 2rem;
+      }
+    }
+
+ .topline{
+      justify-content: space-between;
+    }
+
+ .topline{
+      flex-wrap: wrap;
+    }
+
+ .topline{
+      flex-wrap: wrap;
+    }
+
+ .topline{
+      margin-bottom: 7rem;
+    }
+
+ .topline {
+    }
+
+@media (min-width: 640px){
+       .topline{
+        margin-bottom: 4rem;
+      }
+    }
+
+.topline +.topline{
+        margin-bottom: 2rem;
+      }
+
+.topline +.topline{
+        margin-bottom: 2rem;
+      }
+
+ .topline{
+      flex-wrap: wrap;
+    }
+
+@media (min-width: 640px){
+       .topline{
+        flex-wrap: nowrap;
+      }
+    }
+
+ .topline {
+    }
+
+header.header .topline {
+    width: auto;
+  }
+
+ .topline{
+      flex-wrap: wrap;
+    }
+
+ .topline {
+    }
+
+ {
+    background-image: url(https://cdn.shopify.com/s/files/1/0587/6875/2824/t/6/assets/pf-bca29839--LMBO-NREGRO-3.jpeg);
+  }
+
+ .topline{
+      padding-top: 1rem;
+    }
+
+@media (min-width: 640px){
+       .topline{
+        padding-top: 2rem;
+      }
+    }
+
+ .topline{
+      justify-content: space-between;
+    }
+
+ .topline{
+      flex-wrap: wrap;
+    }
+
+ .topline{
+      margin-bottom: 7rem;
+    }
+
+@media (min-width: 640px){
+       .topline{
+        margin-bottom: 4rem;
+      }
+    }
+
+.topline +.topline{
+        margin-bottom: 2rem;
+      }
+
+ {
+    background-image: url(https://cdn.shopify.com/s/files/1/0587/6875/2824/t/6/assets/pf-bca29839--LMBO-NREGRO-3.jpeg);
+  }
+
+ .topline{
+      padding-top: 1rem;
+    }
+
+@media (min-width: 640px){
+       .topline{
+        padding-top: 2rem;
+      }
+    }
+
+ .topline{
+      justify-content: space-between;
+    }
+
+ .topline{
+      flex-wrap: wrap;
+    }
+
+ .topline{
+      margin-bottom: 7rem;
+    }
+
+@media (min-width: 640px){
+       .topline{
+        margin-bottom: 4rem;
+      }
+    }
+
+.topline +.topline{
+        margin-bottom: 2rem;
+      }
+
+ .topline{
+      flex-wrap: wrap;
+    }
+
+@media (min-width: 640px){
+       .topline{
+        flex-wrap: nowrap;
+      }
+    }
+
+ .topline {
+    }
+
+header.header .topline{
+    flex-wrap: nowrap;
+  }
+
+header.header .topline{
+    width: 100%;
+  }
+
+header.header .topline{
+    justify-content: space-between;
+  }
+
+header.header .topline{
+    margin-bottom: 0px;
+  }
+
+header.header .topline{
+    padding-bottom: 1rem;
+  }
+
+header.header .topline{
+    align-items: center;
+  }
+
+@media (min-width: 640px){
+      header.header .topline .burger{
+        display: none;
+      }
+    }
+
+header.header .topline .burger{
+      margin-bottom: 0px;
+    }
+
+header.header .topline .burger{
+      width: 1.25rem;
+    }
+
+header.header .topline .burger{
+      height: 1.25rem;
+    }
+
+header.header .topline .burger{
+      fill: #fff;
+    }
+
+header.header .topline .burger{
+      padding-top: 0px;
+    }
+
+header.header .topline .logo{
+    }
+
+header.header .topline .icons{
+      display: flex;
+    }
+
+ {
+
+ .icons {
+      }
+    }
+
+.icons +.icons{
+          margin-bottom: 2rem;
+        }
+
+ .icons{
+        padding-top: 1rem;
+      }
+
+@media (min-width: 640px){
+         .icons{
+          padding-top: 2rem;
+        }
+      }
+
+ .icons{
+        justify-content: space-between;
+      }
+
+ .icons{
+        flex-wrap: wrap;
+      }
+
+ .icons{
+        flex-wrap: wrap;
+      }
+
+ .icons{
+        margin-bottom: 7rem;
+      }
+
+ .icons {
+      }
+
+@media (min-width: 640px){
+         .icons{
+          margin-bottom: 4rem;
+        }
+      }
+
+.icons +.icons{
+          margin-bottom: 2rem;
+        }
+
+.icons +.icons{
+          margin-bottom: 2rem;
+        }
+
+ .icons{
+        flex-wrap: wrap;
+      }
+
+@media (min-width: 640px){
+         .icons{
+          flex-wrap: nowrap;
+        }
+      }
+
+ .icons {
+      }
+
+header.header .topline .icons {
+      width: auto;
+    }
+
+ .icons{
+        flex-wrap: wrap;
+      }
+
+ .icons {
+      }
+
+ {
+      background-image: url(https://cdn.shopify.com/s/files/1/0587/6875/2824/t/6/assets/pf-bca29839--LMBO-NREGRO-3.jpeg);
+    }
+
+ .icons{
+        padding-top: 1rem;
+      }
+
+@media (min-width: 640px){
+         .icons{
+          padding-top: 2rem;
+        }
+      }
+
+ .icons{
+        justify-content: space-between;
+      }
+
+ .icons{
+        flex-wrap: wrap;
+      }
+
+ .icons{
+        margin-bottom: 7rem;
+      }
+
+@media (min-width: 640px){
+         .icons{
+          margin-bottom: 4rem;
+        }
+      }
+
+.icons +.icons{
+          margin-bottom: 2rem;
+        }
+
+ {
+      background-image: url(https://cdn.shopify.com/s/files/1/0587/6875/2824/t/6/assets/pf-bca29839--LMBO-NREGRO-3.jpeg);
+    }
+
+ .icons{
+        padding-top: 1rem;
+      }
+
+@media (min-width: 640px){
+         .icons{
+          padding-top: 2rem;
+        }
+      }
+
+ .icons{
+        justify-content: space-between;
+      }
+
+ .icons{
+        flex-wrap: wrap;
+      }
+
+ .icons{
+        margin-bottom: 7rem;
+      }
+
+@media (min-width: 640px){
+         .icons{
+          margin-bottom: 4rem;
+        }
+      }
+
+.icons +.icons{
+          margin-bottom: 2rem;
+        }
+
+ .icons{
+        flex-wrap: wrap;
+      }
+
+@media (min-width: 640px){
+         .icons{
+          flex-wrap: nowrap;
+        }
+      }
+
+ .icons {
+      }
+
+header.header .topline .icons{
+      width: 1.25rem;
+    }
+
+@media (min-width: 640px){
+      header.header .topline .icons{
+        width: 4rem;
+      }
+    }
+
+header.header .topline .icons{
+      justify-content: space-between;
+    }
+
+header.header .topline .icons{
+      margin-bottom: 0px;
+    }
+
+header.header .topline .icons{
+      padding-top: 0px;
+    }
+
+header.header .topline .icons svg{
+        width: 1.25rem;
+      }
+
+header.header .topline .icons svg{
+        height: 1.25rem;
+      }
+
+header.header .topline .icons svg{
+        fill: #fff;
+      }
+
+header.header .topline .icons form{
+        height: 1.25rem;
+      }
+
+header.header .topline .icons form{
+        padding-top: 1px;
+      }
+
+header.header .topline .icons form{
+        margin-bottom: 0px;
+      }
+
+header.header .topline .icons form{
+        display: none;
+      }
+
+@media (min-width: 640px){
+        header.header .topline .icons form{
+          display: block;
+        }
+      }
+
+header.header .topline .icons form input{
+          display: none;
+        }
+
+header.header .nav{
+    display: none;
+  }
+
+@media (min-width: 640px){
+    header.header .nav{
+      display: flex;
+    }
+  }
+
+header.header .nav{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+@media (min-width: 480px){
+    header.header .nav{
+      max-width: 480px;
+    }
+  }
+
+@media (min-width: 640px){
+    header.header .nav{
+      max-width: 640px;
+      padding-right: 2rem;
+      padding-left: 2rem;
+    }
+  }
+
+@media (min-width: 782px){
+    header.header .nav{
+      max-width: 782px;
+    }
+  }
+
+@media (min-width: 960px){
+    header.header .nav{
+      max-width: 960px;
+    }
+  }
+
+@media (min-width: 1280px){
+    header.header .nav{
+      max-width: 1280px;
+    }
+  }
+
+@media (min-width: 1440px){
+    header.header .nav{
+      max-width: 1440px;
+    }
+  }
+
+header.header .nav{
+    max-width: 80rem;
+  }
+
+header.header .nav{
+    justify-content: flex-start;
+  }
+
+header.header .nav{
+    padding-top: 1rem;
+  }
+
+header.header .nav li{
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
+
+header.header .nav li{
+      padding-bottom: 1.5rem;
+    }
+
+header.header .nav li{
+      max-width: 960px;
+    }
+
+header.header .nav li:first-child{
+        margin-left: 0px;
+      }
+
+header.header .nav li a{
+        font-weight: 600;
+      }
+
+header.header .nav li a{
+        font-size: 0.75rem;
+        line-height: 1rem;
+      }
+
+header.header .nav li a{
+        --tw-text-opacity: 1;
+        color: rgb(163 163 163 / var(--tw-text-opacity));
+      }
+
+header.header .nav li a{
+        text-transform: uppercase;
+      }
+
+header.header .nav li.active{
+        border-bottom-width: 4px;
+      }
+
+header.header .nav li.active{
+        --tw-border-opacity: 1;
+        border-color: rgb(37 99 235 / var(--tw-border-opacity));
+      }
+
+header.header .nav li.active a{
+          --tw-text-opacity: 1;
+          color: rgb(255 255 255 / var(--tw-text-opacity));
+        }
+
+#burger{
+  display: none;
+  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
 section.intro{
   text-align: center;
   margin-top: 3rem;
@@ -960,104 +1587,104 @@ section.intro p {
   }
     }
 
-section.form{
+section#form{
   text-align: center;
   margin-bottom: 1.5rem;
 }
 
 @media (min-width: 640px){
-  section.form{
+  section#form{
     margin-bottom: 2.5rem;
   }
 }
 
-section.form{
+section#form{
   margin-left: auto;
   margin-right: auto;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-section.form .wrapper{
+section#form .wrapper{
     border-radius: 0.75rem;
   }
 
-section.form .wrapper{
+section#form .wrapper{
     padding-top: 2rem;
   }
 
-section.form .wrapper{
+section#form .wrapper{
     padding-bottom: 1rem;
   }
 
 @media (min-width: 640px){
-    section.form .wrapper{
+    section#form .wrapper{
       padding-bottom: 2rem;
     }
   }
 
-section.form .wrapper{
+section#form .wrapper{
     --tw-bg-opacity: 1;
     background-color: rgb(0 0 0 / var(--tw-bg-opacity));
   }
 
 @media (min-width: 640px){
-    section.form .wrapper{
+    section#form .wrapper{
       padding-left: 4rem;
       padding-right: 4rem;
     }
   }
 
 @media (min-width: 640px){
-    section.form .wrapper{
+    section#form .wrapper{
       margin-left: 5rem;
       margin-right: 5rem;
     }
   }
 
-section.form .wrapper .headline{
+section#form .wrapper .headline{
       font-size: 1.875rem;
       line-height: 2.25rem;
     }
 
-section.form .wrapper .headline{
+section#form .wrapper .headline{
       text-transform: uppercase;
     }
 
-section.form .wrapper .headline{
+section#form .wrapper .headline{
       margin-bottom: 0px;
     }
 
-section.form .wrapper .headline +p{
+section#form .wrapper .headline +p{
         margin-left: auto;
         margin-right: auto;
       }
 
-section.form .wrapper .headline +p{
+section#form .wrapper .headline +p{
         max-width: calc(100% - 60px);
       }
 
-section.form .wrapper .form-wrapper{
+section#form .wrapper .form-wrapper{
       margin-left: auto;
       margin-right: auto;
     }
 
-section.form .wrapper .form-wrapper {
+section#form .wrapper .form-wrapper {
       max-width: calc(100% - 60px);
     }
 
 @media(min-width:640px){
 
-section.form .wrapper .form-wrapper {
+section#form .wrapper .form-wrapper {
         max-width: 50vw
     }
       }
 
-section.form .wrapper .form-wrapper form{
+section#form .wrapper .form-wrapper form{
         margin-top: 2rem;
       }
 
-section.form .wrapper .form-wrapper form{
+section#form .wrapper .form-wrapper form{
         display: flex;
       }
 
@@ -1127,7 +1754,7 @@ form +form{
  form {
         }
 
-section.form .wrapper .form-wrapper form {
+section#form .wrapper .form-wrapper form {
         width: auto;
       }
 
@@ -1223,15 +1850,15 @@ form +form{
  form {
         }
 
-section.form .wrapper .form-wrapper form{
+section#form .wrapper .form-wrapper form{
         flex-wrap: wrap;
       }
 
-section.form .wrapper .form-wrapper form >div{
+section#form .wrapper .form-wrapper form >div{
           margin-bottom: 1rem;
         }
 
-section.form .wrapper .form-wrapper form >div{
+section#form .wrapper .form-wrapper form >div{
           display: flex;
         }
 
@@ -1301,7 +1928,7 @@ section.form .wrapper .form-wrapper form >div{
  >div {
           }
 
-section.form .wrapper .form-wrapper form >div {
+section#form .wrapper .form-wrapper form >div {
           width: auto;
         }
 
@@ -1397,119 +2024,119 @@ section.form .wrapper .form-wrapper form >div {
  >div {
           }
 
-section.form .wrapper .form-wrapper form >div{
+section#form .wrapper .form-wrapper form >div{
           flex-direction: column;
         }
 
-section.form .wrapper .form-wrapper form >div{
+section#form .wrapper .form-wrapper form >div{
           width: 100%;
         }
 
 @media (min-width: 640px){
-          section.form .wrapper .form-wrapper form >div{
+          section#form .wrapper .form-wrapper form >div{
             width: 50%;
           }
         }
 
 @media (min-width: 640px){
-            section.form .wrapper .form-wrapper form >div.full{
+            section#form .wrapper .form-wrapper form >div.full{
               width: 100%;
             }
           }
 
-section.form .wrapper .form-wrapper form >div label{
+section#form .wrapper .form-wrapper form >div label{
             text-transform: none;
           }
 
-section.form .wrapper .form-wrapper form >div label{
+section#form .wrapper .form-wrapper form >div label{
             font-weight: 400;
           }
 
-section.form .wrapper .form-wrapper form >div label{
+section#form .wrapper .form-wrapper form >div label{
             text-align: left;
           }
 
-section.form .wrapper .form-wrapper form >div label{
+section#form .wrapper .form-wrapper form >div label{
             --tw-text-opacity: 1;
             color: rgb(255 255 255 / var(--tw-text-opacity));
           }
 
-section.form .wrapper .form-wrapper form >div label{
+section#form .wrapper .form-wrapper form >div label{
             font-size: 1rem;
             line-height: 1.5rem;
           }
 
-section.form .wrapper .form-wrapper form >div label{
+section#form .wrapper .form-wrapper form >div label{
             margin-left: 0.5rem;
           }
 
-section.form .wrapper .form-wrapper form >div label{
+section#form .wrapper .form-wrapper form >div label{
             margin-bottom: 0px;
           }
 
-section.form .wrapper .form-wrapper form >div label span{
+section#form .wrapper .form-wrapper form >div label span{
               --tw-text-opacity: 1;
               color: rgb(239 68 68 / var(--tw-text-opacity));
             }
 
-section.form .wrapper .form-wrapper form >div input, section.form .wrapper .form-wrapper form >div select{
+section#form .wrapper .form-wrapper form >div input, section#form .wrapper .form-wrapper form >div select{
             margin-left: 0.5rem;
             margin-right: 0.5rem;
           }
 
-section.form .wrapper .form-wrapper form >div input, section.form .wrapper .form-wrapper form >div select{
+section#form .wrapper .form-wrapper form >div input, section#form .wrapper .form-wrapper form >div select{
             border-radius: 0.5rem;
           }
 
-section.form .wrapper .form-wrapper form >div input, section.form .wrapper .form-wrapper form >div select{
+section#form .wrapper .form-wrapper form >div input, section#form .wrapper .form-wrapper form >div select{
             --tw-bg-opacity: 1;
             background-color: rgb(209 213 219 / var(--tw-bg-opacity));
           }
 
-section.form .wrapper .form-wrapper form >div input, section.form .wrapper .form-wrapper form >div select{
+section#form .wrapper .form-wrapper form >div input, section#form .wrapper .form-wrapper form >div select{
             padding-left: 0.5rem;
             padding-right: 0.5rem;
           }
 
-section.form .wrapper .form-wrapper form >div input, section.form .wrapper .form-wrapper form >div select{
+section#form .wrapper .form-wrapper form >div input, section#form .wrapper .form-wrapper form >div select{
             padding-top: 0.25rem;
             padding-bottom: 0.25rem;
           }
 
-section.form .wrapper .form-wrapper form >div input[type="submit"],section.form .wrapper .form-wrapper form >div select[type="submit"]{
+section#form .wrapper .form-wrapper form >div input[type="submit"],section#form .wrapper .form-wrapper form >div select[type="submit"]{
               --tw-text-opacity: 1;
               color: rgb(0 0 0 / var(--tw-text-opacity));
             }
 
-section.form .wrapper .form-wrapper form >div input[type="submit"],section.form .wrapper .form-wrapper form >div select[type="submit"]{
+section#form .wrapper .form-wrapper form >div input[type="submit"],section#form .wrapper .form-wrapper form >div select[type="submit"]{
               --tw-bg-opacity: 1;
               background-color: rgb(253 186 116 / var(--tw-bg-opacity));
             }
 
-section.form .wrapper .form-wrapper form >div input[type="submit"]:hover,section.form .wrapper .form-wrapper form >div select[type="submit"]:hover{
+section#form .wrapper .form-wrapper form >div input[type="submit"]:hover,section#form .wrapper .form-wrapper form >div select[type="submit"]:hover{
               --tw-bg-opacity: 1;
               background-color: rgb(251 146 60 / var(--tw-bg-opacity));
             }
 
-section.form .wrapper .form-wrapper form >div input[type="submit"],section.form .wrapper .form-wrapper form >div select[type="submit"]{
+section#form .wrapper .form-wrapper form >div input[type="submit"],section#form .wrapper .form-wrapper form >div select[type="submit"]{
               width: 12rem;
             }
 
-section.form .wrapper .form-wrapper form >div input[type="submit"],section.form .wrapper .form-wrapper form >div select[type="submit"]{
+section#form .wrapper .form-wrapper form >div input[type="submit"],section#form .wrapper .form-wrapper form >div select[type="submit"]{
               margin-left: auto;
               margin-right: auto;
             }
 
-section.form .wrapper .form-wrapper form >div input[type="submit"],section.form .wrapper .form-wrapper form >div select[type="submit"]{
+section#form .wrapper .form-wrapper form >div input[type="submit"],section#form .wrapper .form-wrapper form >div select[type="submit"]{
               margin-top: 2rem;
             }
 
-section.form .wrapper .form-wrapper form >div input[type="submit"],section.form .wrapper .form-wrapper form >div select[type="submit"]{
+section#form .wrapper .form-wrapper form >div input[type="submit"],section#form .wrapper .form-wrapper form >div select[type="submit"]{
               padding-top: 0.75rem;
               padding-bottom: 0.75rem;
             }
 
-section.form .wrapper .form-wrapper form >div input[type="submit"],section.form .wrapper .form-wrapper form >div select[type="submit"]{
+section#form .wrapper .form-wrapper form >div input[type="submit"],section#form .wrapper .form-wrapper form >div select[type="submit"]{
               border-radius: 0.75rem;
             }
 
@@ -1716,32 +2343,32 @@ section.achievements .flex div p.text{
           }
         }
 
-section.catalog .headline {
+section#catalog .headline {
     font-size: 30px;
   }
 
-section.catalog .headline{
+section#catalog .headline{
     text-transform: uppercase;
   }
 
-section.catalog .headline{
+section#catalog .headline{
     text-transform: uppercase;
   }
 
-section.catalog .headline{
+section#catalog .headline{
     text-align: center;
   }
 
-section.catalog .headline{
+section#catalog .headline{
     --tw-text-opacity: 1;
     color: rgb(0 0 0 / var(--tw-text-opacity));
   }
 
-section.catalog .headline{
+section#catalog .headline{
     font-weight: 700;
   }
 
-section.catalog .cats-list{
+section#catalog .cats-list{
     display: flex;
   }
 
@@ -1825,7 +2452,7 @@ section.catalog .cats-list{
  .cats-list {
     }
 
-section.catalog .cats-list {
+section#catalog .cats-list {
     width: auto;
   }
 
@@ -1995,55 +2622,55 @@ section.catalog .cats-list {
  .cats-list {
     }
 
-section.catalog .cats-list{
+section#catalog .cats-list{
     flex-wrap: wrap;
   }
 
-section.catalog .cats-list{
+section#catalog .cats-list{
     justify-content: space-around;
   }
 
-section.catalog .cats-list{
+section#catalog .cats-list{
     max-width: 56rem;
   }
 
-section.catalog .cats-list{
+section#catalog .cats-list{
     margin-left: auto;
     margin-right: auto;
   }
 
-section.catalog .cats-list{
+section#catalog .cats-list{
     margin-bottom: 0px;
   }
 
-section.catalog .cats-list li{
+section#catalog .cats-list li{
       margin-left: 1rem;
       margin-right: 1rem;
     }
 
-section.catalog .cats-list li{
+section#catalog .cats-list li{
       margin-bottom: 1.5rem;
     }
 
-section.catalog .cats-list li{
+section#catalog .cats-list li{
       text-transform: uppercase;
     }
 
-section.catalog .cats-list li{
+section#catalog .cats-list li{
       --tw-text-opacity: 1;
       color: rgb(0 0 0 / var(--tw-text-opacity));
     }
 
-section.catalog .cats-list li{
+section#catalog .cats-list li{
       font-weight: 700;
     }
 
-section.catalog .cats-list li.selected{
+section#catalog .cats-list li.selected{
         --tw-text-opacity: 1;
         color: rgb(185 28 28 / var(--tw-text-opacity));
       }
 
-section.catalog .cars-list{
+section#catalog .cars-list{
     display: flex;
   }
 
@@ -2127,7 +2754,7 @@ section.catalog .cars-list{
  .cars-list {
     }
 
-section.catalog .cars-list {
+section#catalog .cars-list {
     width: auto;
   }
 
@@ -2297,75 +2924,75 @@ section.catalog .cars-list {
  .cars-list {
     }
 
-section.catalog .cars-list{
+section#catalog .cars-list{
     flex-wrap: wrap;
   }
 
-section.catalog .cars-list li{
+section#catalog .cars-list li{
       width: 100%;
     }
 
 @media (min-width: 640px){
-      section.catalog .cars-list li{
+      section#catalog .cars-list li{
         width: 50%;
       }
     }
 
 @media (min-width: 960px){
-      section.catalog .cars-list li{
+      section#catalog .cars-list li{
         width: 33.333333%;
       }
     }
 
-section.catalog .cars-list li{
+section#catalog .cars-list li{
       margin-bottom: 1.5rem;
     }
 
-section.catalog .cars-list li img{
+section#catalog .cars-list li img{
         padding: 1rem;
       }
 
-section.catalog .cars-list li img{
+section#catalog .cars-list li img{
         -o-object-fit: cover;
            object-fit: cover;
       }
 
-section.catalog .cars-list li img{
+section#catalog .cars-list li img{
         aspect-ratio: 1 / 1;
       }
 
-section.catalog .cars-list li img{
+section#catalog .cars-list li img{
         width: 100%;
       }
 
-section.catalog .cars-list li img{
+section#catalog .cars-list li img{
         -o-object-position: center;
            object-position: center;
       }
 
-section.catalog .cars-list li a+a{
+section#catalog .cars-list li a+a{
         margin-left: 1rem;
         margin-right: 1rem;
       }
 
-section.catalog .cars-list li a+a{
+section#catalog .cars-list li a+a{
         text-transform: uppercase;
       }
 
-section.catalog .cars-list li a+a{
+section#catalog .cars-list li a+a{
         --tw-text-opacity: 1;
         color: rgb(0 0 0 / var(--tw-text-opacity));
       }
 
-section.catalog .cars-list li a+a{
+section#catalog .cars-list li a+a{
         text-align: center;
       }
 
-section.catalog .cars-list li a+a{
+section#catalog .cars-list li a+a{
         font-weight: 700;
       }
 
-section.catalog .cars-list li a+a{
+section#catalog .cars-list li a+a{
         font-size: 1.125rem;
       }
 
@@ -2460,125 +3087,125 @@ section.new a{
     }
   }
 
-section.about{
+section#about{
   padding-top: 2rem;
 }
 
-section.about .headline {
+section#about .headline {
     font-size: 30px;
   }
 
-section.about .headline{
+section#about .headline{
     text-transform: uppercase;
   }
 
-section.about .headline{
+section#about .headline{
     text-transform: uppercase;
   }
 
-section.about .headline{
+section#about .headline{
     text-align: center;
   }
 
-section.about .headline{
+section#about .headline{
     --tw-text-opacity: 1;
     color: rgb(0 0 0 / var(--tw-text-opacity));
   }
 
-section.about .headline{
+section#about .headline{
     font-weight: 700;
   }
 
-section.about .headline{
+section#about .headline{
     margin-bottom: 1rem;
   }
 
-section.about .flex{
+section#about .flex{
     flex-wrap: wrap;
   }
 
 @media (min-width: 640px){
-    section.about .flex{
+    section#about .flex{
       flex-wrap: nowrap;
     }
   }
 
-section.about .flex .item{
+section#about .flex .item{
       width: 100%;
     }
 
 @media (min-width: 640px){
-      section.about .flex .item{
+      section#about .flex .item{
         width: 33.333333%;
       }
     }
 
-section.about .flex .item{
+section#about .flex .item{
       margin-bottom: 1.5rem;
     }
 
 @media (min-width: 640px){
-      section.about .flex .item{
+      section#about .flex .item{
         margin-bottom: 0px;
       }
     }
 
-section.about .flex .item img{
+section#about .flex .item img{
         padding: 1rem;
       }
 
-section.about .flex .item img{
+section#about .flex .item img{
         -o-object-fit: cover;
            object-fit: cover;
       }
 
-section.about .flex .item img{
+section#about .flex .item img{
         aspect-ratio: 16 / 9;
       }
 
-section.about .flex .item img{
+section#about .flex .item img{
         width: 100%;
       }
 
-section.about .flex .item img{
+section#about .flex .item img{
         -o-object-position: center;
            object-position: center;
       }
 
-section.about .flex .item .subtitle{
+section#about .flex .item .subtitle{
         text-transform: uppercase;
       }
 
-section.about .flex .item .subtitle{
+section#about .flex .item .subtitle{
         --tw-text-opacity: 1;
         color: rgb(0 0 0 / var(--tw-text-opacity));
       }
 
-section.about .flex .item .subtitle{
+section#about .flex .item .subtitle{
         text-align: center;
       }
 
-section.about .flex .item .subtitle{
+section#about .flex .item .subtitle{
         font-weight: 700;
       }
 
-section.about .flex .item .subtitle{
+section#about .flex .item .subtitle{
         font-size: 1.125rem;
       }
 
-section.about .flex .item .subtitle{
+section#about .flex .item .subtitle{
         margin-top: 0.5rem;
         margin-bottom: 0.5rem;
       }
 
 @media (min-width: 640px){
-        section.about .flex .item .subtitle{
+        section#about .flex .item .subtitle{
           margin-top: 1rem;
           margin-bottom: 1rem;
         }
       }
 
-section.about .flex .item .subtitle+p{
+section#about .flex .item .subtitle+p{
         --tw-text-opacity: 1;
         color: rgb(55 65 81 / var(--tw-text-opacity));
       }

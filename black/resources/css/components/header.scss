@@ -1,0 +1,83 @@
+header.header {
+  @apply bg-black;
+  
+  .topline {
+    @apply container;
+    @apply flex;
+    @apply flex-nowrap;
+    @apply w-full;
+    @apply justify-between;
+    @apply mb-0;
+    @apply pb-4;
+    @apply items-center;
+
+    .burger {
+      @apply sm:hidden;
+      @apply mb-0;
+      @apply w-5;
+      @apply h-5;
+      @apply fill-white;
+      @apply pt-0;
+    }
+    .logo{
+    }
+    .icons {
+      @apply flex;
+      @apply w-5;
+      @apply sm:w-16;
+      @apply justify-between;
+      @apply mb-0;
+      @apply pt-0;
+
+      svg {
+        @apply w-5;
+        @apply h-5;
+        @apply fill-white;
+      }
+      
+      form {
+        @apply h-5;
+        @apply pt-px;
+        @apply mb-0;
+        @apply hidden;
+        @apply sm:block;
+
+        input {
+          @apply hidden;
+        }
+      }
+    }
+  }
+  .nav {
+    @apply hidden;
+    @apply sm:flex;
+    @apply container;
+    @apply justify-start;
+    @apply pt-4;
+
+    li {
+      @apply mx-6;
+      @apply pb-6;
+      @apply max-w-content;
+
+      &:first-child {
+        @apply ml-0;
+      }
+
+      a {
+        @apply font-semibold;
+        @apply text-xs;
+        @apply text-neutral-400;
+        @apply uppercase;
+      }
+
+      &.active {
+        @apply border-b-4;
+        @apply border-blue-600;
+        a {
+          @apply text-white;
+        }
+      }
+    }
+  }
+}

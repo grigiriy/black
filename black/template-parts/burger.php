@@ -1,4 +1,4 @@
-<div id="NavDrawer" class="drawer drawer--left">
+<div id="burger" class="drawer drawer--left">
   <div class="drawer__inner">
     <form action="/search" method="get" class="drawer__search" role="search">
       <input type="search" name="q" placeholder="Search" aria-label="Search" class="drawer__search-input">
@@ -11,79 +11,41 @@
       </button>
     </form>
     <ul class="drawer__nav">
-
-
-
-
       <li class="drawer__nav-item">
         <a href="/" class="drawer__nav-link drawer__nav-link--top-level" aria-current="page">
           HOME
         </a>
       </li>
-
-
-
-
-
       <li class="drawer__nav-item">
         <a href="/pages/fleet" class="drawer__nav-link drawer__nav-link--top-level">
           OUR FLEET
         </a>
       </li>
-
-
-
-
-
       <li class="drawer__nav-item">
         <a href="/pages/services" class="drawer__nav-link drawer__nav-link--top-level">
           SERVICES
         </a>
       </li>
-
-
-
-
-
       <li class="drawer__nav-item">
         <a href="/pages/about-us" class="drawer__nav-link drawer__nav-link--top-level">
           ABOUT
         </a>
       </li>
-
-
-
-
-
       <li class="drawer__nav-item">
         <a href="/pages/contact-us-1" class="drawer__nav-link drawer__nav-link--top-level">
           CONTACT US
         </a>
       </li>
-
-
-
-
-
       <li class="drawer__nav-item">
         <a href="/pages/refund-policy" class="drawer__nav-link drawer__nav-link--top-level">
           REFUND POLICY
         </a>
       </li>
-
-
-
-
-
       <li class="drawer__nav-item">
         <a href="/pages/reserve" class="drawer__nav-link drawer__nav-link--top-level">
           RESERVE
         </a>
       </li>
-
-
-
-
     </ul>
   </div>
 </div>
