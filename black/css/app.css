@@ -611,6 +611,10 @@ video {
   position: static;
 }
 
+.absolute{
+  position: absolute;
+}
+
 .sticky{
   position: -webkit-sticky;
   position: sticky;
@@ -903,16 +907,17 @@ section.intro h1,
     margin-bottom: 1.5rem;
   }
 
+section.intro h1, 
+  section.intro h3{
+    line-height: 1;
+  }
+
 section.intro h1{
     text-transform: uppercase;
   }
 
 section.intro h1{
     letter-spacing: 0.1em;
-  }
-
-section.intro h1{
-    line-height: 1;
   }
 
 @media(min-width:640px){
@@ -1109,6 +1114,19 @@ form +form{
             margin-bottom: 2rem;
           }
 
+ form{
+          flex-wrap: wrap;
+        }
+
+@media (min-width: 640px){
+           form{
+            flex-wrap: nowrap;
+          }
+        }
+
+ form {
+        }
+
 section.form .wrapper .form-wrapper form {
         width: auto;
       }
@@ -1192,6 +1210,19 @@ form +form{
             margin-bottom: 2rem;
           }
 
+ form{
+          flex-wrap: wrap;
+        }
+
+@media (min-width: 640px){
+           form{
+            flex-wrap: nowrap;
+          }
+        }
+
+ form {
+        }
+
 section.form .wrapper .form-wrapper form{
         flex-wrap: wrap;
       }
@@ -1256,6 +1287,19 @@ section.form .wrapper .form-wrapper form >div{
 >div +>div{
               margin-bottom: 2rem;
             }
+
+ >div{
+            flex-wrap: wrap;
+          }
+
+@media (min-width: 640px){
+             >div{
+              flex-wrap: nowrap;
+            }
+          }
+
+ >div {
+          }
 
 section.form .wrapper .form-wrapper form >div {
           width: auto;
@@ -1339,6 +1383,19 @@ section.form .wrapper .form-wrapper form >div {
 >div +>div{
               margin-bottom: 2rem;
             }
+
+ >div{
+            flex-wrap: wrap;
+          }
+
+@media (min-width: 640px){
+             >div{
+              flex-wrap: nowrap;
+            }
+          }
+
+ >div {
+          }
 
 section.form .wrapper .form-wrapper form >div{
           flex-direction: column;
@@ -1755,6 +1812,19 @@ section.catalog .cats-list{
 @media (min-width: 640px){
       }
 
+ .cats-list{
+      flex-wrap: wrap;
+    }
+
+@media (min-width: 640px){
+       .cats-list{
+        flex-wrap: nowrap;
+      }
+    }
+
+ .cats-list {
+    }
+
 section.catalog .cats-list {
     width: auto;
   }
@@ -1912,6 +1982,19 @@ section.catalog .cats-list {
 @media (min-width: 640px){
       }
 
+ .cats-list{
+      flex-wrap: wrap;
+    }
+
+@media (min-width: 640px){
+       .cats-list{
+        flex-wrap: nowrap;
+      }
+    }
+
+ .cats-list {
+    }
+
 section.catalog .cats-list{
     flex-wrap: wrap;
   }
@@ -2030,6 +2113,19 @@ section.catalog .cars-list{
 
 @media (min-width: 640px){
       }
+
+ .cars-list{
+      flex-wrap: wrap;
+    }
+
+@media (min-width: 640px){
+       .cars-list{
+        flex-wrap: nowrap;
+      }
+    }
+
+ .cars-list {
+    }
 
 section.catalog .cars-list {
     width: auto;
@@ -2187,6 +2283,19 @@ section.catalog .cars-list {
 
 @media (min-width: 640px){
       }
+
+ .cars-list{
+      flex-wrap: wrap;
+    }
+
+@media (min-width: 640px){
+       .cars-list{
+        flex-wrap: nowrap;
+      }
+    }
+
+ .cars-list {
+    }
 
 section.catalog .cars-list{
     flex-wrap: wrap;
@@ -2350,6 +2459,129 @@ section.new a{
       margin-left: 0px;
     }
   }
+
+section.about{
+  padding-top: 2rem;
+}
+
+section.about .headline {
+    font-size: 30px;
+  }
+
+section.about .headline{
+    text-transform: uppercase;
+  }
+
+section.about .headline{
+    text-transform: uppercase;
+  }
+
+section.about .headline{
+    text-align: center;
+  }
+
+section.about .headline{
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity));
+  }
+
+section.about .headline{
+    font-weight: 700;
+  }
+
+section.about .headline{
+    margin-bottom: 1rem;
+  }
+
+section.about .flex{
+    flex-wrap: wrap;
+  }
+
+@media (min-width: 640px){
+    section.about .flex{
+      flex-wrap: nowrap;
+    }
+  }
+
+section.about .flex .item{
+      width: 100%;
+    }
+
+@media (min-width: 640px){
+      section.about .flex .item{
+        width: 33.333333%;
+      }
+    }
+
+section.about .flex .item{
+      margin-bottom: 1.5rem;
+    }
+
+@media (min-width: 640px){
+      section.about .flex .item{
+        margin-bottom: 0px;
+      }
+    }
+
+section.about .flex .item img{
+        padding: 1rem;
+      }
+
+section.about .flex .item img{
+        -o-object-fit: cover;
+           object-fit: cover;
+      }
+
+section.about .flex .item img{
+        aspect-ratio: 16 / 9;
+      }
+
+section.about .flex .item img{
+        width: 100%;
+      }
+
+section.about .flex .item img{
+        -o-object-position: center;
+           object-position: center;
+      }
+
+section.about .flex .item .subtitle{
+        text-transform: uppercase;
+      }
+
+section.about .flex .item .subtitle{
+        --tw-text-opacity: 1;
+        color: rgb(0 0 0 / var(--tw-text-opacity));
+      }
+
+section.about .flex .item .subtitle{
+        text-align: center;
+      }
+
+section.about .flex .item .subtitle{
+        font-weight: 700;
+      }
+
+section.about .flex .item .subtitle{
+        font-size: 1.125rem;
+      }
+
+section.about .flex .item .subtitle{
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+      }
+
+@media (min-width: 640px){
+        section.about .flex .item .subtitle{
+          margin-top: 1rem;
+          margin-bottom: 1rem;
+        }
+      }
+
+section.about .flex .item .subtitle+p{
+        --tw-text-opacity: 1;
+        color: rgb(55 65 81 / var(--tw-text-opacity));
+      }
 
 @media (min-width: 782px){
   .md\:my-6{

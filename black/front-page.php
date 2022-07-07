@@ -20,6 +20,9 @@
 				<?php get_template_part('template-parts/section','catalog'); ?>
 			</div>
 			<?php get_template_part('template-parts/section','new'); ?>
+			<div class="container">
+				<?php get_template_part('template-parts/section','about'); ?>
+			</div>
 			<?php endwhile; ?>
 
 		<?php endif; ?>
