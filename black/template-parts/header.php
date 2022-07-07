@@ -8,7 +8,7 @@
     </button>
 
     <a href="/" itemprop="url" class="logo">
-    <img src="//cdn.shopify.com/s/files/1/0587/6875/2824/files/EMC_RENTALS_LOGO_WHITE_PNG_150x.png?v=1627165194" srcset="//cdn.shopify.com/s/files/1/0587/6875/2824/files/EMC_RENTALS_LOGO_WHITE_PNG_150x.png?v=1627165194 1x, //cdn.shopify.com/s/files/1/0587/6875/2824/files/EMC_RENTALS_LOGO_WHITE_PNG_150x@2x.png?v=1627165194 2x" alt="" itemprop="logo">
+      <img src="//cdn.shopify.com/s/files/1/0587/6875/2824/files/EMC_RENTALS_LOGO_WHITE_PNG_150x.png?v=1627165194" srcset="//cdn.shopify.com/s/files/1/0587/6875/2824/files/EMC_RENTALS_LOGO_WHITE_PNG_150x.png?v=1627165194 1x, //cdn.shopify.com/s/files/1/0587/6875/2824/files/EMC_RENTALS_LOGO_WHITE_PNG_150x@2x.png?v=1627165194 2x" alt="" itemprop="logo">
     </a>
     <div class="icons">
       <form action="" method="get" role="search">
@@ -27,7 +27,8 @@
       </a>
     </div>
   </div>
-  <ul class="nav">
+  <ul class="nav">  Бгд сдфыы=ЭтфмЭЮ
+
 
     <li class="active"><a href="/">Home</a></li>
     <li><a href="/#catalog">Our fleet</a></li>

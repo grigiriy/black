@@ -18,9 +18,9 @@
       <li><a href="/#book">Reserve</a></li>
     </ul>
   </div>
-  <div class="cross">
+  <div class="burger">
     <svg aria-hidden="true" focusable="false" role="presentation" viewBox="0 0 32 32">
-      <path fill="#444" d="M25.313 8.55l-1.862-1.862-7.45 7.45-7.45-7.45L6.689 8.55l7.45 7.45-7.45 7.45 1.862 1.862 7.45-7.45 7.45 7.45 1.862-1.862-7.45-7.45z"></path>
+      <path d="M25.313 8.55l-1.862-1.862-7.45 7.45-7.45-7.45L6.689 8.55l7.45 7.45-7.45 7.45 1.862 1.862 7.45-7.45 7.45 7.45 1.862-1.862-7.45-7.45z"></path>
     </svg>
   </div>
 </div>

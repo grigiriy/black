@@ -1,15 +1,15 @@
 #burger {
-  @apply hidden;
-  @apply transition;
+  @apply -translate-x-full;
+  @apply transition-transform;
   @apply ease-in;
   @apply fixed;
-  @apply w-9/12;
+  @apply w-10/12;
   @apply h-screen;
   @apply pr-10;
   @apply z-50;
 
-  .open{
-    @apply block;
+  &.active{
+    @apply translate-x-0;
   }
   
   svg {
@@ -65,7 +65,10 @@
       }
     }
   }
-  .cross {
-
+  .burger {
+    @apply cursor-pointer;
+    @apply absolute;
+    @apply top-8;
+    @apply right-0;
   }
 }
