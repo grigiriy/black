@@ -2,4 +2,70 @@
   @apply hidden;
   @apply transition;
   @apply ease-in;
+  @apply fixed;
+  @apply w-9/12;
+  @apply h-screen;
+  @apply pr-10;
+  @apply z-50;
+
+  .open{
+    @apply block;
+  }
+  
+  svg {
+    @apply w-6;
+    @apply h-6;
+    @apply fill-white;
+  }
+
+  .bar {
+    @apply bg-white;
+    @apply h-screen;
+
+    form {
+      @apply mb-0;
+      @apply relative;
+      @apply bg-gray-100;
+      @apply p-4;
+
+      input {
+        @apply w-full;
+        @apply px-4;
+        @apply py-2;
+        @apply rounded-lg;
+        @apply font-light;
+      }
+      
+      svg {
+        @apply fill-black;
+        @apply absolute;
+        @apply right-6;
+        @apply top-6;
+      }
+    }
+    .nav{
+      li {
+        font-family: Unica One,sans-serif;
+        @apply uppercase;
+        @apply text-2xl;
+        @apply px-6;
+        @apply py-4;
+        @apply border;
+        @apply border-t-0;
+        @apply border-r-0;
+        @apply border-l-0;
+        @apply border-gray-100;
+
+        a{
+          @apply text-gray-700;
+          @apply tracking-widest;
+          @apply font-thin;
+
+        }
+      }
+    }
+  }
+  .cross {
+
+  }
 }

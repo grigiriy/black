@@ -56,11 +56,6 @@
   position: absolute
 }
 
-.sticky {
-  position: -webkit-sticky;
-  position: sticky
-}
-
 .m-8 {
   margin: 2rem
 }
@@ -175,10 +170,6 @@
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem
-}
-
-.text-right {
-  text-align: right
 }
 
 .text-5xl {
