@@ -7,20 +7,26 @@ section.intro {
   h3 {
     font-family: "Cormorant SC";
     font-size: 35px;
+    @apply mb-6;
   }
   h1 {
+    @apply uppercase;
+    @apply tracking-widest;
+    @apply leading-none;
     @media(min-width:640px){
       font-size: 50px;
     }
   }
   h3 {
-    @apply sm:-mt-8;
+    @apply font-bold;
     @media(min-width:640px){
       font-size: 40px;
     }
   }
   p {
+    @apply text-gray-500;
     @apply px-2.5;
+    font-family: Karla,sans-serif;
     font-size: 17px;
     @media(min-width:640px){
       font-size: 20px;
