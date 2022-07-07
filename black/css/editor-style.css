@@ -186,6 +186,10 @@
   font-weight: 300
 }
 
+.uppercase {
+  text-transform: uppercase
+}
+
 .lowercase {
   text-transform: lowercase
 }

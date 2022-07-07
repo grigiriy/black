@@ -1,0 +1,97 @@
+footer {
+  @apply bg-black;
+  @apply pt-8;
+  @apply mb-0;
+  @apply text-neutral-400;
+
+  .flex {
+    @apply container;
+    @apply flex-wrap;
+
+    .col {
+      @apply w-full;
+      @apply md:w-1/5;
+      @apply pr-6;
+
+      ul {
+        @apply pt-0;
+        @apply pl-0;
+        li {
+          @apply mb-2;
+          
+          a {
+            @apply text-sm;
+          }
+        }
+      }
+
+      .subheader {
+        @apply uppercase;
+        @apply mb-4;
+        @apply text-white;
+        @apply tracking-widest;
+        @apply font-thin;
+        @apply text-2xl;
+        font-family: Unica One, sans-serif;
+      }
+
+      p {
+        @apply text-sm;
+        @apply mb-3;
+      }
+
+      form {
+        @apply relative;
+        @apply w-full;
+        @apply p-0;
+        
+        input {
+          @apply w-full;
+          @apply bg-neutral-900;
+          @apply px-4;
+          @apply py-3;
+          @apply h-12;
+        }
+
+        button {
+          @apply top-0;
+          @apply right-0;
+          @apply absolute;
+          @apply w-12;
+          @apply h-12;
+          @apply bg-blue-600;
+          
+          svg {
+            @apply h-4;
+            @apply fill-white;
+            @apply mx-auto;
+          }
+        }
+      }
+    }
+  }
+
+
+  .botline {
+    @apply container;
+    @apply flex;
+    @apply flex-col;
+    @apply md:flex-row;
+    @apply justify-between;
+    @apply mb-0;
+    @apply text-sm;
+
+    ul {
+      @apply flex;
+      @apply pl-0;
+      @apply ml-0;
+      @apply mr-auto;
+      @apply md:ml-auto;
+      @apply md:mr-0;
+      
+      li {
+        @apply mr-1;
+      }
+    }
+  }
+}
