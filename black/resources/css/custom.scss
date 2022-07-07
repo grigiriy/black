@@ -38,3 +38,8 @@
 html {
   @apply overflow-x-hidden;
 }
+
+a, ul, li {
+  @apply m-0;
+  @apply p-0;
+}
