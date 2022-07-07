@@ -1,0 +1,21 @@
+section.call {
+  @apply fixed;
+  @apply w-screen;
+  @apply h-12;
+  @apply bg-black;
+  @apply bottom-0;
+  @apply text-white;
+  
+  a {
+    @apply justify-center;
+    @apply mb-0;
+    @apply p-2;
+    @apply flex;
+    @apply w-screen;
+
+    span {
+      @apply ml-3;
+      @apply text-2xl;
+    }
+  }
+}

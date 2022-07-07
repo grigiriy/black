@@ -51,7 +51,7 @@
 
 	<div class="botline">
 		<div>
-			<small>© 2022, <a href="/" title="">Emcexoticrentals</a>. <a target="_blank" rel="nofollow" href="https://www.shopify.com?utm_campaign=poweredby&amp;utm_medium=shopify&amp;utm_source=onlinestore"> </a></small>
+			<small>© 2022, <a href="/" title="">SiteName</a></small>
 		</div>
 
 
@@ -184,7 +184,7 @@
 </div>
 
 
-
+<?php get_template_part('template-parts/section','call'); ?>
 <?php wp_footer(); ?>
 
 </body>

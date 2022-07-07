@@ -873,16 +873,8 @@ video {
   max-width: 80rem;
 }
 
-.page-width {
-  max-width: 1180px;
-  margin: 0 auto;
-  padding: 0 10px;
-}
-
-@media only screen and (min-width: 750px) {
-  .page-width {
-    padding: 0 20px;
-  }
+html{
+  overflow-x: hidden;
 }
 
 header.header{
@@ -1270,6 +1262,294 @@ header.header .topline .burger{
       padding-top: 0px;
     }
 
+header.header .topline .logo{
+      display: flex;
+    }
+
+ {
+
+ .logo {
+      }
+    }
+
+.logo +.logo{
+          margin-bottom: 2rem;
+        }
+
+ .logo{
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 1rem;
+        padding-left: 1rem;
+      }
+
+@media (min-width: 480px){
+         .logo{
+          max-width: 480px;
+        }
+      }
+
+@media (min-width: 640px){
+         .logo{
+          max-width: 640px;
+          padding-right: 2rem;
+          padding-left: 2rem;
+        }
+      }
+
+@media (min-width: 782px){
+         .logo{
+          max-width: 782px;
+        }
+      }
+
+@media (min-width: 960px){
+         .logo{
+          max-width: 960px;
+        }
+      }
+
+@media (min-width: 1280px){
+         .logo{
+          max-width: 1280px;
+        }
+      }
+
+@media (min-width: 1440px){
+         .logo{
+          max-width: 1440px;
+        }
+      }
+
+ .logo{
+        max-width: 80rem;
+      }
+
+ .logo{
+        padding-top: 1rem;
+      }
+
+ .logo{
+        flex-wrap: wrap;
+      }
+
+@media (min-width: 640px){
+         .logo{
+          padding-top: 2rem;
+        }
+      }
+
+ .logo {
+      }
+
+ .logo{
+        justify-content: space-between;
+      }
+
+ .logo{
+        flex-wrap: wrap;
+      }
+
+ .logo{
+        flex-wrap: wrap;
+      }
+
+ .logo{
+        margin-bottom: 7rem;
+      }
+
+ .logo {
+      }
+
+@media (min-width: 640px){
+         .logo{
+          margin-bottom: 4rem;
+        }
+      }
+
+.logo +.logo{
+          margin-bottom: 2rem;
+        }
+
+.logo +.logo{
+          margin-bottom: 2rem;
+        }
+
+ .logo{
+        flex-wrap: wrap;
+      }
+
+@media (min-width: 640px){
+         .logo{
+          flex-wrap: nowrap;
+        }
+      }
+
+ .logo {
+      }
+
+header.header .topline .logo {
+      width: auto;
+    }
+
+ .logo{
+        flex-wrap: wrap;
+      }
+
+ .logo {
+      }
+
+ {
+      background-image: url(https://cdn.shopify.com/s/files/1/0587/6875/2824/t/6/assets/pf-bca29839--LMBO-NREGRO-3.jpeg);
+    }
+
+ .logo{
+        padding-top: 1rem;
+      }
+
+@media (min-width: 640px){
+         .logo{
+          padding-top: 2rem;
+        }
+      }
+
+ .logo{
+        justify-content: space-between;
+      }
+
+ .logo{
+        flex-wrap: wrap;
+      }
+
+ .logo{
+        margin-bottom: 7rem;
+      }
+
+@media (min-width: 640px){
+         .logo{
+          margin-bottom: 4rem;
+        }
+      }
+
+.logo +.logo{
+          margin-bottom: 2rem;
+        }
+
+ {
+      background-image: url(https://cdn.shopify.com/s/files/1/0587/6875/2824/t/6/assets/pf-bca29839--LMBO-NREGRO-3.jpeg);
+    }
+
+ .logo{
+        padding-top: 1rem;
+      }
+
+@media (min-width: 640px){
+         .logo{
+          padding-top: 2rem;
+        }
+      }
+
+ .logo{
+        justify-content: space-between;
+      }
+
+ .logo{
+        flex-wrap: wrap;
+      }
+
+ .logo{
+        margin-bottom: 7rem;
+      }
+
+@media (min-width: 640px){
+         .logo{
+          margin-bottom: 4rem;
+        }
+      }
+
+.logo +.logo{
+          margin-bottom: 2rem;
+        }
+
+ .logo{
+        flex-wrap: wrap;
+      }
+
+@media (min-width: 640px){
+         .logo{
+          flex-wrap: nowrap;
+        }
+      }
+
+ .logo {
+      }
+
+ .logo{
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 1rem;
+        padding-left: 1rem;
+      }
+
+@media (min-width: 480px){
+         .logo{
+          max-width: 480px;
+        }
+      }
+
+@media (min-width: 640px){
+         .logo{
+          max-width: 640px;
+          padding-right: 2rem;
+          padding-left: 2rem;
+        }
+      }
+
+@media (min-width: 782px){
+         .logo{
+          max-width: 782px;
+        }
+      }
+
+@media (min-width: 960px){
+         .logo{
+          max-width: 960px;
+        }
+      }
+
+@media (min-width: 1280px){
+         .logo{
+          max-width: 1280px;
+        }
+      }
+
+@media (min-width: 1440px){
+         .logo{
+          max-width: 1440px;
+        }
+      }
+
+ .logo{
+        max-width: 80rem;
+      }
+
+ .logo{
+        flex-wrap: wrap;
+      }
+
+ .logo {
+      }
+
+header.header .topline .logo{
+      margin-bottom: 0px;
+    }
+
+header.header .topline .logo {
+      @applu justify-center;
+    }
+
 header.header .topline .icons{
       display: flex;
     }
@@ -1551,7 +1831,7 @@ header.header .topline .icons {
       }
 
 header.header .topline .icons{
-      width: 1.25rem;
+      width: 3rem;
     }
 
 @media (min-width: 640px){
@@ -1565,11 +1845,11 @@ header.header .topline .icons{
     }
 
 header.header .topline .icons{
-      margin-bottom: 0px;
+      margin: 0px;
     }
 
 header.header .topline .icons{
-      padding-top: 0px;
+      padding: 0px;
     }
 
 header.header .topline .icons svg{
@@ -1589,11 +1869,19 @@ header.header .topline .icons form{
       }
 
 header.header .topline .icons form{
+        width: 1.25rem;
+      }
+
+header.header .topline .icons form{
+        padding: 0px;
+      }
+
+header.header .topline .icons form{
         padding-top: 1px;
       }
 
 header.header .topline .icons form{
-        margin-bottom: 0px;
+        margin: 0px;
       }
 
 header.header .topline .icons form{
@@ -1608,6 +1896,20 @@ header.header .topline .icons form{
 
 header.header .topline .icons form input{
           display: none;
+        }
+
+header.header .topline .icons form +a{
+          padding: 0px;
+        }
+
+header.header .topline .icons form +a{
+          margin: 0px;
+        }
+
+header.header .topline .icons form +a{
+          width: -webkit-max-content;
+          width: -moz-max-content;
+          width: max-content;
         }
 
 header.header .nav{
@@ -1822,6 +2124,10 @@ header.header .nav li.active a{
         top: 1.5rem;
       }
 
+#burger .bar .nav{
+      padding: 0px;
+    }
+
 #burger .bar .nav li {
         font-family: Unica One,sans-serif
       }
@@ -1877,6 +2183,14 @@ header.header .nav li.active a{
 
 #burger .bar .nav li a{
           font-weight: 100;
+        }
+
+#burger .bar .nav li a{
+          margin: 0px;
+        }
+
+#burger .bar .nav li a{
+          padding: 0px;
         }
 
 #burger .burger{
@@ -3923,6 +4237,7 @@ section.new a{
 
 section#about{
   padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 section#about .headline {
@@ -4136,6 +4451,14 @@ footer .flex .col ul li{
 footer .flex .col ul li a{
             font-size: 0.875rem;
             line-height: 1.25rem;
+          }
+
+footer .flex .col ul li a{
+            margin: 0px;
+          }
+
+footer .flex .col ul li a{
+            padding: 0px;
           }
 
 footer .flex .col .subheader{
@@ -4771,6 +5094,10 @@ footer .botline{
   }
 
 footer .botline{
+    padding-bottom: 4rem;
+  }
+
+footer .botline{
     margin-bottom: 0px;
   }
 
@@ -5239,15 +5566,25 @@ ul +ul{
       }
 
 footer .botline ul{
-      padding-left: 0px;
+      padding: 0px;
     }
 
 footer .botline ul{
-      margin-left: 0px;
+      margin: 0px;
     }
 
 footer .botline ul{
       margin-right: auto;
+    }
+
+footer .botline ul{
+      margin-top: 0.5rem;
+    }
+
+@media (min-width: 640px){
+      footer .botline ul{
+        margin-top: 0px;
+      }
     }
 
 @media (min-width: 782px){
@@ -5265,6 +5602,501 @@ footer .botline ul{
 footer .botline ul li{
         margin-right: 0.25rem;
       }
+
+section.call{
+  position: fixed;
+  width: 100vw;
+  height: 3rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  bottom: 0px;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+section.call a{
+    justify-content: center;
+  }
+
+section.call a{
+    margin-bottom: 0px;
+  }
+
+section.call a{
+    padding: 0.5rem;
+  }
+
+section.call a{
+    display: flex;
+  }
+
+ {
+
+ a {
+    }
+  }
+
+a +a{
+        margin-bottom: 2rem;
+      }
+
+ a{
+      width: 100%;
+      margin-right: auto;
+      margin-left: auto;
+      padding-right: 1rem;
+      padding-left: 1rem;
+    }
+
+@media (min-width: 480px){
+       a{
+        max-width: 480px;
+      }
+    }
+
+@media (min-width: 640px){
+       a{
+        max-width: 640px;
+        padding-right: 2rem;
+        padding-left: 2rem;
+      }
+    }
+
+@media (min-width: 782px){
+       a{
+        max-width: 782px;
+      }
+    }
+
+@media (min-width: 960px){
+       a{
+        max-width: 960px;
+      }
+    }
+
+@media (min-width: 1280px){
+       a{
+        max-width: 1280px;
+      }
+    }
+
+@media (min-width: 1440px){
+       a{
+        max-width: 1440px;
+      }
+    }
+
+ a{
+      max-width: 80rem;
+    }
+
+ a{
+      padding-top: 1rem;
+    }
+
+ a{
+      flex-wrap: wrap;
+    }
+
+@media (min-width: 640px){
+       a{
+        padding-top: 2rem;
+      }
+    }
+
+@media (min-width: 782px){
+      }
+
+ a{
+      justify-content: space-between;
+    }
+
+ a{
+      flex-wrap: wrap;
+    }
+
+ a{
+      flex-wrap: wrap;
+    }
+
+ a{
+      margin-bottom: 7rem;
+    }
+
+@media (min-width: 640px){
+      }
+
+@media (min-width: 640px){
+       a{
+        margin-bottom: 4rem;
+      }
+    }
+
+a +a{
+        margin-bottom: 2rem;
+      }
+
+a +a{
+        margin-bottom: 2rem;
+      }
+
+@media (min-width: 640px){
+      }
+
+a +a{
+        margin-bottom: 2rem;
+      }
+
+a +a{
+        margin-bottom: 2rem;
+      }
+
+@media (min-width: 640px){
+      }
+
+ a{
+      flex-wrap: wrap;
+    }
+
+@media (min-width: 640px){
+       a{
+        flex-wrap: nowrap;
+      }
+    }
+
+@media (min-width: 640px){
+      }
+
+@media (min-width: 640px){
+      }
+
+section.call a {
+    width: auto;
+  }
+
+ a{
+      flex-wrap: wrap;
+    }
+
+ a{
+      flex-wrap: wrap;
+    }
+
+@media (min-width: 640px){
+      }
+
+ {
+    background-image: url(https://cdn.shopify.com/s/files/1/0587/6875/2824/t/6/assets/pf-bca29839--LMBO-NREGRO-3.jpeg);
+  }
+
+ a{
+      padding-top: 1rem;
+    }
+
+ a{
+      padding-top: 1rem;
+    }
+
+@media (min-width: 640px){
+       a{
+        padding-top: 2rem;
+      }
+    }
+
+@media (min-width: 640px){
+       a{
+        padding-top: 2rem;
+      }
+    }
+
+ a{
+      justify-content: space-between;
+    }
+
+ a{
+      justify-content: space-between;
+    }
+
+ a{
+      flex-wrap: wrap;
+    }
+
+ a{
+      flex-wrap: wrap;
+    }
+
+ a{
+      margin-bottom: 7rem;
+    }
+
+ a{
+      margin-bottom: 7rem;
+    }
+
+@media (min-width: 640px){
+       a{
+        margin-bottom: 4rem;
+      }
+    }
+
+@media (min-width: 640px){
+       a{
+        margin-bottom: 4rem;
+      }
+    }
+
+a +a{
+        margin-bottom: 2rem;
+      }
+
+a +a{
+        margin-bottom: 2rem;
+      }
+
+@media (min-width: 640px){
+      }
+
+ {
+    background-image: url(https://cdn.shopify.com/s/files/1/0587/6875/2824/t/6/assets/pf-bca29839--LMBO-NREGRO-3.jpeg);
+  }
+
+ a{
+      padding-top: 1rem;
+    }
+
+ a{
+      padding-top: 1rem;
+    }
+
+@media (min-width: 640px){
+       a{
+        padding-top: 2rem;
+      }
+    }
+
+@media (min-width: 640px){
+       a{
+        padding-top: 2rem;
+      }
+    }
+
+ a{
+      justify-content: space-between;
+    }
+
+ a{
+      justify-content: space-between;
+    }
+
+ a{
+      flex-wrap: wrap;
+    }
+
+ a{
+      flex-wrap: wrap;
+    }
+
+ a{
+      margin-bottom: 7rem;
+    }
+
+ a{
+      margin-bottom: 7rem;
+    }
+
+@media (min-width: 640px){
+       a{
+        margin-bottom: 4rem;
+      }
+    }
+
+@media (min-width: 640px){
+       a{
+        margin-bottom: 4rem;
+      }
+    }
+
+a +a{
+        margin-bottom: 2rem;
+      }
+
+a +a{
+        margin-bottom: 2rem;
+      }
+
+@media (min-width: 640px){
+      }
+
+ a{
+      flex-wrap: wrap;
+    }
+
+ a{
+      flex-wrap: wrap;
+    }
+
+@media (min-width: 640px){
+       a{
+        flex-wrap: nowrap;
+      }
+    }
+
+@media (min-width: 640px){
+       a{
+        flex-wrap: nowrap;
+      }
+    }
+
+@media (min-width: 640px){
+      }
+
+@media (min-width: 640px){
+      }
+
+ a{
+      width: 100%;
+      margin-right: auto;
+      margin-left: auto;
+      padding-right: 1rem;
+      padding-left: 1rem;
+    }
+
+@media (min-width: 480px){
+       a{
+        max-width: 480px;
+      }
+    }
+
+@media (min-width: 640px){
+       a{
+        max-width: 640px;
+        padding-right: 2rem;
+        padding-left: 2rem;
+      }
+    }
+
+@media (min-width: 782px){
+       a{
+        max-width: 782px;
+      }
+    }
+
+@media (min-width: 960px){
+       a{
+        max-width: 960px;
+      }
+    }
+
+@media (min-width: 1280px){
+       a{
+        max-width: 1280px;
+      }
+    }
+
+@media (min-width: 1440px){
+       a{
+        max-width: 1440px;
+      }
+    }
+
+ a{
+      max-width: 80rem;
+    }
+
+ a{
+      width: 100%;
+      margin-right: auto;
+      margin-left: auto;
+      padding-right: 1rem;
+      padding-left: 1rem;
+    }
+
+@media (min-width: 480px){
+       a{
+        max-width: 480px;
+      }
+    }
+
+@media (min-width: 640px){
+       a{
+        max-width: 640px;
+        padding-right: 2rem;
+        padding-left: 2rem;
+      }
+    }
+
+@media (min-width: 782px){
+       a{
+        max-width: 782px;
+      }
+    }
+
+@media (min-width: 960px){
+       a{
+        max-width: 960px;
+      }
+    }
+
+@media (min-width: 1280px){
+       a{
+        max-width: 1280px;
+      }
+    }
+
+@media (min-width: 1440px){
+       a{
+        max-width: 1440px;
+      }
+    }
+
+ a{
+      max-width: 80rem;
+    }
+
+ a{
+      flex-wrap: wrap;
+    }
+
+ a{
+      flex-wrap: wrap;
+    }
+
+@media (min-width: 782px){
+      }
+
+@media (min-width: 480px){
+    }
+
+@media (min-width: 640px){
+    }
+
+@media (min-width: 782px){
+    }
+
+@media (min-width: 960px){
+    }
+
+@media (min-width: 1280px){
+    }
+
+@media (min-width: 1440px){
+    }
+
+@media (min-width: 782px){
+    }
+
+section.call a{
+    width: 100vw;
+  }
+
+section.call a span{
+      margin-left: 0.75rem;
+    }
+
+section.call a span{
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
 
 @media (min-width: 782px){
   .md\:my-6{

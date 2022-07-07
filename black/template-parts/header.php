@@ -27,7 +27,7 @@
       </a>
     </div>
   </div>
-  <ul class="nav">  Бгд сдфыы=ЭтфмЭЮ
+  <ul class="nav">
 
 
     <li class="active"><a href="/">Home</a></li>

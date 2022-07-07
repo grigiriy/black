@@ -19,13 +19,18 @@ header.header {
       @apply fill-white;
       @apply pt-0;
     }
+    .logo {
+      @apply flex;
+      @apply mb-0;
+      @applu justify-center;
+    }
     .icons {
       @apply flex;
-      @apply w-5;
+      @apply w-12;
       @apply sm:w-16;
       @apply justify-between;
-      @apply mb-0;
-      @apply pt-0;
+      @apply m-0;
+      @apply p-0;
 
       svg {
         @apply w-5;
@@ -35,13 +40,21 @@ header.header {
       
       form {
         @apply h-5;
+        @apply w-5;
+        @apply p-0;
         @apply pt-px;
-        @apply mb-0;
+        @apply m-0;
         @apply hidden;
         @apply sm:block;
 
         input {
           @apply hidden;
+        }
+
+        +a {
+          @apply p-0;
+          @apply m-0;
+          @apply w-max;
         }
       }
     }

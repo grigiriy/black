@@ -21,6 +21,8 @@ footer {
           
           a {
             @apply text-sm;
+            @apply m-0;
+            @apply p-0;
           }
         }
       }
@@ -78,14 +80,17 @@ footer {
     @apply flex-col;
     @apply md:flex-row;
     @apply justify-between;
+    @apply pb-16;
     @apply mb-0;
     @apply text-sm;
 
     ul {
       @apply flex;
-      @apply pl-0;
-      @apply ml-0;
+      @apply p-0;
+      @apply m-0;
       @apply mr-auto;
+      @apply mt-2;
+      @apply sm:mt-0;
       @apply md:ml-auto;
       @apply md:mr-0;
       
