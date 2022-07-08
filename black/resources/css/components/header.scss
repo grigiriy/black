@@ -12,7 +12,7 @@ header.header {
     @apply items-center;
 
     .burger {
-      @apply sm:hidden;
+      @apply lg:hidden;
       @apply mb-0;
       @apply w-5;
       @apply h-5;
@@ -61,10 +61,11 @@ header.header {
   }
   .nav {
     @apply hidden;
-    @apply sm:flex;
+    @apply lg:flex;
     @apply container;
     @apply justify-start;
     @apply pt-4;
+    @apply mb-0;
 
     li {
       @apply mx-6;

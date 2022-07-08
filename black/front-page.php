@@ -1,8 +1,6 @@
 <?php get_header(); ?>
 
-<main id="MainContent" class="main-content" role="main">
-	<div id="shopify-section-pagefly-home" class="shopify-section">
-
+<mainrole="main">
 		<?php if (have_posts()) : ?>
 			<?php
 			while (have_posts()) :
@@ -26,8 +24,6 @@
 			<?php endwhile; ?>
 
 		<?php endif; ?>
-
-	</div>
 </main>
 
 <?php
