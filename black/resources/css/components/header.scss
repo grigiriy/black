@@ -1,4 +1,5 @@
 header.header {
+  @apply pt-4;
   @apply bg-black;
   
   .topline {
@@ -7,7 +8,8 @@ header.header {
     @apply flex-nowrap;
     @apply w-full;
     @apply justify-between;
-    @apply mb-0;
+    @apply my-0;
+    @apply pt-0;
     @apply pb-4;
     @apply items-center;
 
@@ -21,7 +23,8 @@ header.header {
     }
     .logo {
       @apply flex;
-      @apply mb-0;
+      @apply my-0;
+      @apply py-0;
       @applu justify-center;
     }
     .icons {

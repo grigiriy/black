@@ -14,9 +14,9 @@
 
 <body class="template-index">
 
-	<div id="shopify-section-header" class="shopify-section">
+	<div class="header">
 		<?php get_template_part('template-parts/burger'); ?>
 		<?php get_template_part('template-parts/header'); ?>
 	</div>
 
-	<div class="page-container page-element is-moved-by-drawer">
+	<div class="page-container">

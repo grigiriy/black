@@ -1,0 +1,20 @@
+section#fleet {
+  @apply bg-black;
+  @apply w-screen;
+
+
+  .image {
+    @apply block;
+    @apply scale-90;
+    @apply hover:scale-100;
+    @apply transition;
+    @apply transition-transform;
+    @apply duration-500;
+    @apply ease-out;
+    @apply mb-0;
+  }
+}
+
+section#popular+section#fleet {
+  @apply -mt-8;
+}

@@ -26,7 +26,7 @@ $pb = [
 ?>
 
 
-<section class="popular">
+<section id="popular">
   <div class="container">
     <p class="headline">Popular Brands</p>
     <div class="flex">

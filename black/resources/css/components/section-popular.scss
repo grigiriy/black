@@ -1,4 +1,4 @@
-section.popular {
+section#popular {
   @apply bg-black;
   @apply py-8;
   @apply w-screen;
@@ -20,6 +20,7 @@ section.popular {
     @apply flex-wrap;
 
     .item {
+      @apply mb-0;
       @apply w-1/2;
       @apply sm:w-1/4;
       @apply scale-90;

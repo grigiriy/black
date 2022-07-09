@@ -15,8 +15,6 @@ get_header(); ?>
 
       <?php get_template_part('template-parts/section','banne2r'); ?>
 			<?php get_template_part('template-parts/section','cars'); ?>
-      <div class="container">
-			</div>
 			<?php endwhile; ?>
 
 		<?php endif; ?>
