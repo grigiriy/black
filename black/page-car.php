@@ -15,8 +15,8 @@ get_header(); ?>
       <div class="container">
 				<?php get_template_part('template-parts/section','product'); ?>
 				<?php get_template_part('template-parts/section','form'); ?>
-				<?php the_content(); ?>
 			</div>
+			<?php the_content(); ?>
       <?php get_template_part('template-parts/section','popular'); ?>
       <?php get_template_part('template-parts/section','fleet'); ?>
       <div class="container">

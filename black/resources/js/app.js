@@ -28,4 +28,8 @@ const thumbCarousel = new Carousel(document.querySelector("#thumbs"), {
     $('#burger').toggleClass('active');
   });
 
+  $('.accordeon_headline').on('click', function () {
+    $(this).parent().toggleClass('open');
+  });
+
 })(jQuery);

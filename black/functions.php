@@ -154,6 +154,7 @@ function crb_load()
   require_once('vendor/autoload.php');
   \Carbon_Fields\Carbon_Fields::boot();
   // include_once __DIR__ . '/theme-helpers/custom-fields/base.php';
+  include_once __DIR__ . '/theme-helpers/custom-fields/faq.php';
 }
 
 add_action('carbon_fields_register_fields', 'crb_register_custom_fields');

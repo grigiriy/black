@@ -3140,5 +3140,8 @@
     $2(".burger").click(function() {
       $2("#burger").toggleClass("active");
     });
+    $2(".accordeon_headline").on("click", function() {
+      $2(this).parent().toggleClass("open");
+    });
   })(jQuery);
 })();

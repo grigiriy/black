@@ -1,0 +1,49 @@
+.accordeon_section {
+  @apply w-full;
+  @apply bg-neutral-200;
+  
+  .accordeon_wrapper {
+    @apply p-4;
+    @apply pb-8;
+    @apply max-w-2xl;
+    @apply mx-auto;
+
+    .accordeon_item {
+      @apply bg-white;
+      @apply mx-0;
+      @apply my-4;
+      @apply p-4;
+      @apply rounded-md;
+
+
+      .accordeon_headline {
+        @apply items-center;
+        @apply justify-start;
+        @apply flex;
+        @apply m-0;
+        @apply pt-0;
+        @apply text-lg;
+        @apply font-bold;
+
+        .icon {
+          @apply mx-4;
+          @apply transition;
+        }
+      }
+
+      .accordeon_body {
+        @apply hidden;
+        @apply pt-4;
+      }
+
+      &.open {
+        .accordeon_body {
+          @apply block;
+        }
+        .accordeon_headline .icon {
+          @apply rotate-180;
+        }
+      }
+    }
+  }
+}
