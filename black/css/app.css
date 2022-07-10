@@ -7773,6 +7773,14 @@ section#cars .cars-list{
     flex-wrap: wrap;
   }
 
+section#cars .cars-list{
+    margin-bottom: 0px;
+  }
+
+section#cars .cars-list{
+    padding-bottom: 1rem;
+  }
+
 section#cars .cars-list .car{
       width: 100%;
     }
@@ -8736,418 +8744,422 @@ section#cars .cars-list .car .credintails .col.central{
             border-color: rgb(0 0 0 / var(--tw-border-opacity));
           }
 
-section#cars .text-block{
-    margin-bottom: 0px;
-  }
-
-section#cars .text-block{
-    padding-bottom: 0px;
-  }
-
-section#cars .text-block{
-    width: 100vw;
-  }
-
-section#cars .text-block{
-    display: flex;
-  }
+#text-block{
+  width: 100vw;
+  display: flex;
+}
 
  {
 
- .text-block {
-    }
+ #text-block {
   }
+}
 
-.text-block +.text-block{
-        margin-bottom: 2rem;
-      }
-
- >.text-block{
-      width: 100%;
-      margin-right: auto;
-      margin-left: auto;
-      padding-right: 1rem;
-      padding-left: 1rem;
+#text-block +#text-block{
+      margin-bottom: 2rem;
     }
+
+ >#text-block{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
 
 @media (min-width: 480px){
-       >.text-block{
-        max-width: 480px;
-      }
+     >#text-block{
+      max-width: 480px;
     }
+  }
 
 @media (min-width: 640px){
-       >.text-block{
-        max-width: 640px;
-        padding-right: 2rem;
-        padding-left: 2rem;
-      }
+     >#text-block{
+      max-width: 640px;
+      padding-right: 2rem;
+      padding-left: 2rem;
     }
+  }
 
 @media (min-width: 782px){
-       >.text-block{
-        max-width: 782px;
-      }
+     >#text-block{
+      max-width: 782px;
     }
+  }
 
 @media (min-width: 960px){
-       >.text-block{
-        max-width: 960px;
-      }
+     >#text-block{
+      max-width: 960px;
     }
+  }
 
 @media (min-width: 1280px){
-       >.text-block{
-        max-width: 1280px;
-      }
+     >#text-block{
+      max-width: 1280px;
     }
+  }
 
 @media (min-width: 1440px){
-       >.text-block{
-        max-width: 1440px;
-      }
+     >#text-block{
+      max-width: 1440px;
     }
-
- >.text-block{
-      max-width: 80rem;
-    }
-
- .text-block{
-      padding-top: 1rem;
-    }
-
- >.text-block{
-      flex-wrap: wrap;
-    }
-
-@media (min-width: 640px){
-       .text-block{
-        padding-top: 2rem;
-      }
-    }
-
- >.text-block {
-    }
-
- .text-block{
-      justify-content: space-between;
-    }
-
- .text-block{
-      flex-wrap: wrap;
-    }
-
- .text-block{
-      flex-wrap: wrap;
-    }
-
- .text-block{
-      margin-bottom: 7rem;
-    }
-
-@media (min-width: 640px){
-      }
-
-@media (min-width: 640px){
-       .text-block{
-        margin-bottom: 4rem;
-      }
-    }
-
-.text-block +.text-block{
-        margin-bottom: 2rem;
-      }
-
-.text-block +.text-block{
-        margin-bottom: 2rem;
-      }
-
-@media (min-width: 640px){
-      }
-
-.text-block +.text-block{
-        margin-bottom: 2rem;
-      }
-
-.text-block +.text-block{
-        margin-bottom: 2rem;
-      }
-
-@media (min-width: 640px){
-      }
-
- .text-block{
-      flex-wrap: wrap;
-    }
-
-@media (min-width: 640px){
-       .text-block{
-        flex-wrap: nowrap;
-      }
-    }
-
- .text-block {
-    }
-
-section#cars .text-block {
-    width: auto;
   }
 
- .text-block{
-      flex-wrap: wrap;
-    }
-
- .text-block{
-      flex-wrap: wrap;
-    }
-
-@media (min-width: 640px){
-      }
-
- {
-    background-image: url(https://cdn.shopify.com/s/files/1/0587/6875/2824/t/6/assets/pf-bca29839--LMBO-NREGRO-3.jpeg);
+ >#text-block{
+    max-width: 80rem;
   }
 
- .text-block{
-      padding-top: 1rem;
-    }
-
- .text-block{
-      padding-top: 1rem;
-    }
-
-@media (min-width: 640px){
-       .text-block{
-        padding-top: 2rem;
-      }
-    }
-
-@media (min-width: 640px){
-       .text-block{
-        padding-top: 2rem;
-      }
-    }
-
- .text-block{
-      justify-content: space-between;
-    }
-
- .text-block{
-      justify-content: space-between;
-    }
-
- .text-block{
-      flex-wrap: wrap;
-    }
-
- .text-block{
-      flex-wrap: wrap;
-    }
-
- .text-block{
-      margin-bottom: 7rem;
-    }
-
- .text-block{
-      margin-bottom: 7rem;
-    }
-
-@media (min-width: 640px){
-       .text-block{
-        margin-bottom: 4rem;
-      }
-    }
-
-@media (min-width: 640px){
-       .text-block{
-        margin-bottom: 4rem;
-      }
-    }
-
-.text-block +.text-block{
-        margin-bottom: 2rem;
-      }
-
-.text-block +.text-block{
-        margin-bottom: 2rem;
-      }
-
-@media (min-width: 640px){
-      }
-
- {
-    background-image: url(https://cdn.shopify.com/s/files/1/0587/6875/2824/t/6/assets/pf-bca29839--LMBO-NREGRO-3.jpeg);
+ #text-block{
+    padding-top: 1rem;
   }
 
- .text-block{
-      padding-top: 1rem;
-    }
-
- .text-block{
-      padding-top: 1rem;
-    }
-
-@media (min-width: 640px){
-       .text-block{
-        padding-top: 2rem;
-      }
-    }
-
-@media (min-width: 640px){
-       .text-block{
-        padding-top: 2rem;
-      }
-    }
-
- .text-block{
-      justify-content: space-between;
-    }
-
- .text-block{
-      justify-content: space-between;
-    }
-
- .text-block{
-      flex-wrap: wrap;
-    }
-
- .text-block{
-      flex-wrap: wrap;
-    }
-
- .text-block{
-      margin-bottom: 7rem;
-    }
-
- .text-block{
-      margin-bottom: 7rem;
-    }
-
-@media (min-width: 640px){
-       .text-block{
-        margin-bottom: 4rem;
-      }
-    }
-
-@media (min-width: 640px){
-       .text-block{
-        margin-bottom: 4rem;
-      }
-    }
-
-.text-block +.text-block{
-        margin-bottom: 2rem;
-      }
-
-.text-block +.text-block{
-        margin-bottom: 2rem;
-      }
-
-@media (min-width: 640px){
-      }
-
- .text-block{
-      flex-wrap: wrap;
-    }
-
-@media (min-width: 640px){
-       .text-block{
-        flex-wrap: nowrap;
-      }
-    }
-
- .text-block {
-    }
-
- >.text-block{
-      width: 100%;
-      margin-right: auto;
-      margin-left: auto;
-      padding-right: 1rem;
-      padding-left: 1rem;
-    }
-
-@media (min-width: 480px){
-       >.text-block{
-        max-width: 480px;
-      }
-    }
-
-@media (min-width: 640px){
-       >.text-block{
-        max-width: 640px;
-        padding-right: 2rem;
-        padding-left: 2rem;
-      }
-    }
-
-@media (min-width: 782px){
-       >.text-block{
-        max-width: 782px;
-      }
-    }
-
-@media (min-width: 960px){
-       >.text-block{
-        max-width: 960px;
-      }
-    }
-
-@media (min-width: 1280px){
-       >.text-block{
-        max-width: 1280px;
-      }
-    }
-
-@media (min-width: 1440px){
-       >.text-block{
-        max-width: 1440px;
-      }
-    }
-
- >.text-block{
-      max-width: 80rem;
-    }
-
- >.text-block{
-      flex-wrap: wrap;
-    }
-
- >.text-block {
-    }
-
-section#cars .text-block{
+ >#text-block{
     flex-wrap: wrap;
   }
 
-@media (min-width: 782px){
-    section#cars .text-block{
+@media (min-width: 640px){
+     #text-block{
+      padding-top: 2rem;
+    }
+  }
+
+ >#text-block {
+  }
+
+ #text-block{
+    justify-content: space-between;
+  }
+
+ #text-block{
+    flex-wrap: wrap;
+  }
+
+ #text-block{
+    flex-wrap: wrap;
+  }
+
+ #text-block{
+    margin-bottom: 7rem;
+  }
+
+@media (min-width: 640px){
+    }
+
+@media (min-width: 640px){
+     #text-block{
+      margin-bottom: 4rem;
+    }
+  }
+
+#text-block +#text-block{
+      margin-bottom: 2rem;
+    }
+
+#text-block +#text-block{
+      margin-bottom: 2rem;
+    }
+
+@media (min-width: 640px){
+    }
+
+#text-block +#text-block{
+      margin-bottom: 2rem;
+    }
+
+#text-block +#text-block{
+      margin-bottom: 2rem;
+    }
+
+@media (min-width: 640px){
+    }
+
+ #text-block{
+    flex-wrap: wrap;
+  }
+
+@media (min-width: 640px){
+     #text-block{
       flex-wrap: nowrap;
     }
   }
 
-section#cars .text-block{
-    max-width: none;
+ #text-block {
   }
 
-section#cars .text-block .col{
-      width: 100%;
+#text-block {
+  width: auto;
+}
+
+ #text-block{
+    flex-wrap: wrap;
+  }
+
+ #text-block{
+    flex-wrap: wrap;
+  }
+
+@media (min-width: 640px){
     }
 
-@media (min-width: 782px){
-      section#cars .text-block .col{
-        width: 50%;
-      }
-    }
+ #text-block{
+    padding-top: 1rem;
+  }
 
-section#cars .text-block .col{
-      --tw-bg-opacity: 1;
-      background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-    }
+ #text-block{
+    padding-top: 1rem;
+  }
 
-section#cars .text-block .col{
+@media (min-width: 640px){
+     #text-block{
       padding-top: 2rem;
-      padding-bottom: 2rem;
+    }
+  }
+
+@media (min-width: 640px){
+     #text-block{
+      padding-top: 2rem;
+    }
+  }
+
+ #text-block{
+    justify-content: space-between;
+  }
+
+ #text-block{
+    justify-content: space-between;
+  }
+
+ #text-block{
+    flex-wrap: wrap;
+  }
+
+ #text-block{
+    flex-wrap: wrap;
+  }
+
+ #text-block{
+    margin-bottom: 7rem;
+  }
+
+ #text-block{
+    margin-bottom: 7rem;
+  }
+
+@media (min-width: 640px){
+     #text-block{
+      margin-bottom: 4rem;
+    }
+  }
+
+@media (min-width: 640px){
+     #text-block{
+      margin-bottom: 4rem;
+    }
+  }
+
+#text-block +#text-block{
+      margin-bottom: 2rem;
+    }
+
+#text-block +#text-block{
+      margin-bottom: 2rem;
+    }
+
+@media (min-width: 640px){
+    }
+
+{
+  background-image: url(https://cdn.shopify.com/s/files/1/0587/6875/2824/t/6/assets/pf-bca29839--LMBO-NREGRO-3.jpeg);
+}
+
+ #text-block{
+    padding-top: 1rem;
+  }
+
+ #text-block{
+    padding-top: 1rem;
+  }
+
+@media (min-width: 640px){
+     #text-block{
+      padding-top: 2rem;
+    }
+  }
+
+@media (min-width: 640px){
+     #text-block{
+      padding-top: 2rem;
+    }
+  }
+
+ #text-block{
+    justify-content: space-between;
+  }
+
+ #text-block{
+    justify-content: space-between;
+  }
+
+ #text-block{
+    flex-wrap: wrap;
+  }
+
+ #text-block{
+    flex-wrap: wrap;
+  }
+
+ #text-block{
+    margin-bottom: 7rem;
+  }
+
+ #text-block{
+    margin-bottom: 7rem;
+  }
+
+@media (min-width: 640px){
+     #text-block{
+      margin-bottom: 4rem;
+    }
+  }
+
+@media (min-width: 640px){
+     #text-block{
+      margin-bottom: 4rem;
+    }
+  }
+
+#text-block +#text-block{
+      margin-bottom: 2rem;
+    }
+
+#text-block +#text-block{
+      margin-bottom: 2rem;
+    }
+
+@media (min-width: 640px){
+    }
+
+ #text-block{
+    flex-wrap: wrap;
+  }
+
+@media (min-width: 640px){
+     #text-block{
+      flex-wrap: nowrap;
+    }
+  }
+
+ #text-block {
+  }
+
+ >#text-block{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+@media (min-width: 480px){
+     >#text-block{
+      max-width: 480px;
+    }
+  }
+
+@media (min-width: 640px){
+     >#text-block{
+      max-width: 640px;
+      padding-right: 2rem;
+      padding-left: 2rem;
+    }
+  }
+
+@media (min-width: 782px){
+     >#text-block{
+      max-width: 782px;
+    }
+  }
+
+@media (min-width: 960px){
+     >#text-block{
+      max-width: 960px;
+    }
+  }
+
+@media (min-width: 1280px){
+     >#text-block{
+      max-width: 1280px;
+    }
+  }
+
+@media (min-width: 1440px){
+     >#text-block{
+      max-width: 1440px;
+    }
+  }
+
+ >#text-block{
+    max-width: 80rem;
+  }
+
+ >#text-block{
+    flex-wrap: wrap;
+  }
+
+ >#text-block {
+  }
+
+#text-block{
+  flex-wrap: wrap;
+}
+
+@media (min-width: 782px){
+  #text-block{
+    flex-wrap: nowrap;
+  }
+}
+
+#text-block{
+  max-width: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#text-block .col{
+    width: 100%;
+  }
+
+@media (min-width: 782px){
+    #text-block .col{
+      width: 50%;
+    }
+  }
+
+#text-block .col{
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  }
+
+#text-block .col{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+ {
+
+ {
+
+ {
+
+ {
+
+ {
+            }
+          }
+        }
+      }
     }
 
  {
@@ -9157,9 +9169,6 @@ section#cars .text-block .col{
  {
 
  {
-
- {
-              }
             }
           }
         }
@@ -9170,9 +9179,6 @@ section#cars .text-block .col{
  {
 
  {
-
- {
-              }
             }
           }
         }
@@ -9180,55 +9186,88 @@ section#cars .text-block .col{
  {
 
  {
-
- {
-              }
             }
           }
-
- {
-
- {
-              }
-            }
 
 @media (min-width: 640px){
-                  .content{
-                    width: 100%;
-                  }
+                .content{
+                  width: 100%;
                 }
+              }
 
  {
 
  {
-        }
       }
+    }
 
  {
-            max-width: calc(100% - 60px);
-          }
+          max-width: calc(100% - 60px);
+        }
 
 @media(min-width:640px){
 
  {
-              max-width: 50vw
+            max-width: 50vw
+        }
           }
+
+@media (min-width: 640px){
             }
 
 @media (min-width: 640px){
+                .content{
+                  width: 100%;
+                }
               }
 
 @media (min-width: 640px){
-                  .content{
-                    width: 100%;
-                  }
+                .content{
+                  width: 100%;
                 }
+              }
+
+ {
+
+ {
+
+ {
+        }
+      }
+    }
+
+ {
+
+ {
+        }
+      }
 
 @media (min-width: 640px){
-                  .content{
-                    width: 100%;
-                  }
+            }
+
+@media (min-width: 640px){
+                .content{
+                  width: 100%;
                 }
+              }
+
+@media (min-width: 640px){
+                .content{
+                  width: 100%;
+                }
+              }
+
+ {
+
+ {
+
+ {
+
+ {
+          }
+        }
+      }
+    }
 
  {
 
@@ -9246,213 +9285,171 @@ section#cars .text-block .col{
         }
 
 @media (min-width: 640px){
+                .content{
+                  width: 100%;
+                }
               }
 
 @media (min-width: 640px){
-                  .content{
-                    width: 100%;
-                  }
+                .content{
+                  width: 100%;
                 }
+              }
+
+ {
+          max-width: calc(100% - 60px);
+        }
+
+@media(min-width:640px){
+
+ {
+            max-width: 50vw
+        }
+          }
 
 @media (min-width: 640px){
-                  .content{
-                    width: 100%;
-                  }
-                }
-
- {
-
- {
-
- {
-
- {
             }
-          }
-        }
+
+@media (min-width: 640px){
+                .content{
+                  width: 100%;
+                }
+              }
+
+@media (min-width: 640px){
+                .content{
+                  width: 100%;
+                }
+              }
+
+@media (min-width: 640px){
+      }
+
+@media (min-width: 640px){
+      }
+
+@media (min-width: 640px){
       }
 
  {
-
- {
-
- {
-            }
-          }
+          max-width: calc(100% - 60px);
         }
-
- {
-
- {
-            }
-          }
-
-@media (min-width: 640px){
-                  .content{
-                    width: 100%;
-                  }
-                }
-
-@media (min-width: 640px){
-                  .content{
-                    width: 100%;
-                  }
-                }
-
- {
-            max-width: calc(100% - 60px);
-          }
 
 @media(min-width:640px){
 
  {
-              max-width: 50vw
+            max-width: 50vw
+        }
           }
+
+@media (min-width: 640px){
             }
 
 @media (min-width: 640px){
+                .content{
+                  width: 100%;
+                }
               }
 
 @media (min-width: 640px){
-                  .content{
-                    width: 100%;
-                  }
+                .content{
+                  width: 100%;
                 }
-
-@media (min-width: 640px){
-                  .content{
-                    width: 100%;
-                  }
-                }
-
-@media (min-width: 640px){
-        }
-
-@media (min-width: 640px){
-        }
-
-@media (min-width: 640px){
-        }
-
- {
-            max-width: calc(100% - 60px);
-          }
-
-@media(min-width:640px){
-
- {
-              max-width: 50vw
-          }
-            }
-
-@media (min-width: 640px){
               }
-
-@media (min-width: 640px){
-                  .content{
-                    width: 100%;
-                  }
-                }
-
-@media (min-width: 640px){
-                  .content{
-                    width: 100%;
-                  }
-                }
 
 @media (min-width: 782px){
-        section#cars .text-block .col .content{
-          width: 66.666667%;
-        }
+      #text-block .col .content{
+        width: 66.666667%;
+      }
+    }
+
+#text-block .col .content{
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+
+#text-block .col .content{
+      margin-left: auto;
+    }
+
+#text-block .col .content{
+      text-align: justify;
+    }
+
+#text-block .col .content p{
+        margin-bottom: 1rem;
       }
 
-section#cars .text-block .col .content{
-        padding-left: 2rem;
-        padding-right: 2rem;
+#text-block .col .content .headline{
+        text-align: center;
       }
 
-section#cars .text-block .col .content{
-        margin-left: auto;
+#text-block .col .content .headline{
+        text-transform: uppercase;
       }
 
-section#cars .text-block .col .content{
-        text-align: justify;
+#text-block .col .content .headline{
+        font-weight: 700;
       }
 
-section#cars .text-block .col .content p{
-          margin-bottom: 1rem;
-        }
-
-section#cars .text-block .col .content .headline{
-          text-align: center;
-        }
-
-section#cars .text-block .col .content .headline{
-          text-transform: uppercase;
-        }
-
-section#cars .text-block .col .content .headline{
-          font-weight: 700;
-        }
-
-section#cars .text-block .col .content button{
-          --tw-bg-opacity: 1;
-          background-color: rgb(185 28 28 / var(--tw-bg-opacity));
-        }
-
-section#cars .text-block .col .content button{
-          padding-left: 1.25rem;
-          padding-right: 1.25rem;
-        }
-
-section#cars .text-block .col .content button{
-          padding-top: 0.75rem;
-          padding-bottom: 0.75rem;
-        }
-
-section#cars .text-block .col .content button{
-          --tw-text-opacity: 1;
-          color: rgb(255 255 255 / var(--tw-text-opacity));
-        }
-
-section#cars .text-block .col .content button{
-          text-align: center;
-        }
-
-section#cars .text-block .col .content button{
-          font-size: 1.125rem;
-        }
-
-section#cars .text-block .col .content button{
-          text-transform: uppercase;
-        }
-
-section#cars .text-block .col .content button{
-          margin-left: auto;
-          margin-right: auto;
-        }
-
-section#cars .text-block .col .content button{
-          margin-top: 2rem;
-        }
-
-section#cars .text-block .col +.col{
+#text-block .col .content button{
         --tw-bg-opacity: 1;
-        background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+        background-color: rgb(185 28 28 / var(--tw-bg-opacity));
       }
 
-section#cars .text-block .col +.col .content{
-          --tw-text-opacity: 1;
-          color: rgb(255 255 255 / var(--tw-text-opacity));
-        }
+#text-block .col .content button{
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+      }
 
-section#cars .text-block .col +.col .content{
-          margin-left: 0px;
-        }
+#text-block .col .content button{
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+      }
 
-section#cars .text-block .col +.col .content{
-          margin-right: auto;
-        }
+#text-block .col .content button{
+        --tw-text-opacity: 1;
+        color: rgb(255 255 255 / var(--tw-text-opacity));
+      }
+
+#text-block .col .content button{
+        text-align: center;
+      }
+
+#text-block .col .content button{
+        font-size: 1.125rem;
+      }
+
+#text-block .col .content button{
+        text-transform: uppercase;
+      }
+
+#text-block .col .content button{
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+#text-block .col .content button{
+        margin-top: 2rem;
+      }
+
+#text-block .col +.col{
+      --tw-bg-opacity: 1;
+      background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+    }
+
+#text-block .col +.col .content{
+        --tw-text-opacity: 1;
+        color: rgb(255 255 255 / var(--tw-text-opacity));
+      }
+
+#text-block .col +.col .content{
+        margin-left: 0px;
+      }
+
+#text-block .col +.col .content{
+        margin-right: auto;
+      }
 
 section.new {
   background-image: url(../images/rolls-bg.jpg);

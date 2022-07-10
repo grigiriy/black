@@ -5,6 +5,8 @@ section#cars {
   .cars-list {
     @apply flex;
     @apply flex-wrap;
+    @apply mb-0;
+    @apply pb-4;
 
     .car {
       @apply w-full;
@@ -82,63 +84,6 @@ section#cars {
             @apply border-x;
             @apply border-black;
           }
-        }
-      }
-    }
-  }
-
-  .text-block {
-    @apply mb-0;
-    @apply pb-0;
-    @apply w-screen;
-    @apply flex;
-    @apply flex-wrap;
-    @apply md:flex-nowrap;
-    @apply max-w-none;
-
-    .col {
-      @apply w-full;
-      @apply md:w-1/2;
-      @apply bg-white;
-      @apply py-8;
-
-      .content {
-        @apply full;
-        @apply md:w-2/3;
-        @apply px-8;
-        @apply ml-auto;
-        @apply text-justify;
-
-        p {
-          @apply mb-4;
-        }
-        
-        .headline {
-          @apply text-center;
-          @apply uppercase;
-          @apply font-bold;
-        }
-
-        button {
-          @apply bg-red-700;
-          @apply px-5;
-          @apply py-3;
-          @apply text-white;
-          @apply text-center;
-          @apply text-large;
-          @apply uppercase;
-          @apply mx-auto;
-          @apply mt-8;
-        }
-      }
-
-      +.col {
-        @apply bg-black;
-        
-        .content {
-          @apply text-white;
-          @apply ml-0;
-          @apply mr-auto;
         }
       }
     }

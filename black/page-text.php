@@ -1,7 +1,7 @@
 <?php
 
 /**
-* Template Name: Catalog
+* Template Name: Text
 */
 
 get_header(); ?>
@@ -12,11 +12,7 @@ get_header(); ?>
 			while (have_posts()) :
 				the_post();
 			?>
-
-      <?php get_template_part('template-parts/section','banner'); ?>
-			<?php get_template_part('template-parts/section','cars'); ?>
 			<?php the_content(); ?>
-			<?php get_template_part('template-parts/section','text'); ?>
 			<?php endwhile; ?>
 
 		<?php endif; ?>

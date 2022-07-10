@@ -7,7 +7,7 @@
 				the_post();
 			?>
 
-      <?php get_template_part('template-parts/section','video2'); ?>
+      <?php get_template_part('template-parts/section','video'); ?>
       <div class="container">
         <?php get_template_part('template-parts/section','intro'); ?>
         <?php get_template_part('template-parts/section','form'); ?>	
