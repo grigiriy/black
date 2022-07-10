@@ -22,7 +22,7 @@
     </div>
   </div>
   <div class="col">
-    <h1 class="headline">Black Range Rover Sport</h1>
+    <h1 class="headline"><?php the_title(); ?></h1>
     <p class="price">$490</p>
     <p class="caption"><span>Per Day<span></p>
 

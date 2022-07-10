@@ -43,3 +43,11 @@ a, ul, li {
   @apply m-0;
   @apply p-0;
 }
+
+
+.text-headline {
+  @apply pt-6;
+  @apply px-4;
+  @apply text-4xl;
+  @apply font-bold;
+}

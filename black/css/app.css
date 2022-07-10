@@ -882,6 +882,15 @@ a,  ul,  li{
   padding: 0px;
 }
 
+.text-headline{
+  padding-top: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+}
+
 header.header{
   padding-top: 1rem;
   --tw-bg-opacity: 1;
@@ -2228,6 +2237,29 @@ header.header .nav li.active a{
 
 #burger .burger{
     right: 0px;
+  }
+
+section.banner{
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 245 245 / var(--tw-bg-opacity));
+}
+
+section.banner .headline{
+    padding-top: 1.5rem;
+  }
+
+section.banner .headline{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+section.banner .headline{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+section.banner .headline{
+    font-weight: 700;
   }
 
 .air-datepicker-cell.-day-.-other-month-,.air-datepicker-cell.-year-.-other-decade-{

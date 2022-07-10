@@ -1,0 +1,9 @@
+section.banner {
+  @apply bg-neutral-100;
+  .headline {
+    @apply pt-6;
+    @apply px-4;
+    @apply text-4xl;
+    @apply font-bold;
+  }
+}
