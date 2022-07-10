@@ -7401,29 +7401,71 @@ section#catalog .cars-list li img{
            object-position: center;
       }
 
-section#catalog .cars-list li a+a{
+section#catalog .cars-list li img{
+        transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+        transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+        transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-duration: 150ms;
+      }
+
+section#catalog .cars-list li img{
+        transition-property: transform;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-duration: 150ms;
+      }
+
+section#catalog .cars-list li img{
+        transition-duration: 500ms;
+      }
+
+section#catalog .cars-list li img{
+        transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+      }
+
+section#catalog .cars-list li:hover img{
+        --tw-scale-x: 1.05;
+        --tw-scale-y: 1.05;
+        transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+      }
+
+section#catalog .cars-list li >a+a{
+        display: block;
+      }
+
+section#catalog .cars-list li >a+a{
         margin-left: 1rem;
         margin-right: 1rem;
       }
 
-section#catalog .cars-list li a+a{
+section#catalog .cars-list li >a+a{
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+
+section#catalog .cars-list li >a+a{
+        padding-top: 0px;
+        padding-bottom: 0px;
+      }
+
+section#catalog .cars-list li >a+a{
         text-transform: uppercase;
       }
 
-section#catalog .cars-list li a+a{
+section#catalog .cars-list li >a+a{
         --tw-text-opacity: 1;
         color: rgb(0 0 0 / var(--tw-text-opacity));
       }
 
-section#catalog .cars-list li a+a{
+section#catalog .cars-list li >a+a{
         text-align: center;
       }
 
-section#catalog .cars-list li a+a{
+section#catalog .cars-list li >a+a{
         font-weight: 700;
       }
 
-section#catalog .cars-list li a+a{
+section#catalog .cars-list li >a+a{
         font-size: 1.125rem;
       }
 
@@ -7811,6 +7853,10 @@ section#cars .cars-list{
 
 section#cars .cars-list{
     padding-bottom: 1rem;
+  }
+
+section#cars .cars-list{
+    justify-content: flex-start;
   }
 
 section#cars .cars-list .car{
@@ -8279,7 +8325,7 @@ section#cars .cars-list .car .info .row p{
           }
 
 section#cars .cars-list .car .info .row p{
-            text-align: center;
+            text-align: left;
           }
 
 section#cars .cars-list .car .info .row p{
@@ -8297,6 +8343,10 @@ section#cars .cars-list .car .info .row p{
               line-height: 1.5rem;
             }
           }
+
+section#cars .cars-list .car .info .row p +p{
+              text-align: right;
+            }
 
 section#cars .cars-list .car .info button{
           padding-left: 1.25rem;

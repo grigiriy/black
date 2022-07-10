@@ -7,6 +7,7 @@ section#cars {
     @apply flex-wrap;
     @apply mb-0;
     @apply pb-4;
+    @apply justify-start;
 
     .car {
       @apply w-full;
@@ -43,10 +44,14 @@ section#cars {
           p {
             @apply uppercase;
             @apply text-black;
-            @apply text-center;
+            @apply text-left;
             @apply font-bold;
             @apply text-sm;
             @apply md:text-base;
+
+            +p {
+              @apply text-right;
+            }
           }
         }
 

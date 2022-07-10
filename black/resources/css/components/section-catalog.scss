@@ -44,9 +44,19 @@ section#catalog {
         @apply aspect-square;
         @apply w-full;
         @apply object-center;
+        @apply transition;
+        @apply transition-transform;
+        @apply duration-500;
+        @apply ease-out;
       }
-      a+a {
+      &:hover img{
+        @apply scale-105;
+      }
+      >a+a {
+        @apply block;
         @apply mx-4;
+        @apply my-0;
+        @apply py-0;
         @apply uppercase;
         @apply text-black;
         @apply text-center;
