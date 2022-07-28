@@ -165,3 +165,22 @@ function crb_register_custom_fields()
 
 // include parts
 // require_once __DIR__ . '/theme-helpers/funs/woo.php';
+
+
+function add_categories_to_pages() {
+	register_taxonomy_for_object_type( 'category', 'page' );
+}
+add_action( 'init', 'add_categories_to_pages' );
+
+
+
+add_action('template_redirect', 'meks_remove_wp_archives');
+ 
+/* Remove archives */
+function meks_remove_wp_archives(){
+  //If we are on category or tag or date or author archive
+  if( is_category() || is_tag() || is_date() || is_author() ) {
+    global $wp_query;
+    $wp_query->set_404(); //set to 404 not found page
+  }
+}

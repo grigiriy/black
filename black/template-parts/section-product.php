@@ -1,7 +1,10 @@
 <section id="product">
   <div class="col">
     <div id="slider" class="carousel">
-      <?php for($i = 0; $i< 7; $i++){ ?>
+        <div class="carousel__slide">  
+          <?= get_the_post_thumbnail(); ?>
+        </div>
+      <?php for($i = 1; $i< 7; $i++){ ?>
         <div class="carousel__slide">  
           <img src="https://cdn.shopify.com/s/files/1/0587/6875/2824/products/i-MCjXkhr-X2.jpg" alt="">
         </div>
@@ -11,7 +14,10 @@
       <?php } ?>
     </div>
     <div id="thumbs" class="carousel">
-      <?php for($i = 0; $i< 7; $i++){ ?>
+        <div class="carousel__slide">  
+          <?= get_the_post_thumbnail(get_the_ID(),'thumbnail'); ?>
+        </div>
+      <?php for($i = 1; $i< 7; $i++){ ?>
       <div class="carousel__slide">
         <img src="https://cdn.shopify.com/s/files/1/0587/6875/2824/products/i-MCjXkhr-X2.jpg" alt="">
       </div>

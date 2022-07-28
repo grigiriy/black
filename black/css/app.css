@@ -2241,16 +2241,11 @@ header.header .nav li.active a{
 
 section.banner{
   --tw-bg-opacity: 1;
-  background-color: rgb(245 245 245 / var(--tw-bg-opacity));
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 section.banner .headline{
-    padding-top: 1.5rem;
-  }
-
-section.banner .headline{
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 1rem;
   }
 
 section.banner .headline{
@@ -2260,6 +2255,19 @@ section.banner .headline{
 
 section.banner .headline{
     font-weight: 700;
+  }
+
+section.banner .headline{
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
+
+section.banner img{
+    margin: auto;
+  }
+
+section.banner img{
+    padding-top: 1.25rem;
   }
 
 .air-datepicker-cell.-day-.-other-month-,.air-datepicker-cell.-year-.-other-decade-{
