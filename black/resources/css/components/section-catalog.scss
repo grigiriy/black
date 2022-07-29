@@ -43,7 +43,7 @@ section#catalog {
         @apply object-cover;
         @apply aspect-square;
         @apply w-full;
-        @apply object-center;
+        @apply object-center object-contain;
         @apply transition;
         @apply transition-transform;
         @apply duration-500;

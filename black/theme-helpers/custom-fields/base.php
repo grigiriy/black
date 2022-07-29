@@ -3,7 +3,7 @@
 use Carbon_Fields\Container;
 use Carbon_Fields\Field;
 
-Container::make('post_meta', 'Пример')
+Container::make('post_meta', 'Параметры автомобиля')
   // ->show_on_template( 'page-example.php' )
   ->show_on_post_type('car')
   ->add_fields([
@@ -12,6 +12,7 @@ Container::make('post_meta', 'Пример')
     Field::make('text', 'crm_id', 'ID')
       ->set_width(30),
       Field::make('checkbox', 'active', 'Активна')
+      ->set_option_value( '1' )
       ->set_width(30),
 
 

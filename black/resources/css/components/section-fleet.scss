@@ -12,6 +12,10 @@ section#fleet {
     @apply duration-500;
     @apply ease-out;
     @apply mb-0;
+
+    img {
+      @apply mx-auto;
+    }
   }
 }
 

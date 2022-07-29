@@ -6,616 +6,364 @@
 
 wp_head();
 
-$db = [
-  'Exotic and luxury car rental in Dubai'=>[
-  'Luxury and exotic car rental in Dubai | Best price offers',
-  '300+ best cars in our fleet · Supercars and exotic cars, SUVs, convertibles, etc · Best price guarantee · Full insurance without deductible · Free delivery service · Online booking',
-  ''],
-  
-  'Convertible cars rental in Dubai'=>[
-  'Rent a Convertible car in Dubai | Best offers',
-  'We have collected the top models of Convertible cars in Dubai · Full insurance without deductible · Free drop and delivery service · We are in touch 24/7',
-  ''],
-  
-  'Supercars rental in Dubai'=>[
-  'Rent a Supercar in Dubai | Best price offers | Full insurance without deductible',
-  'We have collected the top models of Supercars in Dubai · Full insurance without deductible · Free drop and delivery service · We are in touch 24/7',
-  ''],
-  
-  'SUVs rental in Dubai'=>[
-  'Rent SUV in Dubai | Best price offers',
-  'We have collected the top models of SUVs in Dubai · Full insurance without deductible · Free drop and delivery service · We are in touch 24/7',
-  ''],
-  
-  'Lamborghini rental in Dubai'=>[
-  'Lamborghini Car Hire Dubai | Best offers',
-  'The best prices and models of Lamborghini cars rental in Dubai · Urus, Aventador, Huracan, etc · Full insurance without deductible · Free drop and delivery service · We are in touch 24/7',
-  'Lamborghini'],
-  
-  'Lamborghini Urus rental in Dubai'=>[
-  'Rent Lamborghini Urus in Dubai | Best offers',
-  'Fleet of the top Lamborghini Urus cars in Dubai · Guaranteed low prices · Instant Online reservation · Full insurance without deductible · Free drop and delivery service · We are in touch 24/7',
-  'Lamborghini _Urus_PNG'],
-  
-  'Lamborghini Aventador rental in Dubai'=>[
-  'Rent Lamborghini Aventador in Dubai | Best offers',
-  'Fleet of the top Lamborghini Aventador cars in Dubai · Guaranteed low prices · Full insurance without deductible · Free drop and delivery service · We are in touch 24/7',
-  'Lamborghini_Aventador_PNG'],
-  
-  'Lamborghini Huracan rental in Dubai'=>[
-  'Rent Lamborghini Huracan in Dubai | Best offers',
-  'Fleet of the top Lamborghini Huracan cars in Dubai · Guaranteed low prices · Free drop and delivery service · Full insurance without deductible · We are in touch 24/7',
-  'Lamborghini_Huracan_PNG'],
-  
-  'Ferrari rental in Dubai'=>[
-  'Ferrari Car Hire Dubai | Best price offers | Free drop and delivery service',
-  'The best prices and models of Ferrari cars rental in Dubai · Roma, California, Portofino, etc · Free drop and delivery service · Full insurance without deductible · We are in touch 24/7',
-  'Ferrari'],
-  
-  'Ferrari Roma rental in Dubai'=>[
-  'Rent Ferrari Roma in Dubai | Best price offers | Full insurance without deductible',
-  'The top Ferrari Roma options for rent in Dubai · Daily, weekly and monthly car rental offers · Full insurance without deductible · Delivered at your location · Booking 24/7',
-  'Ferrari_Roma_PNG'],
-  
-  'Ferrari 458 rental in Dubai'=>[
-  'Rent Ferrari 458 in Dubai | Best price offers | Free drop and delivery service',
-  'The top Ferrari 458 options for rent in Dubai · Daily, weekly and monthly car rental offers · Full insurance without deductible · Delivered at your location · Booking 24/7',
-  'Ferrari_458_PNG'],
-  
-  'Ferrari Portofino rental in Dubai'=>[
-  'Rent Ferrari Portofino in Dubai | Best offers',
-  'The top Ferrari GTC4Lusso options for rent in Dubai · Daily, weekly and monthly car rental offers · Full insurance without deductible · Delivered at your location · 24/7',
-  'Ferrari_Portofino_PNG'],
-  
-  'Ferrari GTC4Lusso rental in Dubai'=>[
-  'Rent Ferrari GTC4Lusso in Dubai | Best offers',
-  'The top Ferrari Roma options for rent in Dubai · Daily, weekly and monthly car rental offers · Full insurance without deductible · Delivered at your location · Booking 24/7',
-  'Ferrari_GTC4Lusso_PNG'],
-  
-  'Ferrari F12 rental in Dubai'=>[
-  'Rent Ferrari F12 in Dubai | Best price offers | Full insurance without deductible',
-  'The top Ferrari F12 options for rent in Dubai · Daily, weekly and monthly car rental offers · Full insurance without deductible · Delivered at your location · Booking 24/7',
-  'Ferrari_F12_PNG'],
-  
-  'Rolls-Royce rental in Dubai'=>[
-  'Rolls-Royce Car Hire Dubai | Best price offers | Full insurance without deductible',
-  'The top Rolls-Royce models in Dubai · Cullinan, Wraith, Dawn, Ghost, etc · Guaranteed low prices · Full insurance without deductible · Registration in 3 minutes · 24/7',
-  'Rolls_Royce'],
-  
-  'Rolls-Royce Cullinan rental in Dubai'=>[
-  'Rent Rolls-Royce Cullinan in Dubai | Best offers',
-  'Daily, weekly and monthly Rolls-Royce Cullinan car rental offers in Dubai · Guaranteed low prices · Full insurance without deductible · Registration in 3 minutes · 24/7',
-  'Rolls-Royce_Cullinan_PNG'],
-  
-  'Rolls-Royce Wraith rental in Dubai'=>[
-  'Rent Rolls-Royce Wraith in Dubai | Best offers',
-  'The widest range of Rolls-Royce Wraith cars for rent in Dubai · Instant Online reservation · Full insurance without deductible · Registration in 3 minutes · Free delivery service · Booking 24/7',
-  'Rolls-Royce_Wraith_PNG'],
-  
-  'Rolls-Royce Dawn rental in Dubai'=>[
-  'Rent Rolls-Royce Dawn in Dubai | Best offers',
-  'Daily, weekly and monthly Rolls-Royce Dawn car rental offers in Dubai · Full insurance without deductible · Delivered at your location · Registration in 3 minutes',
-  'Rolls-Royce_Dawn_PNG'],
-  
-  'Rolls-Royce Ghost rental in Dubai'=>[
-  'Rent Rolls-Royce Ghost in Dubai | Best offers',
-  'The most luxurious Rolls-Royce Ghost fleet for rent in Dubai · Instant Online reservation · Full insurance without deductible · Registration in 3 minutes · Booking 24/7',
-  'Rolls-Royce_Ghost_PNG'],
-  
-  'Rolls-Royce Chauffeur hire in Dubai'=>[
-  'Rolls-Royce Chauffeur Hire in Dubai| Best offers',
-  'The most luxurious Rolls-Royce Chauffeur fleet for rent in Dubai · Registration in 3 minutes · Booking 24/7 · Full insurance without deductible· We are in touch 24/7',
-  'Rolls-Royce_Chauffeur_PNG'],
-  
-  'Bentley rental in Dubai'=>[
-  'Bentley Car Hire Dubai | Best price offers | Full insurance without deductible',
-  'The best prices and models of Bentley cars rental in Dubai · Bentayga, Continental GT, Flying Spur · Guaranteed low prices · Full insurance without deductible · Free delivery service',
-  'Bentley'],
-  
-  'Bentley Bentayga rental in Dubai'=>[
-  'Rent Bentley Bentayga in Dubai | Best offers',
-  'Daily, weekly and monthly Bentley Bentayga car rental offers in Dubai · Instant Online reservation · Full insurance without deductible · Delivered at your location · Booking 24/7',
-  'Bentley_Bentayga_PNG'],
-  
-  'Bentley Continental GT rental in Dubai'=>[
-  'Rent Bentley Continental GT in Dubai | Best offers',
-  'Daily, weekly and monthly Bentley Continental GT car rental offers in Dubai · Instant Online reservation · Full insurance without deductible · Delivered at your location · Booking 24/7',
-  'Bentley_Continental_GT_PNG'],
-  
-  'Bentley Flying Spur rental in Dubai'=>[
-  'Rent Bentley Flying Spur in Dubai | Best offers',
-  'Daily, weekly and monthly Bentley Flying Spur car rental offers in Dubai · Instant Online reservation · Full insurance without deductible · Delivered at your location · Booking 24/7',
-  'Bentley_Flying_Spur_PNG'],
-  
-  'Porsche rental in Dubai'=>[
-  'Porshe Car Hire Dubai | Best price offers | Free drop and delivery service',
-  'The best prices and models of Porsche cars rental in Dubai · Cayenne, Panamera, Macan, etc · Guaranteed low prices · Full insurance without deductible · Free delivery service · Booking 24/7',
-  'Porsche'],
-  
-  'Porsche Cayenne rental in Dubai'=>[
-  'Rent Porshe Cayenne in Dubai | Best offers',
-  'The most luxurious Porsche Cayenne fleet for rent in Dubai · Instant Online reservation · Full insurance without deductible · Registration in 3 minutes · Delivered at your location · 24/7',
-  'Porshe_Cayenne_PNG'],
-  
-  'Porsche 911 rental in Dubai'=>[
-  'Rent Porshe 911 in Dubai | Best price offers',
-  'The most luxurious Porsche 911 fleet for rent in Dubai · Instant Online reservation · Full insurance without deductible · Daily, weekly and monthly car rental offers · Delivered at your location · 24/7',
-  'Porshe_911_PNG'],
-  
-  'Porsche Panamera rental in Dubai'=>[
-  'Rent Porshe Panamera in Dubai | Best offers',
-  'The most luxurious Porsche Panamera fleet for rent in Dubai · Instant Online reservation · Full insurance without deductible · Registration in 3 minutes · Delivered at your location · 24/7',
-  'Porshe_Panamera_PNG'],
-  
-  'Porsche Macan rental in Dubai'=>[
-  'Rent Porshe Macan in Dubai | Best offers',
-  'The most luxurious Porsche Macan fleet for rent in Dubai · Instant Online reservation · Full insurance without deductible · Registration in 3 minutes · Delivered at your location · 24/7',
-  'Porshe_Macan_PNG'],
-  
-  'Porsche Taycan rental in Dubai'=>[
-  'Rent Porshe Taycan in Dubai | Best offers',
-  'The most luxurious Porsche Taycan fleet for rent in Dubai · Instant Online reservation · Full insurance without deductible · Daily, weekly and monthly car rental offers · Delivered at your location · 24/7',
-  'Porshe_Taycan_PNG'],
-  
-  'Land Rover rental in Dubai'=>[
-  'Land Rover Car Hire Dubai | Best price offers',
-  'The most luxurious Land Rover fleet for rent in Dubai · Daily, weekly and monthly car rental offers · Instant Online reservation · Full insurance without deductible · Registration in 3 minutes',
-  ''],
-  
-  'Range Rover rental in Dubai'=>[
-  'Rent Range Rover in Dubai | Best price offers',
-  'The most luxurious Range Rover fleet for rent in Dubai · Sport, Velar, Evoque, etc · Guaranteed low prices · Full insurance without deductible · Free delivery service · Booking 24/7',
-  'Range_Rover'],
-  
-  'Range Rover Sport hire in Dubai'=>[
-  'Rent Range Rover Sport in Dubai | Best offers',
-  'The most top-end and premium Range Rover Sport options for rent in Dubai · Daily, weekly and monthly car rental offers · Instant Online reservation · Full insurance without deductible · Delivered at your location',
-  'Range_Rover_Sport_PNG'],
-  
-  'Range Rover Velar hire in Dubai'=>[
-  'Rent Range Rover Velar in Dubai | Best offers',
-  'The most luxurious Range Rover Velar fleet for rent in Dubai · Zero commission or booking fees · Delivered at your location · We are in touch 24/7 · Instant Online reservation',
-  'Range_Rover_Velar_PNG'],
-  
-  'Range Rover Evoque hire in Dubai'=>[
-  'Rent Range Rover Evoque in Dubai | Best offers',
-  'The most luxurious Range Rover Evoque fleet for rent in Dubai · Zero commission or booking fees · Delivered at your location · We are in touch 24/7 · Instant Online reservation',
-  'Range_Rover_Evoque_PNG'],
-  
-  'Range Rover convertible rental in Dubai'=>[
-  'Rent Range Rover Convertible in Dubai | Best offers',
-  'The most luxurious Range Rover convertible fleet for rent in Dubai · Zero commission or booking fees · Delivered at your location · We are in touch 24/7 · Instant Online reservation',
-  'Range_Rover_convertible'],
-  
-  'Bugatti rental in Dubai'=>[
-  'Bugatti Car Hire Dubai | Best price offers | Full insurance without deductible',
-  'The best prices and models of Bugatti cars rental in Dubai · Chiron, Veyron of different colors · Guaranteed low prices · Full insurance without deductible · Free delivery service · 24/7',
-  'Bugatti'],
-  
-  'Bugatti Chiron rental in Dubai'=>[
-  'Rent Bugatti Chiron in Dubai | Best price offers | Free drop and delivery service',
-  'The most luxurious Bugatti Chiron fleet for rent in Dubai· Free delivery and full insurance are already included · Daily, weekly and monthly car rental offers · Booking 24/7 · Registration in 3 minutes',
-  'Bugatti_Chiron_PNG'],
-  
-  'Bugatti Veyron rental in Dubai'=>[
-  'Rent Bugatti Veyron in Dubai | Best price offers | Full insurance without deductible',
-  'The most luxurious Bugatti Veyron fleet for rent in Dubai · Free delivery and full insurance are already included · Daily, weekly and monthly car rental offers · Booking 24/7 · Registration in 3 minutes',
-  'Bugatti_Veyron_PNG'],
-  
-  'Mercedes-Benz rental in Dubai'=>[
-  'Mercedes-Benz Car Hire Dubai | Best offers',
-  'The top Mercedes-Benz models in Dubai · Sprinter, G-Class, S-Class, GLS-Class, etc · Guaranteed low prices · Full insurance without deductible · Free delivery service · Booking 24/7',
-  'Mercedes'],
-  
-  'Mercedes-Benz Sprinter rental in Dubai'=>[
-  'Rent Mercedes-Benz Sprinter in Dubai | Best offers',
-  'The most top-end and premium Mercedes-Benz Sprinter options for rent in Dubai · Free delivery and full insurance are already included · Guaranteed low prices · Booking 24/7 · Registration in 3 minutes',
-  'Mercedes-Benz_Sprinter_PNG'],
-  
-  'Mercedes-Benz G-Class rental in Dubai'=>[
-  'Rent Mercedes-Benz G-Class in Dubai | Best offers',
-  'The most top-end and premium Mercedes-Benz G-Class options for rent in Dubai · G Wagon, G64, etc · Instant Online reservation · Full insurance without deductible · Delivered at your location · 24/7 · Registration in 3 minutes',
-  'Mercedes-Benz_G-Class_PNG'],
-  
-  'Mercedes-Benz Van rental in Dubai'=>[
-  'Rent Mercedes-Benz Van in Dubai | Best offers',
-  'The most top-end and premium Mercedes-Benz Van options for rent in Dubai · Free delivery and full insurance are already included · Guaranteed low prices · Booking 24/7 · Registration in 3 minutes',
-  'Mercedes-Benz_VAN_PNG'],
-  
-  'Long term VAN rental in Dubai'=>[
-  'Long term VAN rental in Dubai | Best offers',
-  'The most top-end and premium Long term VAN options for rent in Dubai · Instant Online reservation · Full insurance without deductible · Registration in 3 minutes · 24/7',
-  ''],
-  
-  'Mercedes-Benz S-Class rental in Dubai'=>[
-  'Rent Mercedes-Benz S-Class in Dubai | Best offers',
-  'The most top-end and premium Mercedes-Benz S-Class options for rent in Dubai · Instant Online reservation · Full insurance without deductible · Delivered at your location · 24/7 · Registration in 3 minutes',
-  'Mercedes-Benz_S-Class_PNG'],
-  
-  'Mercedes-Maybach rental in Dubai'=>[
-  'Rent Mercedes-Maybach in Dubai | Best offers',
-  'The most top-end and premium Mercedes-Benz Maybach options for rent in Dubai · Instant Online reservation · Full insurance without deductible · Delivered at your location · 24/7 · Registration in 3 minutes',
-  'Mercedes-Maybach_PNG'],
-  
-  'Mercedes-Benz G63 AMG rental in Dubai'=>[
-  'Rent Mercedes-Benz G63 AMG in Dubai | Best offers',
-  'The most top-end and premium Mercedes-Benz G63 AMG options for rent in Dubai · Instant Online reservation · Full insurance without deductible · Delivered at your location · 24/7 · Registration in 3 minutes',
-  'Mercedes-Benz_G63_AMG_PNG'],
-  
-  'Mercedes-Benz AMG GT63 rental in Dubai'=>[
-  'Rent Mercedes-AMG GT63 in Dubai | Best offers',
-  'The most top-end and premium Mercedes-Benz AMG GT63 options for rent in Dubai · Instant Online reservation · Full insurance without deductible · Delivered at your location · 24/7 · Registration in 3 minutes',
-  'Mercedes-Benz_AMG_GT63_PNG'],
-  
-  'Mercedes-Benz GLS-Class AMG GLS 63 rental in Dubai'=>[
-  'Rent Mercedes-Benz AMG GLS 63 in Dubai | Best offers',
-  'The most top-end and premium Mercedes-Benz GLS-Class AMG GLS 63 options for rent in Dubai · Instant Online reservation · Full insurance without deductible · Delivered at your location · 24/7',
-  'Mercedes-Benz_GLS-Class_AMG_GLS_63'],
-  
-  'Mercedes-Benz AMG rental in Dubai'=>[
-  'Rent Mercedes-AMG in Dubai | Best price offers | Full insurance without deductible',
-  'The most top-end and premium Mercedes-Benz AMG options for rent in Dubai · Instant Online reservation · Full insurance without deductible · Delivered at your location · 24/7 · Registration in 3 minutes',
-  'Mercedes-Benz_AMG'],
-  
-  'Mercedes-Benz convertible rental in Dubai'=>[
-  'Rent Mercedes Convertible in Dubai | Best offers',
-  'The top Mercedes-Benz convertible cars options for rent in Dubai · Zero commission or booking fees · Delivered at your location · We are in touch 24/7',
-  'Mercedes-Benz_convertible'],
-  
-  'Audi rental in Dubai'=>[
-  'Audi Car Hire Dubai | Best price offers | Free drop and delivery service',
-  'The best Audi models in Dubai · R8, Q8, A6, RS7, etc · Free delivery and full insurance are already included · Guaranteed low prices · Booking 24/7 · Registration in 3 minutes',
-  'Audi'],
-  
-  'Audi R8 rental in Dubai'=>[
-  'Rent Audi R8 in Dubai | Best price offers | Full insurance without deductible',
-  'Daily, weekly and monthly Audi R8 car rental offers in Dubaii · Free delivery and full insurance are already included · Booking 24/7 · Delivered at your location',
-  'Audi_R8_PNG'],
-  
-  'Audi Q8 rental in Dubai'=>[
-  'Rent Audi Q8 in Dubai | Best price offers | Free drop and delivery service',
-  'Daily, weekly and monthly Audi Q8 car rental offers in Dubai · Instant Online reservation · Full insurance without deductible · Booking 24/7 · Delivered at your location',
-  'Audi_Q8_PNG'],
-  
-  'Audi A6 rental in Dubai'=>[
-  'Rent Audi A6 in Dubai | Best price offers | Full insurance without deductible',
-  'Daily, weekly and monthly Audi A6 car rental offers in Dubai · Free delivery and full insurance are already included · Booking 24/7 · Delivered at your location',
-  'Audi_A6_PNG'],
-  
-  'Audi A3 rental in Dubai'=>[
-  'Rent Audi A3 in Dubai | Best price offers | Free drop and delivery service',
-  'Daily, weekly and monthly Audi A3 car rental offers in Dubai · Instant Online reservation · Full insurance without deductible · Booking 24/7 · Delivered at your location',
-  'Audi_A3_PNG'],
-  
-  'Audi RS7 rental in Dubai'=>[
-  'Rent Audi RS7 in Dubai | Best price offers | Full insurance without deductible',
-  'Daily, weekly and monthly Audi RS7 car rental offers in Dubai · Free delivery and full insurance are already included · Booking 24/7 · Delivered at your location',
-  'Audi_RS7_PNG'],
-  
-  'Audi Q3 rental in Dubai'=>[
-  'Rent Audi Q3 in Dubai | Best price offers | Free drop and delivery service',
-  'Daily, weekly and monthly Audi Q3 car rental offers in Dubai · Instant Online reservation · Full insurance without deductible · Booking 24/7 · Delivered at your location',
-  'Audi_Q3_PNG'],
-  
-  'Audi Q7 rental in Dubai'=>[
-  'Rent Audi Q7 in Dubai | Best price offers | Full insurance without deductible',
-  'Daily, weekly and monthly Audi Q7 car rental offers in Dubai · Free delivery and full insurance are already included · Booking 24/7 · Delivered at your location',
-  'Audi_Q7_PNG'],
-  
-  'Tesla rental in Dubai'=>[
-  'Tesla Car Hire Dubai | Best price offers | Free drop and delivery service',
-  'The best prices and models of Tesla car rental in Dubai · Online booking · Free delivery service · Daily, weekly and monthly car rental offers · Booking 24/7',
-  'Tesla'],
-  
-  'Tesla Model X rental in Dubai'=>[
-  'Rent Tesla Model X in Dubai | Best price offers | Full insurance without deductible',
-  'Daily, weekly and monthly Tesla Model X car rental offers in Dubai · Instant Online reservation · Full insurance without deductible · Delivered at your location · Booking 24/7',
-  'Tesla_Model_X_PNG'],
-  
-  'Maserati rental in Dubai'=>[
-  'Maserati Car Hire Dubai | Best price offers | Free drop and delivery service',
-  'The best prices and models of Maserat car rental in Dubai · Daily, weekly and monthly car rental offers · Instant Online reservation · Full insurance without deductible · Registration in 3 minutes',
-  'Maserati'],
-  
-  'Chevrolet Camaro rental in Dubai'=>[
-  'Rent Chevrolet Camaro in Dubai | Best offers |LCD Hire',
-  'The best daily, weekly and monthly rental rates on the Chevy Camaro in Dubai · Zero commission or booking fees · Delivered at your location · We are in touch 24/7',
-  'Chevrolet_Camaro_PNG'],
-  
-  'Chevrolet Corvette rental in Dubai'=>[
-  'Rent Chevrolet Corvette in Dubai | Best offers',
-  'The best daily, weekly and monthly rental rates on the Chevrolet Corvette in Dubai · Zero commission or booking fees · Delivered at your location · We are in touch 24/7',
-  'Chevrolet_Corvette_PNG'],
-  
-  'McLaren rental in Dubai'=>[
-  'McLaren Car Hire Dubai | Best price offers | Full insurance without deductible',
-  'The best prices and models of McLaren car rental in Dubai · 720S, 570S, 650S, etc · Free delivery and full insurance are already included · Guaranteed low prices · Booking 24/7 · Registration in 3 minutes',
-  'McLaren'],
-  
-  'McLaren 720S rental in Dubai'=>[
-  'Rent McLaren 720S in Dubai | Best price offers | Free drop and delivery service',
-  'The top McLaren 720S options for rent in Dubai · Price include full insurance and free delivery service · Daily, weekly and monthly car rental offers · Booking 24/7',
-  'McLaren_720S_PNG'],
-  
-  'McLaren 570S rental in Dubai'=>[
-  'Rent McLaren 570S in Dubai | Best price offers | Full insurance without deductible',
-  'The top McLaren 570S options for rent in Dubai · Price include full insurance and free delivery service · Daily, weekly and monthly car rental offers · Booking 24/7',
-  'McLaren_570S_PNG'],
-  
-  'McLaren 650S Spider rental in Dubai'=>[
-  'Rent McLaren 650S Spider in Dubai | Best offers',
-  'The top McLaren 650S Spider options for rent in Dubai · Price include full insurance and free delivery service · Daily, weekly and monthly car rental offers · Booking 24/7',
-  'McLaren_650S_PNG'],
-  
-  'Cadillac rental in Dubai'=>[
-  'Rent Cadillac in Dubai | Best offers | Full insurance without deductible',
-  'The best prices and models of Cadillac car rental in Dubai · Cadillac, СЕ6, etc · Free delivery and full insurance are already included · Guaranteed low prices · Booking 24/7 · Registration in 3 minutes',
-  'Cadillac'],
-  
-  'Cadillac Escalade rental in Dubai'=>[
-  'Rent Cadillac Escalade in Dubai | Best offers',
-  'Daily, weekly and monthly Cadillac Escalade car rental offers in Dubai · Free delivery and full insurance are already included · Booking 24/7 · Delivered at your location',
-  'Cadillac_Escalade_PNG'],
-  
-  'Ford Mustang convertible rental in Dubai'=>[
-  'Rent Mustang Convertible in Dubai | Best offers',
-  'Fleet of the best premium Ford Mustang convertible cars in Dubai · Instant Online reservation · Full insurance without deductible · Delivered at your location · Booking 24/7',
-  'Ford_Mustang_PNG'],
-  
-  'BMW i8 rental in Dubai'=>[
-  'Rent BMW i8 Roadster in Dubai | Best offers',
-  'Fleet of the best premium BMW i8cars in Dubai · Registration in 3 minutes · Guaranteed low prices · Full insurance without deductible · Booking 24/7 · Delivered at your location',
-  'BMW_i8_PNG'],
-  
-  'BMW X7 rental in Dubai'=>[
-  'Rent BMW X7 in Dubai | Best offers | Full insurance without deductible',
-  'Fleet of the best premium BMW X7 cars in Dubai · Registration in 3 minutes · Guaranteed low prices · Full insurance without deductible · Booking 24/7 · Delivered at your location',
-  'BMW_X7_PNG'],
-  
-  'BMW 8 series rental in Dubai'=>[
-  'Rent BMW 8 series in Dubai | Best offers',
-  'Fleet of the best premium BMW 8 series cars in Dubai · Registration in 3 minutes · Guaranteed low prices · Full insurance without deductible · Booking 24/7 · Delivered at your location',
-  'BMW_8_series_PNG'],
-  
-  'BMW 4 series convertible rental in Dubai'=>[
-  'Rent BMW 4 series Convertible in Dubai | Best offers',
-  'Fleet of the best premium BMW 4 series convertible in Dubai · Registration in 3 minutes · Guaranteed low prices · Full insurance without deductible · Booking 24/7 · Delivered at your location',
-  'BMW_4_series_convertible_PNG'],
-  
-  'Aston Martin rental in Dubai'=>[
-  'Rent Aston Martin in Dubai | Best price offers',
-  'The best prices and models of Aston Martin luxury cars rental in Dubai · Vantage, D11, etc · Online booking · Free delivery service · Daily, weekly and monthly car rental offers · Booking 24/7',
-  'Aston_Martin'],
-  
-  'Jaguar rental in Dubai'=>[
-  'Rent Jaguar in Dubai | Best offers | Full insurance without deductible',
-  'We offers the best collection of Jaguar Models for rent in Dubai ranging from the F Type to the XF · Online booking · Free delivery service · Daily, weekly and monthly car rental offers',
-  'Jaguar'],
-  
-  'Alfa Romeo rental in Dubai'=>[
-  'Rent Alfa Romeo in Dubai | Best price offers',
-  'The best prices and models of Alfa Romeo luxury cars rental in Dubai · Stelvio, Giulietta · Online booking · Free delivery service · Daily, weekly and monthly car rental offers · Booking 24/7',
-  'Alfa_Romeo'],
-  
-  'Nissan GT-R rental in Dubai'=>[
-  'Rent Nissan GT-R Car Hire Dubai | Best price offers | Full insurance without deductible',
-  'Daily, weekly and monthly Nissan GT-R car rental offers in Dubai · Instant Online reservation · Full insurance without deductible · Booking 24/7 · Delivered at your location',
-  'Nissan_GT-R_PNG'],
-  
-  'Pagani rental in Dubai'=>[
-  'Rent Pagani in Dubai | Best offers | Full insurance without deductible',
-  'The best prices and models of Pagani Exotic cars rental in Dubai · Huayra, Zonda · Online booking · Free delivery service · Daily, weekly and monthly car rental offers · Booking 24/7',
-  'Pagani'],
-  
-  'Koenigsegg rental in Dubai'=>[
-  'Rent Koenigsegg in Dubai | Best price offers',
-  'The best prices and models of Koenigsegg Exotic cars rental in Dubai · Online booking · Free delivery service · Daily, weekly and monthly car rental offers · Booking 24/7',
-  'Koenigsegg'],
-  
-  'Lotus rental in Dubai'=>[
-  'Rent Lotus in Dubai | Best offers | Full insurance without deductible',
-  'The best prices and models of Lotus Exotic cars rental in Dubai · Online booking · Free delivery service · Daily, weekly and monthly car rental offers · Booking 24/7',
-  'Lotus'],
-  
-  'Nissan rental in Dubai'=>[
-  'Rent Nissan in Dubai | Best offers | Full insurance without deductible',
-  'The best prices and models of Nissan car rental in Dubai · GT-R, Patrol, etc · Free delivery and full insurance are already included · Guaranteed low prices · Booking 24/7 · Registration in 3 minutes',
-  'Nissan'],
-  
-  'Nissan Patrol rental in Dubai'=>[
-  'Rent Nissan Patrol in Dubai | Best offers',
-  'Daily, weekly and monthly Nissan Patrol car rental offers in Dubai · Instant Online reservation · Full insurance without deductible · Booking 24/7 · Delivered at your location',
-  'Nissan_Patrol_PNG'],
-  
-  'Lexus rental in Dubai'=>[
-  'Lexus Car Hire Dubai | Best offers | Full insurance without deductible',
-  'The best prices and models of Lexus car rental in Dubai · Lexus 570, Lexus ES350, NX Series, etc · Price include full insurance and free delivery service · Daily, weekly and monthly car rental offers',
-  'Lexus'],
-  
-  'Lexus 570 rental in Dubai'=>[
-  'Lexus 570 Car Hire Dubai | Best price offers | Free drop and delivery service',
-  'The best daily, weekly and monthly rental rates on the Lexus 570 in Dubai · Zero commission or booking fees · Delivered at your location · We are in touch 24/7',
-  'Lexus_570_PNG'],
-  
-  'Jeep rental in Dubai'=>[
-  'Rent Jeep in Dubai | Best offers | Full insurance without deductible',
-  'The best prices and models of Jeep luxury cars rental in Dubai · Online booking · Free delivery service · Daily, weekly and monthly car rental offers · Booking 24/7',
-  'Jeep'],
-  
-  'Jeep Wrangler rental in Dubai'=>[
-  'Rent Jeep Wrangler in Dubai | Best price offers',
-  'The best daily, weekly and monthly rental rates on the Jeep Wrangler in Dubai · Zero commission or booking fees · Delivered at your location · We are in touch 24/7',
-  'Jeep_Wrangler_PNG'],
-  
-  'GMS rental in Dubai'=>[
-  'Rent GMS in Dubai | Best price offers',
-  'The best prices and models of GMS luxury cars rental in Dubai · Online booking · Free delivery service · Daily, weekly and monthly car rental offers · Booking 24/7',
-  'GMS'],
-  
-  'Mini Cooper rental in Dubai'=>[
-  'Rent Mini Cooper in Dubai | Best price offers',
-  'The best prices and models of Mini Cooper luxury cars rental in Dubai · Online booking · Free delivery service · Daily, weekly and monthly car rental offers · Booking 24/7',
-  'Mini_Cooper_PNG'],
-  
-  'Self drive luxury car rental in Dubai'=>[
-  'Self Drive Luxury Car Hire Dubai | Full insurance without deductible',
-  'The top Exotic and Luxury cars for self-rental in Dubai · Guaranteed low prices · Free delivery service · We are in touch 24/7 · Daily, weekly and monthly car rental offers',
-  ''],
-  
-  'Chauffeur car hire Dubai'=>[
-  'Car With Driver Hire Dubai | Full insurance without deductible',
-  'Chauffeur services are the best luxury and exotic car rentals in Dubai for business, airport transfers and special occasions · Guaranteed low prices · Booking 24/7',
-  ''],
-  
-  'Exotic and luxury car rental in Dubai Airport'=>[
-  'Luxury and exotic car rentals in Dubai Airport',
-  'We offers the best prices and models of Exotic and Luxury cars for rent in Dubai Airport · Full insurance without deductible · Online booking 24/7 · Free delivery service',
-  ''],
-  
-  'Exotic and luxury car rental in Bur Dubai'=>[
-  'Luxury and exotic car rentals in Bur Dubai',
-  'We offers the best prices and models of Exotic and Luxury cars for rent in Bur Dubai · Full insurance without deductible · Online booking 24/7 · Free delivery service',
-  ''],
-  
-  'Exotic and luxury car rental in Al Barsha'=>[
-  'Luxury and exotic car rentals in Al Barsha',
-  'We offers the best prices and models of Exotic and Luxury cars for rent in Al Barsha · Full insurance without deductible · Online booking 24/7 · Free delivery service',
-  ''],
-  
-  'Exotic and luxury car rental in Deira'=>[
-  'Luxury and exotic car rentals in Deira',
-  'We offers the best prices and models of Exotic and Luxury cars for rent in Deira · Full insurance without deductible · Online booking 24/7 · Free delivery service',
-  ''],
-  
-  'Exotic and luxury car rental in Dubai Marina'=>[
-  'Luxury and exotic car rentals in Dubai Marina',
-  'We offers the best prices and models of Exotic and Luxury cars for rent in Dubai Marina · Full insurance without deductible · Online booking 24/7 · Free delivery service',
-  ''],
-  
-  'Exotic and luxury car rental in Palm Jumeirah'=>[
-  'Luxury and exotic car rentals in Palm Jumeirah',
-  'We offers the best prices and models of Exotic and Luxury cars for rent in Palm Jumeirah · Full insurance without deductible · Online booking 24/7 · Free delivery service',
-  ''],
-  
-  'Maserati Levante rental in Dubai'=>[
-  'Rent Maserati Levante in Dubai | Best price offers | Full insurance without deductible',
-  'Daily, weekly and monthly Maserati Levante car rental offers in Dubai · Full insurance without deductible · Booking 24/7 · Delivered at your location',
-  'Maserati_Levante_PNG'],
-  
-  'BMW rental in Dubai'=>[
-  'Rent BMW in Dubai | Best price offers',
-  'The best prices and models of BMW luxury cars rental in Dubai · X7, i8, 4 series, etc · Daily, weekly and monthly car rental offers · Booking 24/7',
-  'BMW'],
-  
-  'Aston Martin Vantage rental in Dubai'=>[
-  'Rent Aston Martin Vantage in Dubai | Best price offers',
-  'The top Aston Martin Vantage options for rent in Dubai · Price include full insurance and free delivery service · Daily, weekly and monthly car rental offers · Booking 24/7',
-  'Aston_Martin_Vantage_PNG'],
-  
-  'Jaguar XF rental in Dubai'=>[
-  'Rent Jaguar XF in Dubai | Best price offers',
-  'Daily, weekly and monthly Jaguar XF car rental offers in Dubai · Full insurance without deductible · Booking 24/7 · Delivered at your location',
-  'Jaguar_XF_PNG'],
-  
-  'Alfa Romeo Stelvio rental in Dubai'=>[
-  'Rent Alfa Romeo Stelvio in Dubai | Best price offers | Free drop and delivery service',
-  'The top Alfa Romeo Stelvio options for rent in Dubai · Price include full insurance and free delivery service · Daily, weekly and monthly car rental offers · Booking 24/7',
-  'Alfa_Romeo_Stelvio_PNG'],
-  
-  'Pagani Zonda rental in Dubai'=>[
-  'Pagani Zonda Car Hire Dubai | Best price offers | Full insurance without deductible',
-  'The top Pagani Zonda options for rent in Dubai · Price include full insurance and free delivery service · Daily, weekly and monthly car rental offers · Booking 24/7',
-  'Pagani_Zonda_PNG'],
-  
-  'Koenigsegg Agera rental in Dubai'=>[
-  'Rent Koenigsegg Agera in Dubai | Best offers',
-  'The top Koenigsegg Agera options for rent in Dubai · Price include full insurance and free delivery service · Daily, weekly and monthly car rental offers · Booking 24/7',
-  'Koenigsegg_Agera_PNG'],
-  
-  'Lotus Evora rental in Dubai'=>[
-  'Rent Lotus Evora in Dubai | Best price offers',
-  'The top Lotus Evora options for rent in Dubai · Price include full insurance and free delivery service · Daily, weekly and monthly car rental offers · Booking 24/7',
-  'Lotus_Evora_PNG'],
-  
-  'GMS Yukon rental in Dubai'=>[
-  'Rent GMS Yukon in Dubai | Best price offers',
-  'Daily, weekly and monthly GMS Yukon car rental offers in Dubai · Full insurance without deductible · Booking 24/7 · Delivered at your location',
-  'GMS_Yukon_PNG'],
-  
-  'Exotic cars rental in Dubai'=>[
-  'Exotic cars Hire Dubai | Best price offers | Full insurance without deductible',
-  'We have collected the top models of Exotic cars in Dubai · Best rates guaranteed · Full insurance without deductible · Free delivery service · We are in touch 24/7',
-  ''],
-  
-  'Muscle cars rental in Dubai'=>[
-  'Muscle cars Hire Dubai | Best price offers | Free drop and delivery service',
-  'We have collected the top models of Muscle cars in Dubai · Best rates guaranteed · Full insurance without deductible · Free delivery service · We are in touch 24/7',
-  ''],
-  
-  'Luxury cars rental in Dubai'=>[
-  'Luxury cars Hire Dubai| Best price offers | Full insurance without deductible',
-  'We have collected the top models of Luxury cars in Dubai · Best rates guaranteed · Full insurance without deductible · Free delivery service · We are in touch 24/7',
-  ''],
-  
-  'Ford rental in Dubai'=>[
-  'Ford Car Hire Dubai | Best offers | Full insurance without deductible',
-  'The best prices and models of Ford luxury cars rental in Dubai · Best rates guaranteed · Online booking · Daily, weekly and monthly car rental offers · Booking 24/7',
-  'Ford'],
-  
-  'Chevrolet'=>[
-  'Rent Jeep Wrangler in Dubai | Best price offers',
-  'The best prices and models of Chevrolet luxury cars rental in Dubai · Best rates guaranteed · Online booking · Daily, weekly and monthly car rental offers · We are in touch 24/7',
-  'Chevrolet_Camaro_PNG'],
-  
-  'Ford Mustang convertible rental in Dubai'=>[
-  'Rent Mustang Convertible in Dubai | Best price offers',
-  'The largest and best selection of Mustangs convertible cars available for rental in Dubai · Full insurance without deductible · Delivered at your location · Booking 24/7',
-  'Ford_Mustang_PNG']
-  ];
+
+$db_cars = [
+ 
+
+  ['Aston Martin','Vantage','1','2021','Black',['Luxury cars', 'Convertible cars'],'2000','2500','16800','72000','681','4578','19619','608','','5,79','Aston Martin Vantage Black',['Aston_Martin_Vantage_Black_2.jpg','Aston_Martin_Vantage_Black_3.jpg','Aston_Martin_Vantage_Black_4.jpg','Aston_Martin_Vantage_Black_5.jpg'],'1'],
+  ['Audi','Q7','2','2020','Blue',['Luxury cars', 'SUV'],'900','1125','7560','32400','307','2060','8828','329','6,5','10,5','2020-audi-q7-us-front-1582732943_main.jpg',['2020-audi-q7-us-rear-1582732943_1.jpg'],'1'],
+  ['Audi','Q7','3','2020','Black',['Luxury cars', 'SUV'],'900','1125','7560','32400','307','2060','8828','329','6,5','10,5','Audi_Q7_2020_Black_main.jpg',['Audi_Q7_2020_Black_1.jpg','Audi_Q7_2020_Black_2.jpg','Audi_Q7_2020_Black_3.jpg','Audi_Q7_2020_Black_4.jpg','Audi_Q7_2020_Black_5.jpg','Audi_Q7_2020_Black_6.jpg'],'1'],
+  ['Audi','Q7','4','2021','Gray',['Luxury cars', 'SUV'],'900','1125','7560','32400','307','2060','8828','329','6,5','10,5','audi-q7-2021-audi-sq7-premium-plus-grey_7822390457.jpg',['17221590195fbe337415541757554239_900_600-c.jpg'],'1'],
+  ['Audi','Q7','5','2021','Red',['Luxury cars', 'SUV'],'900','1125','7560','32400','307','2060','8828','329','6,5','10,5','gt_news_audi_q7_1.jpg',['foto-q7-ii_02.jpg','48d7da76c1caab5c-large.jpg'],'1'],
+  ['Audi','Q7','6','2021','Black',['Luxury cars', 'SUV'],'900','1125','7560','32400','307','2060','8828','329','6,5','10,5','Audi Q7, 2021 Black',['black_audi-q_2021_7259_0336753ff6b8357cb17987118d5c8e61.jpg','black_audi-q_2021_7260_c75f2c0d2bc4f3b30b9651558ad8640d.jpg','black_audi-q_2021_7261_bb77c86530674bce49f477847d294b44.jpg','black_audi-q_2021_7262_98c518bf82e1f0f0b78eae3dce70a271.jpg','black_audi-q_2021_7263_d9d8b0f9d4f1c82e09fbc25add3dac11.jpg','black_audi-q_2021_7264_547bdc60765dcfdab205099f31625951.jpg','black_audi-q_2021_7266_94891751793725a05573331a0fa8bfb0.jpg','black_audi-q_2021_7267_2cb9fde99c257bbac3eb08c6d10f6e12.jpg'],'1'],
+  ['Bentley','Flying Spur','7','2021','White',['Luxury cars', 'Supercars', 'Exotic cars'],'2000','2500','16800','72000','681','4578','19619','542','4','6,4','Bentley_Flying_Spur_White_2021_main.jpg',['Bentley_Flying Spur_White_2021_1.jpg','Bentley_Flying Spur_White_2021_2.jpg','Bentley_Flying Spur_White_2021_3.jpg','Bentley_Flying Spur_White_2021_4.jpg'],'1'],
+  ['Bentley','Flying Spur','8','2022','Light Grey White',['Luxury cars', 'Supercars', 'Exotic cars'],'2500','3125','21000','90000','851','5722','24523','542','4','6,4','Bentley_Flying_Spur_LGW_2022_main.jpg',['Bentley_Flying Spur_LGW_2022_1.jpg','Bentley_Flying Spur_LGW_2022_2.jpg','Bentley_Flying Spur_LGW_2022_3.jpg','Bentley_Flying Spur_LGW_2022_4.jpg'],'1'],
+  ['Bentley','Bentayga','9','2018','Blue',['Luxury cars', 'SUV'],'2300','2875','19320','82800','783','5264','22561','542','4,5','7,2','Bentley_Bentayga_2018_Blue_main.jpg',['Bentley_Bentayga_2018_Blue_0.jpg','Bentley-Bentayga-SQ_2019_Blue_1.jpg','Bentley-Bentayga-SQ_2019_Blue_2.jpg','Bentley-Bentayga-SQ_2019_Blue_3.jpg','Bentley-Bentayga-SQ_2019_Blue_4.jpg'],'1'],
+  ['Bentley','GT','10','2021','Maroon',['Luxury cars', 'Supercars', 'Exotic cars'],'3300','4125','27720','118800','1124','7553','32371','500','4,8','7,7','Bentley-Continental-GT-V8-GT-V8-S-main.jpg',['Bentley-Continental-GT-V8-GT-V8-S-1.jpg','Bentley-Continental-GT-V8-GT-V8-S-2.jpg','Bentley-Continental-GT-V8-GT-V8-S-3.jpg','Bentley-Continental-GT-V8-GT-V8-S-4.jpg','Bentley-Continental-GT-V8-GT-V8-S-5.jpg','Bentley-Continental-GT-V8-GT-V8-S-6.jpg','Bentley-Continental-GT-V8-GT-V8-S-7.jpg','Bentley-Continental-GT-V8-GT-V8-S-8.jpg','Bentley-Continental-GT-V8-GT-V8-S-9.jpg','Bentley-Continental-GT-V8-GT-V8-S-10.jpg'],'1'],
+  ['Bentley','Bentayga','11','2021','Gray',['Luxury cars', 'SUV'],'3000','3750','25200','108000','1022','6866','29428','421','4,8','7,7','Bentley_Bentayga_2021_Gray_main.jpg',['Bentley_Bentayga_2021_Gray_1.jpg','Bentley_Bentayga_2021_Gray_2.jpg','Bentley_Bentayga_2021_Gray_3.jpg','Bentley_Bentayga_2021_Gray_4.jpg','Bentley_Bentayga_2021_Gray_5.jpg','Bentley_Bentayga_2021_Gray_6.jpg','Bentley_Bentayga_2021_Gray_7.jpg','Bentley_Bentayga_2021_Gray_8.jpg','Bentley_Bentayga_2021_Gray_9.jpg','Bentley_Bentayga_2021_Gray_10.jpg','Bentley_Bentayga_2021_Gray_11.jpg','Bentley_Bentayga_2021_Gray_12.jpg'],'1'],
+  ['Bentley','GT','12','2019','Black',['Luxury cars', 'Supercars', 'Exotic cars'],'2500','3125','21000','90000','851','5722','24523','626','3,6','5,8','Bentley_GT_2019_Black_main.jpg',['Bentley_GT_2019_Black_1.jpg','Bentley_GT_2019_Black_2.jpg','Bentley_GT_2019_Black_3.jpg','Bentley_GT_2019_Black_4.jpg','Bentley_GT_2019_Black_5.jpg','Bentley_GT_2019_Black_6.jpg','Bentley_GT_2019_Black_7.jpg','Bentley_GT_2019_Black_8.jpg','Bentley_GT_2019_Black_9.jpg'],'1'],
+  ['Bentley','Bentayga','13','2020','Black',['Luxury cars', 'SUV'],'1800','2250','15120','64800','613','4120','17657','542','4','6,4','Bentley_Bentayga_2021_Black_main.jpg',['Bentley_Bentayga_2021_Black_1.jpg','Bentley_Bentayga_2021_Black_2.jpg','Bentley_Bentayga_2021_Black_3.jpg','Bentley_Bentayga_2021_Black_4.jpg','Bentley_Bentayga_2021_Black_5.jpg','Bentley_Bentayga_2021_Black_6.jpg','Bentley_Bentayga_2021_Black_7.jpg','Bentley_Bentayga_2021_Black_8.jpg','Bentley_Bentayga_2021_Black_9.jpg','Bentley_Bentayga_2021_Black_10.jpg','Bentley_Bentayga_2021_Black_11.jpg'],'1'],
+  ['Bentley','Flying Spur','14','2021','Dark Blue',['Luxury cars', 'Supercars', 'Exotic cars'],'2200','2750','18480','79200','749','5035','21580','616','4,6','7,4','Bentley Flying Spur, 2021 Dark Blue',['dark-blue_bentley-flying-spur_2021_3740_main_5f8f798bf4f9d9313fa85142542d6064.jpg','dark-blue_bentley-flying-spur_2021_8885_1463cbe7654034e763a29d8c04959054.jpg','dark-blue_bentley-flying-spur_2021_8886_d8c4c7ad1fc443c00c957cf3d928c346.jpg','dark-blue_bentley-flying-spur_2021_8887_614d739b0dba3f2e085a0ca5697128d0.jpg','dark-blue_bentley-flying-spur_2021_8888_f3f880648d1c1342fa586cfffc4daacd.jpg','dark-blue_bentley-flying-spur_2021_8889_cb9b2f561db7ddec5b47ec0afe03c284.jpg','dark-blue_bentley-flying-spur_2021_8890_d9586f93f77a6607de22f43136ef3416.jpg'],'1'],
+  ['Bentley','Continental GT','15','2019','Black',['Luxury cars', 'Supercars', 'Exotic cars'],'2500','3125','21000','90000','851','5722','24523','500','4,8','7,7','Bentley Continental GT, 2019 Black',['black_bentley-continental-gt_2019_6689_1c0bcad3fc740cb1d67722a29f411868.jpg','black_bentley-continental-gt_2019_6690_c7da8a227f82ffa4637aed7d57ab47c5.jpg','black_bentley-continental-gt_2019_6691_b906b21143e9d58ac31413d14a249f1f.jpg','black_bentley-continental-gt_2019_6692_3ffe1d1e53cd948ca6fb1060ba3d8859.jpg'],'0'],
+  ['Bentley','Continental GT','16','2020','White',['Luxury cars', 'Supercars', 'Exotic cars'],'2500','3125','21000','90000','851','5722','24523','500','4,8','7,7','Bentley Continental GT, 2020 White',['white_bentley-continental-gt_2020_7064_957c72164a1debdc0c678bc4724b7fc7.jpg','white_bentley-continental-gt_2020_7065_bce4a2b48a0f575faa9e3f35bb72719b.jpg','white_bentley-continental-gt_2020_7067_0173559ff5c225e79e0d6909e2c3abe9.jpg','white_bentley-continental-gt_2020_7068_0ea770273521ad341685573fb5005a4d.jpg','white_bentley-continental-gt_2020_7069_d1e64f55cb3685bbcd77cf9f0abfb01f.jpg','white_bentley-continental-gt_2020_7070_696a78a76a54d96c7735555b0df6f5c9.jpg'],'1'],
+  ['Bentley','Bentayga','17','2018','Silver Grey',['Luxury cars', 'SUV'],'2300','2875','19320','82800','783','5264','22561','542','4,5','7,2','Bentley Bentayga, 2018 Silver Grey',['dark-grey_bentley-bentayga_2018_4494_f1a3adc298058238420f8d3d859c4427.jpg','dark-grey_bentley-bentayga_2018_4495_1b146ab5928ad0694759622b0accc2f6.jpg','dark-grey_bentley-bentayga_2018_4496_c7eecb0b5871ee227d4abd60489f9814.jpg','dark-grey_bentley-bentayga_2018_4497_6973d1d2cdfc3fcda2de024e65233656.jpg'],'1'],
+  ['BMW','X6 M Competition','18','2022','Blue',['Luxury cars', 'SUV'],'1700','2125','14280','61200','579','3891','16676','567','5,1','8,2','BMW_X6_M_Competition_2022_Blue_main.jpg',['BMW_X6_M_Competition_2022_Blue_1.jpg','BMW_X6_M_Competition_2022_Blue_2.jpg','BMW_X6_M_Competition_2022_Blue_3.jpg','BMW_X6_M_Competition_2022_Blue_4.jpg','BMW_X6_M_Competition_2022_Blue_5.jpg','BMW_X6_M_Competition_2022_Blue_6.jpg','BMW_X6_M_Competition_2022_Blue_7.jpg','BMW_X6_M_Competition_2022_Blue_8.jpg'],'0'],
+  ['BMW','M4 Convertible','19','2022','Yellow',['Luxury cars', 'Convertible cars'],'1800','2250','15120','64800','613','4120','17657','503','3,7','6','BMW_M4_Convertible_2022_Yellow_main.jpg',['BMW_M4_Convertible_2022_Yellow_1.jpg','BMW_M4_Convertible_2022_Yellow_2.jpg','BMW_M4_Convertible_2022_Yellow_3.jpg','BMW_M4_Convertible_2022_Yellow_4.jpg','BMW_M4_Convertible_2022_Yellow_5.jpg','BMW_M4_Convertible_2022_Yellow_.jpg','BMW_M4_Convertible_2022_Yellow_7.jpg','BMW_M4_Convertible_2022_Yellow_8.jpg'],'1'],
+  ['BMW','M3 Competition','20','2022','Green',['Luxury cars'],'1600','2000','13440','57600','545','3662','15695','255','6','9,7','BMW_M3_Competition_2022_Green_main.jpg',['BMW_M3_Competition_2022_Green_1.jpg','BMW_M3_Competition_2022_Green_2.jpg','BMW_M3_Competition_2022_Green_3.jpg','BMW_M3_Competition_2022_Green_4.jpg','BMW_M3_Competition_2022_Green_5.jpg','BMW_M3_Competition_2022_Green_6.jpg'],'1'],
+  ['BMW','M850i','21','2020','Black',['Luxury cars', 'Convertible cars'],'1200','1500','10080','43200','409','2747','11771','530','3,1','5','BMW_M850i_2020_Black_main.jpg',['BMW_M850i_2020_Black_1.jpg','BMW_M850i_2020_Black_2.jpg','BMW_M850i_2020_Black_3.jpg','BMW_M850i_2020_Black_4.jpg','BMW_M850i_2020_Black_5.jpg','BMW_M850i_2020_Black_6.jpg','BMW_M850i_2020_Black_7.jpg','BMW_M850i_2020_Black_8.jpg','BMW_M850i_2020_Black_9.jpg'],'1'],
+  ['BMW','530i','22','2021','Black',['Luxury cars'],'399','499','3352','14364','136','913','3914','249','6','9,7','BMW_530i_2021_Black_main.jpg',['BMW_530i_2021_Black_1.jpg','BMW_530i_2021_Black_2.jpg','BMW_530i_2021_Black_3.jpg','BMW_530i_2021_Black_4.jpg','BMW_530i_2021_Black_5.jpg','BMW_530i_2021_Black_6.jpg','BMW_530i_2021_Black_7.jpg'],'1'],
+  ['BMW','X7','23','2021','Gray',['Luxury cars', 'SUV'],'899','1124','7552','32364','306','2058','8819','456','4,7','7,6','BMW_X7_2021_Gray_main.jpg',['BMW_X7_2021_Gray_1.jpg','BMW_X7_2021_Gray_2.jpg','BMW_X7_2021_Gray_3.jpg','BMW_X7_2021_Gray_4.jpg','BMW_X7_2021_Gray_5.jpg','BMW_X7_2021_Gray_6.jpg'],'1'],
+  ['BMW','X6','24','2021','Gray',['Luxury cars', 'SUV'],'700','875','5880','25200','238','1602','6866','600','5,1','8,2','BMW_X6_2021_Gray_main.jpg',['BMW_X6_2021_Gray_1.jpg','BMW_X6_2021_Gray_2.jpg','BMW_X6_2021_Gray_3.jpg','BMW_X6_2021_Gray_4.jpg','BMW_X6_2021_Gray_5.jpg','BMW_X6_2021_Gray_6.jpg'],'1'],
+  ['BMW','420','25','2018','Gray',['Luxury cars', 'Convertible cars'],'400','500','3360','14400','136','916','3924','248','6','9,7','BMW-420i-Convertible-2018_gray_main.jpg',['BMW-420i-Convertible-2018_gray_1.jpg','BMW-420i-Convertible-2018_gray_2.jpg','BMW-420i-Convertible-2018_gray_3.jpg'],'1'],
+  ['BMW','420','26','2018','Blue',['Luxury cars', 'Convertible cars'],'400','500','3360','14400','136','916','3924','248','6','9,7','BMW_420_2018_blue_main.jpg',['BMW_420_2018_blue_1.jpg','BMW_420_2018_blue_2.jpg','BMW_420_2018_blue_3.jpg'],'1'],
+  ['BMW','730Li','27','2018','Black',['Luxury cars'],'900','1125','7560','32400','307','2060','8828','258','4,2','6,8','black_bmw-730i_2018_1071_main.jpg',['black_bmw-730i_2018_1936.jpg','black_bmw-730i_2018_1938.jpg','black_bmw-730i_2018_1940.jpg','black_bmw-730i_2018_1941.jpg'],'1'],
+  ['BMW','X4','28','2018','Red',['Luxury cars', 'SUV'],'450','563','3780','16200','153','1030','4414','248','6,4','10,3','BMW_X4_2018_Red_main.jpg',['BMW_X4_2018_Red_1.jpg','BMW_X4_2018_Red_2.jpg','BMW_X4_2018_Red_3.jpg','BMW_X4_2018_Red_4.jpg','BMW_X4_2018_Red_5.jpg','BMW_X4_2018_Red_6.jpg','BMW_X4_2018_Red_7.jpg','BMW_X4_2018_Red_8.jpg','BMW_X4_2018_Red_9.jpg'],'1'],
+  ['BMW','X4','29','2018','Gray',['Luxury cars', 'SUV'],'450','563','3780','16200','153','1030','4414','248','6,4','10,3','BMW_X4_2018_Gray.jpg','','1'],
+  ['BMW','X5','30','2015','White',['Luxury cars', 'SUV'],'500','625','4200','18000','170','1144','4905','305','6,5','10,5','white_bmw-x5_2015_1082_main.jpg',['white_bmw-x5_2015_1929.jpg','white_bmw-x5_2015_1930.jpg'],'1'],
+  ['BMW','X6','31','2017','Black',['Luxury cars', 'SUV'],'900','1125','7560','32400','307','2060','8828','567','5,1','8,2','black_bmw-x6_2017_1083_main.jpg',['black_bmw-x6_2017_1931.jpg','black_bmw-x6_2017_1932.jpg','black_bmw-x6_2017_1933.jpg'],'1'],
+  ['BMW','M4 Competition','32','2022','Black',['Luxury cars', 'Convertible cars'],'1600','2000','13440','57600','545','3662','15695','510','3,9','6,3','BMW_M4_Competition_2022_Black_main.jpg',['BMW_M4_Competition_2022_Black_1.jpg','BMW_M4_Competition_2022_Black_2.jpg','BMW_M4_Competition_2022_Black_3.jpg','BMW_M4_Competition_2022_Black_4.jpg','BMW_M4_Competition_2022_Black_5.jpg','BMW_M4_Competition_2022_Black_6.jpg','BMW_M4_Competition_2022_Black_7.jpg','BMW_M4_Competition_2022_Black_8.jpg','BMW_M4_Competition_2022_Black_9.jpg','BMW_M4_Competition_2022_Black_10.jpg'],'1'],
+  ['BMW','X7','33','2022','Gray',['Luxury cars', 'SUV'],'1200','1500','10080','43200','409','2747','11771','400','6,1','9,8','BMW_X7_2022_Gray_main.jpg',['BMW_X7_2022_Gray_1.jpg','BMW_X7_2022_Gray_2.jpg','BMW_X7_2022_Gray_3.jpg','BMW_X7_2022_Gray_4.jpg','BMW_X7_2022_Gray_5.jpg','BMW_X7_2022_Gray_6.jpg','BMW_X7_2022_Gray_7.jpg','BMW_X7_2022_Gray_8.jpg','BMW_X7_2022_Gray_9.jpg','BMW_X7_2022_Gray_10.jpg'],'1'],
+  ['BMW','Z4','34','2020','White',['Luxury cars', 'Convertible cars'],'700','875','5880','25200','238','1602','6866','387','4,1','6,6','BMW_Z4_2020_White_main.jpg',['BMW_Z4_2020_White_1.jpg','BMW_Z4_2020_White_2.jpg','BMW_Z4_2020_White_3.jpg','BMW_Z4_2020_White_4.jpg','BMW_Z4_2020_White_5.jpg','BMW_Z4_2020_White_6.jpg','BMW_Z4_2020_White_7.jpg','BMW_Z4_2020_White_8.jpg'],'1'],
+  ['BMW','X6 M50','35','2022','Blue',['Luxury cars', 'SUV'],'1200','1500','10080','43200','409','2747','11771','567','5,1','8,2','BMW_X6_M50_2022_blue_main.jpg',['BMW_X6_M50_2022_blue_1.jpg','BMW_X6_M50_2022_blue_2.jpg','BMW_X6_M50_2022_blue_3.jpg','BMW_X6_M50_2022_blue_4.jpg','BMW_X6_M50_2022_blue_5.jpg','BMW_X6_M50_2022_blue_6.jpg','BMW_X6_M50_2022_blue_7.jpg','BMW_X6_M50_2022_blue_8.jpg','BMW_X6_M50_2022_blue_9.jpg','BMW_X6_M50_2022_blue_10.jpg','BMW_X6_M50_2022_blue_11.jpg','BMW_X6_M50_2022_blue_12.jpg','BMW_X6_M50_2022_blue_13.jpg','BMW_X6_M50_2022_blue_14.jpg','BMW_X6_M50_2022_blue_15.jpg','BMW_X6_M50_2022_blue_16.jpg'],'1'],
+  ['BMW','X7','36','2021','Black',['Luxury cars', 'SUV'],'899','1124','7552','32364','306','2058','8819','523','4,7','7,6','BMW_X7_2021_Black_main.jpg',['BMW_X7_2021_Black_1.jpg','BMW_X7_2021_Black_2.jpg','BMW_X7_2021_Black_3.jpg','BMW_X7_2021_Black_4.jpg','BMW_X7_2021_Black_5.jpg','BMW_X7_2021_Black_6.jpg','BMW_X7_2021_Black_7.jpg','BMW_X7_2021_Black_8.jpg','BMW_X7_2021_Black_9.jpg','BMW_X7_2021_Black_10.jpg'],'1'],
+  ['BMW','730Li','37','2021','Black',['Luxury cars'],'900','1125','7560','32400','307','2060','8828','320','5,5','8,9','BMW 730Li, 2021 Black',['black_bmw-7-series_2021_8134_61c45bab5555eab4b9179ac7b5aeeb08.jpg','black_bmw-7-series_2021_8135_cca5ed0aa15dc570e0e935efba8bf082.jpg','black_bmw-7-series_2021_8136_a260bc74b1e19502d1b4f400223ed536.jpg','black_bmw-7-series_2021_8138_0731ab39dbc8c6aa922f58809d7f4ab7.jpg','black_bmw-7-series_2021_8139_774acaad10a220faa04999d1c2336616.jpg','black_bmw-7-series_2021_8140_569c5ca63b2f90f56c8b46c1a0e75f6a.jpg'],'1'],
+  ['BMW','X7 M50i','38','2021','White',['Luxury cars', 'SUV'],'1400','1750','11760','50400','477','3204','13733','523','4,7','7,6','BMW X7 M50i, 2021 White',['white_bmw-x7_2021_8112_2df48899b191e3dfe662ba8c7fbac8f3.jpg','white_bmw-x7_2021_8113_4ba7779d9c181139f4fce2d4e507e08e.jpg','white_bmw-x7_2021_8114_291c4af3d10b972efebd0383b299af62.jpg','white_bmw-x7_2021_8115_b76dff57c36c0a9c81cf88e7a5311c64.jpg','white_bmw-x7_2021_8116_49d2caab7ccba0c300e005a4053121f4.jpg','white_bmw-x7_2021_8117_cb0f0be5c6f15afb344fcf29a13503dd.jpg','white_bmw-x7_2021_8118_c495dbcae6634f9874c041d971fdbff0.jpg'],'1'],
+  ['BMW','X7 M','39','2021','Black',['Luxury cars', 'SUV'],'1300','1625','10920','46800','443','2975','12752','523','4,7','7,6','BMW X7 M50i, 2021 Black',['black_bmw-x7-m50i_2021_9133_8a53e0b034c87900c67776fadd6069a6.jpg','black_bmw-x7-m50i_2021_9134_9c60005fba6d841f9628b7447f3e1625.jpg','black_bmw-x7-m50i_2021_9135_00b69793aab707ce5bb172e75f876c8a.jpg','black_bmw-x7-m50i_2021_9136_5cc59a05dde97fa860554ab987704ed6.jpg'],'1'],
+  ['BMW','X6 M Competition','40','2022','Green',['Luxury cars', 'SUV'],'1800','2250','15120','64800','613','4120','17657','567','5,1','8,2','BMW X6 M Competition, 2022 Green',['green_bmw-x6m-competition_2022_8981_47e990e74a42cf51b0eac9e48d0fa897.jpg','green_bmw-x6m-competition_2022_8983_a2ce56ba91a008cdb2d33fd2a14604a3.jpg','green_bmw-x6m-competition_2022_8984_67d0c2ec316dbcb9cf86427854b13e1d.jpg','green_bmw-x6m-competition_2022_8985_231edc438508d8453dab4c8929fd3b1a.jpg','green_bmw-x6m-competition_2022_8987_445682691d346c43f0f3cf380d381058.jpg','green_bmw-x6m-competition_2022_8988_21a4f97db54018b631bc2ff7c45079d2.jpg'],'1'],
+  ['BMW','750 Series','41','2020','Grey',['Luxury cars'],'750','938','6300','27000','255','1717','7357','450','4,7','7,6','BMW 750 Series, 2020 Grey',['grey_bmw-750-li-m-_2020_4070_da1919b50c57dc0c04d7b5ac313ebac1.jpg','grey_bmw-750-li-m-_2020_4071_308f6f386b992ccdf56a18ec6649e286.jpg'],'1'],
+  ['BMW','750 Li M','42','2020','Grey',['Luxury cars'],'','','','','','','','530','4','6,4','BMW 750 Li M, 2020 Grey',['grey_bmw-750-series_2020_5286_40c98a030eef1696ad37c1477948573c.jpg','grey_bmw-750-series_2020_5287_350826e0c319a849fbe18a6fe70348d5.jpg','grey_bmw-750-series_2020_5288_ec3384f9cf978b27026fe26526b0af88.jpg'],'0'],
+  ['BMW','Z4','43','2020','Blue',['Luxury cars', 'Convertible cars'],'799','999','6712','28764','272','1829','7838','255','5,4','8,7','BMW_Z4_2020_Blue_main.jpg',['BMW_Z4_2020_Blue_1.jpg','BMW_Z4_2020_Blue_2.jpg','BMW_Z4_2020_Blue_3.jpg','BMW_Z4_2020_Blue_4.jpg','BMW_Z4_2020_Blue_5.jpg','BMW_Z4_2020_Blue_6.jpg','BMW_Z4_2020_Blue_7.jpg','BMW_Z4_2020_Blue_8.jpg','BMW_Z4_2020_Blue_9.jpg'],'1'],
+  ['BMW','520','44','2019','Black',['Luxury cars'],'450','563','3780','16200','153','1030','4414','248','4,5','7,2','BMW 5 Series, 2019 Black',['BMW_5_Series_520_2019_Black_1.jpg','BMW_5_Series_520_2019_Black_2.jpg'],'1'],
+  ['BMW','X4','45','2018','Black',['Luxury cars', 'SUV'],'450','563','3780','16200','153','1030','4414','248','6,4','10,3','white_bmw-x4_2016_1074_main.jpg',['white_bmw-x4_2016_1983.jpg'],'1'],
+  ['BMW','X6 M Competition','46','2022','Blue',['Luxury cars', 'SUV'],'','','','','','','','567','5,1','8,2','BMW_X6_M_Competition_2022_Blue_main.jpg',['BMW_X6_M_Competition_2022_Blue_1.jpg','BMW_X6_M_Competition_2022_Blue_2.jpg','BMW_X6_M_Competition_2022_Blue_3.jpg','BMW_X6_M_Competition_2022_Blue_4.jpg','BMW_X6_M_Competition_2022_Blue_5.jpg','BMW_X6_M_Competition_2022_Blue_6.jpg','BMW_X6_M_Competition_2022_Blue_7.jpg','BMW_X6_M_Competition_2022_Blue_8.jpg','BMW_X6_M_Competition_2022_Blue_9.jpg'],'0'],
+  ['BMW','X4','47','2016','Black',['Luxury cars', 'SUV'],'400','500','3360','14400','136','916','3924','248','6,4','10,3','Bmw-x4_2016_Black_main.jpg',['Bmw-x4_2016_Black_1.jpg','Bmw-x4_2016_Black_2.jpg','Bmw-x4_2016_Black_3.jpg','Bmw-x4_2016_Black_4.jpg','Bmw-x4_2016_Black_5.jpg','Bmw-x4_2016_Black_6.jpg','Bmw-x4_2016_Black_7.jpg','Bmw-x4_2016_Black_8.jpg','Bmw-x4_2016_Black_9.jpg','Bmw-x4_2016_Black_10.jpg','Bmw-x4_2016_Black_11.jpg'],'1'],
+  ['Cadillac','Escalade Black Edition','48','2021','Black',['Luxury cars', 'SUV'],'1250','1563','10500','45000','426','2861','12262','420','6,3','10,1','Cadillac_EscaladeBlackEdition_2021_Black_main.jpg',['Cadillac_EscaladeBlackEdition_2021_Black_1.jpg','Cadillac_EscaladeBlackEdition_2021_Black_2.jpg','Cadillac_EscaladeBlackEdition_2021_Black_3.jpg','Cadillac_EscaladeBlackEdition_2021_Black_4.jpg','Cadillac_EscaladeBlackEdition_2021_Black_5.jpg','Cadillac_EscaladeBlackEdition_2021_Black_6.jpg','Cadillac_EscaladeBlackEdition_2021_Black_7.jpg'],'1'],
+  ['Cadillac','Escalade XL','49','2019','Black',['Luxury cars', 'SUV'],'900','1125','7560','32400','307','2060','8828','420','6,3','10,1','black_cadillac-escalade_2019_2962_main_f3eacb60bd0b00c5987c486d2ebef490.jpg',['black_cadillac-escalade_2019_6240_961e9f9d38273acb50c5bfb8d3075712.jpg','black_cadillac-escalade_2019_6242_ab92de81af1a7643ee258e389170d24d.jpg','black_cadillac-escalade-xl_2019_6932_db77d35b6f79dd3dcb181047f2492060.jpg','black_cadillac-escalade-xl_2019_6933_8cba752a027ddd7f077f156c079e4711.jpg','black_cadillac-escalade-xl_2019_6934_c535e6559145c3c1d0825236683281e2.jpg','black_cadillac-escalade-xl_2019_6935_fd182fbd65bca9177ab276d5e60ee34d.jpg','black_cadillac-escalade-xl_2019_6936_867d7475882dc3067e5f2b8264f74ecd.jpg','black_cadillac-escalade-xl_2019_6937_2dffada0ef53d90522d4947b0445f8f8.jpg','black_cadillac-escalade-xl_2019_6938_8852ddb6d60d0ae2350ff10d3afc4139.jpg','black_cadillac-escalade-xl_2019_6939_e402af27058e6c3e7786e7e235da0b73.jpg'],'1'],
+  ['Cadillac','Escalade','50','2022','White',['Luxury cars', 'SUV'],'1200','1500','10080','43200','409','2747','11771','409','6,7','10,8','Cadillac_Escalade_2022_main.jpg',['Cadillac_Escalade_2022_1.jpg','Cadillac_Escalade_2022_2.jpg','Cadillac_Escalade_2022_3.jpg','Cadillac_Escalade_2022_4.jpg','Cadillac_Escalade_2022_5.jpg','Cadillac_Escalade_2022_6.jpg','Cadillac_Escalade_2022_7.jpg','Cadillac_Escalade_2022_8.jpg','Cadillac_Escalade_2022_9.jpg','Cadillac_Escalade_2022_10.jpg'],'1'],
+  ['Cadillac','Escalade Sport Platinum','51','2022','Black',['Luxury cars', 'SUV'],'1200','1500','10080','43200','409','2747','11771','420','6,3','10,1','Cadillac_Escalade-Platinum-Sport_2021_main.jpg',['Cadillac_Escalade-Platinum-Sport_2021_1.jpg','Cadillac_Escalade-Platinum-Sport_2021_2.jpg','Cadillac_Escalade-Platinum-Sport_2021_3.jpg','Cadillac_Escalade-Platinum-Sport_2021_4.jpg','Cadillac_Escalade-Platinum-Sport_2021_5.jpg'],'1'],
+  ['Cadillac','Escalade','52','2022','Black',['Luxury cars', 'SUV'],'1200','1500','10080','43200','409','2747','11771','409','6,7','10,8','Cadillac_Escalade_2022_Black_main.jpg',['Cadillac_Escalade_2022_Black_1.jpg','Cadillac_Escalade_2022_Black_2.jpg','Cadillac_Escalade_2022_Black_3.jpg','Cadillac_Escalade_2022_Black_4.jpg','Cadillac_Escalade_2022_Black_5.jpg'],'1'],
+  ['Cadillac','Escalade','53','2021','Black',['Luxury cars', 'SUV'],'1100','1375','9240','39600','375','2518','10790','420','6,3','10,1','Cadillac Escalade, 2021 Black',['black_cadillac-escalade_2021_7154_c67cb1e33d14ad0c4a401f9e64f24d18.jpg','black_cadillac-escalade_2021_7155_1f2b2752b8b822100f60fd09af8b8378.jpg','black_cadillac-escalade_2021_7156_adc74d2f15bfc914c195a7ced936c927.jpg'],'1'],
+  ['Cadillac','Escalade','54','2019','Black',['Luxury cars', 'SUV'],'700','875','5880','25200','238','1602','6866','420','6,3','10,1','Cadillac Escalade, 2019 Black',['black_cadillac-escalade_2019_863_main.jpg','black_cadillac-escalade_2019_.jpg'],'1'],
+  ['Cadillac','Escalade Sport','55','2021','Black',['Luxury cars', 'SUV'],'1200','1500','10080','43200','409','2747','11771','420','6,3','10,1','Cadillac Escalade Short, 2021 Black',['black_cadillac-escalade-sport_2021_9062_5ecc7ae8b5157c36d4828e607b4a13b6.jpg','black_cadillac-escalade-sport_2021_9063_7001ed5921b5e2f30dfc51fb156abbda.jpg'],'1'],
+  ['Cadillac','Escalade','56','2021','White',['Luxury cars', 'SUV'],'1200','1500','10080','43200','409','2747','11771','420','6,3','10,1','Cadillac Escalade, 2021 White',['white_cadillac-escalade_2021_8546_5ab9b63c8aa9590f2a0e298167d4eadc.jpg','white_cadillac-escalade_2021_8547_79bee3fe9685a20f65e22a5d16ebd3cb.jpg','white_cadillac-escalade_2021_8548_f0e47d5154a436039bf1f9ac20d5b41f.jpg','white_cadillac-escalade_2021_8549_6ff514cd44f96529e5328a3161559558.jpg','white_cadillac-escalade_2021_8550_31acab33c97054bc1971831d4a648430.jpg','white_cadillac-escalade_2021_8552_10a394d0afb7a013904acf2fac97bfd5.jpg'],'1'],
+  ['Chevrolet','Tahoe Black Edition','57','2021','Purple Black',['Luxury cars', 'SUV'],'550','688','4620','19800','187','1259','5395','355','9,5','15,3','black_chevrolet-tahoe-black-edition_2021_3602_main_af92c3b5e98e2b361cdc7ba329f615bb.jpg',['black_chevrolet-tahoe-black-edition_2021_8202_00ab29ae1df3b43fd9aecad8d0cf9bff.jpg','black_chevrolet-tahoe-black-edition_2021_8203_5683e3e59e597e36c06baefb4751093b.jpg','black_chevrolet-tahoe-black-edition_2021_8204_e810e9d442390ade2ec51aea0ca41e21.jpg','black_chevrolet-tahoe-black-edition_2021_8205_1685b1ce786374981500b1bd60198175.jpg','black_chevrolet-tahoe-black-edition_2021_8206_61244c49aff14f7e4ba31b1189b4398d.jpg','black_chevrolet-tahoe-black-edition_2021_8208_8333dfddb72eb76a5e8c5363db437974.jpg'],'1'],
+  ['Chevrolet','Tahoe','58','2021','White',['Luxury cars', 'SUV'],'550','688','4620','19800','187','1259','5395','355','9,5','15,3','Chevrolet Tahoe, 2021 White',['white_chevrolet-tahoe_2021_3627_main_f40301904f94052ce3249ff3a08c10e9.jpg','white_chevrolet-tahoe_2021_8334_8c0b163e824b3446db6265f053d39e63.jpg','white_chevrolet-tahoe_2021_8335_6eea2de72ee91427087af3d5a5571fff.jpg','white_chevrolet-tahoe_2021_8341_bed394be4612cd3bd3cbb73c0319f4e9.jpg','white_chevrolet-tahoe_2021_8342_9486b793c5af20be929fd6efa8c358cf.jpg','white_chevrolet-tahoe_2021_8343_c193691b73e9e43c10a428173f4631fa.jpg','white_chevrolet-tahoe_2021_8344_9c4142026578bf06a737eb2f63b2ff2d.jpg'],'1'],
+  ['Chevrolet','Tahoe','59','2021','Beige',['Luxury cars', 'SUV'],'550','688','4620','19800','187','1259','5395','355','9,5','15,3','Chevrolet Tahoe, 2021 Beige',['beige_chevrolet-tahoe_2021_8345_e8e5c8b4305e012ff20a73cdf6e12cfd.jpg','beige_chevrolet-tahoe_2021_8346_3da3fae2d59804bbe58eb460bf7cef09.jpg','beige_chevrolet-tahoe_2021_8347_7b48ce7dc6f8676258b349a2f21279cb.jpg','beige_chevrolet-tahoe_2021_8348_f9d7916616647ea64fe521b59ff31dc5.jpg','beige_chevrolet-tahoe_2021_8349_237aba81e9cf55c733d073ca98b25579.jpg','beige_chevrolet-tahoe_2021_8350_4dfc8f47888dbe976439d98eacfe9e55.jpg','beige_chevrolet-tahoe_2021_8351_c060fd5e87293f9dee29a488d2b7eb1a.jpg'],'1'],
+  ['Chevrolet','Tahoe','60','2021','Blue',['Luxury cars', 'SUV'],'550','688','4620','19800','187','1259','5395','355','9,5','15,3','Chevrolet Tahoe, 2021 Blue',['blue_chevrolet-tahoe_2021_3617_main_786b9aca7911ac9cce15d395badeb828.jpg','blue_chevrolet-tahoe_2021_8302_1a4caa94900e55d0b194dfa53b970956.jpg','blue_chevrolet-tahoe_2021_8303_be0e0f74b97715271eb80e696fd882a7.jpg','blue_chevrolet-tahoe_2021_8305_9c759d679a29a340035fdc1ed89f6943.jpg','blue_chevrolet-tahoe_2021_8306_b94ad18bec0861d6d65c89f8a24811bf.jpg','blue_chevrolet-tahoe_2021_8307_aa7e4aa7c4c68ad01964dd8db99042f3.jpg'],'1'],
+  ['Chevrolet','Camaro','61','2019','Dark Blue',['Luxury cars', 'Supercars', 'Muscle cars'],'350','438','2940','12600','119','801','3433','650','5,3','8,5','Chevrolet Camaro, 2019 Dark Blue',['dark-blue_chevrolet-camaro_2019_6620_d8c1c6e0ba8e22377c0b63be98d56a5b.jpg','dark-blue_chevrolet-camaro_2019_6621_c7d878136533c9be2c1e8ac77991d826.jpg','dark-blue_chevrolet-camaro_2019_6622_f738b0bc408a20059dd7c8d8e8d8a05f.jpg'],'1'],
+  ['Dodge','Сhallenger Hellcat','62','2021','White',['Luxury cars'],'1200','1500','10080','43200','409','2747','11771','707','3,6','5,8','Dodge_Сhallenger_Hellcat_2021_main.jpg',['Dodge_Сhallenger_Hellcat_2021_1.jpg','Dodge_Сhallenger_Hellcat_2021_2.jpg','Dodge_Сhallenger_Hellcat_2021_3.jpg','Dodge_Сhallenger_Hellcat_2021_4.jpg','Dodge_Сhallenger_Hellcat_2021_5.jpg','Dodge_Сhallenger_Hellcat_2021_6.jpg','Dodge_Сhallenger_Hellcat_2021_7.jpg','Dodge_Сhallenger_Hellcat_2021_8.jpg','Dodge_Сhallenger_Hellcat_2021_9.jpg','Dodge_Сhallenger_Hellcat_2021_10.jpg','Dodge_Сhallenger_Hellcat_2021_11.jpg','Dodge_Сhallenger_Hellcat_2021_12.jpg','Dodge_Сhallenger_Hellcat_2021_13.jpg'],'1'],
+  ['Ferrari','Portofino','63','2019','Red',['Luxury cars', 'Convertible cars', 'Supercars', 'Exotic cars'],'2500','3125','21000','90000','851','5722','24523','600','3,5','5,6','FERRARI_Portofino_2019_Red_main.jpg',['FERRARI_Portofino_2019_Red_1.jpg','FERRARI_Portofino_2019_Red_2.jpg','FERRARI_Portofino_2019_Red_3.jpg','FERRARI_Portofino_2019_Red_4.jpg','FERRARI_Portofino_2019_Red_5.jpg','FERRARI_Portofino_2019_Red_6.jpg','FERRARI_Portofino_2019_Red_7.jpg'],'1'],
+  ['Ferrari','488 Spider','64','2017','White',['Luxury cars', 'Convertible cars', 'Supercars', 'Exotic cars'],'2500','3125','21000','90000','851','5722','24523','670','3','4,8','white_ferrari-488_2018_3531_main_1889fc653c4cbc65627390efd3c13457.jpg',['white_ferrari-488_2018_7744_556d18c28a9a494d376b77130f056e70.jpg','white_ferrari-488_2018_7745_5e85cb35c63f962f5f6f8f15ac79aab7.jpg','white_ferrari-488_2018_7746_d337b90846f4b533cd8ea82c6a638143.jpg','white_ferrari-488_2018_7747_1fedc707fe84eb1b760e40ad2fd50313.jpg','white_ferrari-488_2018_7748_737b80bbc73163b226890173d2b20a41.jpg'],'1'],
+  ['Ferrari','Portofino','65','2019','Yellow',['Luxury cars', 'Convertible cars', 'Supercars', 'Exotic cars'],'2500','3125','21000','90000','851','5722','24523','600','3,5','5,6','yellow_ferrari-portofino_2020_30_main_154c96e5f57372e3e59e4acd343b103e.jpg',['yellow_ferrari-portofino-_2020_2907.jpg','yellow_ferrari-portofino-_2020_2908.jpg','yellow_ferrari-portofino_2020_4731_5573806bb0825b80879fdc138ab23b3f.jpg'],'1'],
+  ['Ferrari','F8 Spider','66','2020','Red',['Luxury cars', 'Convertible cars', 'Supercars'],'3500','4375','29400','126000','1192','8011','34332','710','3,2','5,2','Ferrari_F8_Spider_2020_Red_main.jpg',['Ferrari_F8 Spider_2020_Red_1.jpg','Ferrari_F8 Spider_2020_Red_2.jpg','Ferrari_F8 Spider_2020_Red_3.jpg','Ferrari_F8 Spider_2020_Red_4.jpg','Ferrari_F8 Spider_2020_Red_5.jpg','Ferrari_F8 Spider_2020_Red_6.jpg','Ferrari_F8 Spider_2020_Red_7.jpg','Ferrari_F8 Spider_2020_Red_8.jpg','Ferrari_F8 Spider_2020_Red_9.jpg','Ferrari_F8 Spider_2020_Red_10.jpg','Ferrari_F8 Spider_2020_Red_11.jpg','Ferrari_F8 Spider_2020_Red_12.jpg'],'1'],
+  ['Ferrari','F8 Spider','67','2022','Red',['Luxury cars', 'Convertible cars', 'Supercars'],'3700','4625','31080','133200','1260','8469','36294','710','3,2','5,2','Ferrari_F8_Spider_2022_Red_main.jpg',['Ferrari_F8 Spider_2022_Red_1.jpg','Ferrari_F8 Spider_2022_Red_2.jpg','Ferrari_F8 Spider_2022_Red_3.jpg','Ferrari_F8 Spider_2022_Red_4.jpg','Ferrari_F8 Spider_2022_Red_5.jpg','Ferrari_F8 Spider_2022_Red_6.jpg','Ferrari_F8 Spider_2022_Red_7.jpg','Ferrari_F8 Spider_2022_Red_8.jpg','Ferrari_F8 Spider_2022_Red_9.jpg','Ferrari_F8 Spider_2022_Red_10.jpg'],'1'],
+  ['Ferrari','488 Spyder','68','2019','Red',['Luxury cars', 'Convertible cars', 'Supercars', 'Exotic cars'],'2600','3250','21840','93600','886','5951','25504','670','3','4,8','Ferrari 488 Spyder, 2019 Red',['red_ferrari-488-spyder_2019_8372_e142b4b284a795f2c602362b6abb51a4.jpg','red_ferrari-488-spyder_2019_8373_301390033cba6d57244aaeccbd474c0e.jpg','red_ferrari-488-spyder_2019_8374_deec446f9e93397aed821620f64b4f53.jpg','red_ferrari-488-spyder_2019_8375_bd93909255f82b12a1b70779b44c392d.jpg','red_ferrari-488-spyder_2019_8377_06522c056b3cc4de0e88511da3974220.jpg','red_ferrari-488-spyder_2019_8378_f30338b5b7921d077e709a2f6ba4bf33.jpg'],'1'],
+  ['Ferrari','F8 Tributo','69','2021','Red',['Luxury cars', 'Supercars'],'2999','3749','25192','107964','1021','6864','29418','710','3,2','5,2','Ferrari F8 Tributo, 2021 Red',['red_ferrari-f8-tributo_2021_8586_da12aa3b0d121620d205c7b576527bfb.jpg','red_ferrari-f8-tributo_2021_8587_a7a1eb7e5e53517005b52bc0f3c10a1b.jpg','red_ferrari-f8-tributo_2021_8590_f32071d316e8a8c67334a7de6bab5648.jpg','red_ferrari-f8-tributo_2021_8591_72e58c5adce0f2c8820b41c7ee3bd844.jpg','red_ferrari-f8-tributo_2021_8592_c8bfb0951099e727885eb957617b2f7e.jpg'],'1'],
+  ['Ferrari','F8 Tributo Spyder','70','2022','Red',['Luxury cars', 'Convertible cars', 'Supercars'],'4500','5625','37800','162000','1533','10300','44142','710','3,2','5,2','Ferrari F8 Tributo Spyder, 2022 Red',['Ferrari_F8_Tributo_Spyder_2022_Red_1.jpg','Ferrari_F8_Tributo_Spyder_2022_Red_2.jpg','Ferrari_F8_Tributo_Spyder_2022_Red_3.jpg','Ferrari_F8_Tributo_Spyder_2022_Red_4.jpg'],'1'],
+  ['Ferrari','F8 Tributo Spider','71','2021','Red',['Luxury cars', 'Convertible cars', 'Supercars'],'5200','6500','43680','187200','1771','11902','51008','710','3,2','5,2','Ferrari F8 Tributo Spider, 2021 Red',['red_ferrari-f8-tributo-spyder_2021_3561_main_06ea6834ac18461c9a619e7e0038b27a.jpg','red_ferrari-f8-tributo-spyder_2021_7920_bf31c9b0fdb4bb6f5a829b6fda2a5e2c.jpg','red_ferrari-f8-tributo-spyder_2021_7921_5dada31b30091e9f4a8167cf7d1b3ce4.jpg','red_ferrari-f8-tributo-spyder_2021_7922_be9b367fb4dc8e332457f97474fb3b4c.jpg','red_ferrari-f8-tributo-spyder_2021_7923_ad8b9caa637967ccd7085979d67d8e56.jpg','red_ferrari-f8-tributo-spyder_2021_7924_f25882922588ec1ef0c47346639c223b.jpg'],'1'],
+  ['Ford','Mustang','72','2020','Red',['Luxury cars', 'Convertible cars', 'Supercars', 'Muscle cars'],'350','438','2940','12600','119','801','3433','310','5,4','8,7','Ford_Mustang_2020_Red_main.jpg',['Ford_Mustang_2020_Red_1.jpg','Ford_Mustang_2020_Red_2.jpg','Ford_Mustang_2020_Red_3.jpg','Ford_Mustang_2020_Red_4.jpg','Ford_Mustang_2020_Red_5.jpg','Ford_Mustang_2020_Red_6.jpg','Ford_Mustang_2020_Red_7.jpg','Ford_Mustang_2020_Red_8.jpg'],'1'],
+  ['Ford','Mustang','73','2019','Blue',['Luxury cars', 'Convertible cars', 'Supercars', 'Muscle cars'],'400','500','3360','14400','136','916','3924','310','5,4','8,7','Ford_Mustang_2019_Blue_main.jpg',['Ford_Mustang_2019_Blue_1.jpg','Ford_Mustang_2019_Blue_2.jpg','Ford_Mustang_2019_Blue_3.jpg','Ford_Mustang_2019_Blue_4.jpg','Ford_Mustang_2019_Blue_5.jpg','Ford_Mustang_2019_Blue_6.jpg','Ford_Mustang_2019_Blue_7.jpg','Ford_Mustang_2019_Blue_8.jpg','Ford_Mustang_2019_Blue_9.jpg'],'1'],
+  ['GMC','Denali XL ,Top-of-the-line','74','2021','Black',['Luxury cars', 'SUV'],'700','875','5880','25200','238','1602','6866','420','6,2','10','GMC Denali XL ,Top-of-the-line, 2021 Black',['black_gmc-denali-xl_2021_8119_425b81f01f129af8f52bfab34e182e65.jpg','black_gmc-denali-xl_2021_8120_18ab8ce96c6ea3b5a7b700c526eedcef.jpg','black_gmc-denali-xl_2021_8121_d4988a39b67d38b64edc21f69a3c0e68.jpg','black_gmc-denali-xl_2021_8122_8c586e7315ae920a3b0b652f23ceb866.jpg','black_gmc-denali-xl_2021_8123_cb1e91146084a7063f618633bf34e124.jpg','black_gmc-denali-xl_2021_8124_a3e531bab5929208ab36830bb9898bc6.jpg','black_gmc-denali-xl_2021_8125_9e2b9cd34c6aca3d100c278ed911e7a5.jpg'],'1'],
+  ['GMC','Yukon XL','75','2021','Black',['Luxury cars', 'SUV'],'600','750','5040','21600','204','1373','5886','575','6,5','10,5','GMC Yukon XL, 2021 Black',['black_gmc-yukon-xl_2021_8533_bdb72070df86c29c0f822006c001053b.jpg','black_gmc-yukon-xl_2021_8534_3837fb7eb33e0b01084b0cbe295d01b2.jpg','black_gmc-yukon-xl_2021_8535_f772db488f734748709ab17a5a8c74d8.jpg','black_gmc-yukon-xl_2021_8536_34040378bcec6ce6e56662bef636a939.jpg','black_gmc-yukon-xl_2021_8537_d323c5a54a9e7ee578dcffa459898687.jpg','black_gmc-yukon-xl_2021_8538_6df9d6c0f318e8437c30f8d609e44091.jpg','black_gmc-yukon-xl_2021_8539_1c932e960279af0e3fcbab8218d153e1.jpg'],'1'],
+  ['GMC','Yukon','76','2021','Black',['Luxury cars', 'SUV'],'800','1000','6720','28800','272','1831','7847','265','8','12,9','GMC Yukon, 2021 Black',['black_gmc-yukon_2021_3231_main_22279ebd28e236c95a82bfe04b8902bb.jpg','black_gmc-yukon_2021_7298_a4d47056132a6dd521f364622dd021e9.jpg','black_gmc-yukon_2021_7299_de95b26afd0223bb41377b60e033b837.jpg','black_gmc-yukon_2021_7300_60e4f754434f5c70ffbe07238f797a78.jpg','black_gmc-yukon_2021_7301_52ed0d55171274371ba0796dc1dc4d96.jpg','black_gmc-yukon_2021_7302_a6fcc036f534a0870bee1d24bee1efc7.jpg'],'1'],
+  ['Lamborghini','Urus Mansory','77','2020','Yellow',['Luxury cars', 'SUV', 'Supercars'],'6000','7500','50400','216000','2044','13733','58856','650','3,6','5,8','Lamborghini_URUS_Mansory_main.jpg',['Lamborghini_URUS_Mansory_1.jpg','Lamborghini_URUS_Mansory_2.jpg','Lamborghini_URUS_Mansory_3.jpg','Lamborghini_URUS_Mansory_4.jpg','Lamborghini_URUS_Mansory_5.jpg','Lamborghini_URUS_Mansory_6.jpg','Lamborghini_URUS_Mansory_7.jpg'],'1'],
+  ['Lamborghini','Huracan STO','78','2022','Green',['Luxury cars', 'Supercars', 'Exotic cars'],'8000','10000','67200','288000','2725','18311','78474','580','3,2','5,2','Lamborghini_Hurucan_STO_Green_2022_main.jpg',['Lamborghini_Hurucan_STO_Green_2022_1.jpg','Lamborghini_Hurucan_STO_Green_2022_2.jpg','Lamborghini_Hurucan_STO_Green_2022_3.jpg','Lamborghini_Hurucan_STO_Green_2022_4.jpg','Lamborghini_Hurucan_STO_Green_2022_5.jpg','Lamborghini_Hurucan_STO_Green_2022_6.jpg','Lamborghini_Hurucan_STO_Green_2022_7.jpg','Lamborghini_Hurucan_STO_Green_2022_8.jpg','Lamborghini_Hurucan_STO_Green_2022_9.jpg','Lamborghini_Hurucan_STO_Green_2022_10.jpg'],'1'],
+  ['Lamborghini','Huracan Evo Spyder','79','2021','Green',['Luxury cars', 'Convertible cars', 'Supercars', 'Exotic cars'],'3200','4000','26880','115200','1090','7324','31390','631','3,1','5','green_lamborghini-evo-spyder_2021_3635_main_b12aaf72196ccc8773f116d368b5a1dd.jpg',['green_lamborghini-evo-spyder_2021_8408_83a6104303c452f34b34b3658e5d93d4.jpg','green_lamborghini-evo-spyder_2021_8409_bc595336c41b45f8b733948c869addb2.jpg','green_lamborghini-evo-spyder_2021_8410_cc2d11b7019de292192a472c3cac034c.jpg','green_lamborghini-evo-spyder_2021_8411_24a8446b51bc1abdd9c559be98c13337.jpg'],'1'],
+  ['Lamborghini','Urus','80','2021','Orange',['Luxury cars', 'SUV', 'Supercars'],'2999','3749','25192','107964','1021','6864','29418','650','3,6','5,8','Lamborghini_Urus_2021_Orange_main.jpg',['Lamborghini_Urus_2021_Orange_1.jpg','Lamborghini_Urus_2021_Orange_2.jpg','Lamborghini_Urus_2021_Orange_3.jpg','Lamborghini_Urus_2021_Orange_4.jpg','Lamborghini_Urus_2021_Orange_5.jpg','Lamborghini_Urus_2021_Orange_6.jpg','Lamborghini_Urus_2021_Orange_7.jpg','Lamborghini_Urus_2021_Orange_8.jpg','Lamborghini_Urus_2021_Orange_9.jpg','Lamborghini_Urus_2021_Orange_10.jpg'],'1'],
+  ['Lamborghini','Huracan Evo','81','2020','Green',['Luxury cars', 'Supercars', 'Exotic cars'],'3800','4750','31920','136800','1294','8698','37275','640','2,9','4,7','Lamborgini_Evo-Green-2020_1.jpg',['Lamborgini_Evo-Green-2020_2.jpg','Lamborgini_Evo-Green-2020_3.jpg','Lamborgini_Evo-Green-2020_4.jpg'],'1'],
+  ['Lamborghini','Aventador S Roadster','82','2018','Orange',['Luxury cars', 'Convertible cars', 'Supercars', 'Exotic cars'],'5500','6875','46200','198000','1873','12589','53951','730','2,9','4,7','Lamborghini_Aventador_2018_Orange_main.jpg',['Lamborghini_Aventador_2018_Orange_1.jpg','Lamborghini_Aventador_2018_Orange_2.jpg','Lamborghini_Aventador_2018_Orange_3.jpg','Lamborghini_Aventador_2018_Orange_4.jpg','Lamborghini_Aventador_2018_Orange_5.jpg'],'1'],
+  ['Lamborghini','Huracan Evo Spyder','83','2022','Green',['Luxury cars', 'Convertible cars', 'Supercars', 'Exotic cars'],'3200','4000','26880','115200','1090','7324','31390','631','3,1','5','Lamborghini_HuracanEvoSpyder_2022_Green_main.jpg',['Lamborghini_HuracanEvoSpyder_2022_Green_1.jpg','Lamborghini_HuracanEvoSpyder_2022_Green_2.jpg','Lamborghini_HuracanEvoSpyder_2022_Green_3.jpg','Lamborghini_HuracanEvoSpyder_2022_Green_4.jpg','Lamborghini_HuracanEvoSpyder_2022_Green_5.jpg','Lamborghini_HuracanEvoSpyder_2022_Green_6.jpg','Lamborghini_HuracanEvoSpyder_2022_Green_7.jpg','Lamborghini_HuracanEvoSpyder_2022_Green_8.jpg','Lamborghini_HuracanEvoSpyder_2022_Green_9.jpg','Lamborghini_HuracanEvoSpyder_2022_Green_11.jpg','Lamborghini_HuracanEvoSpyder_2022_Green_12.jpg','Lamborghini_HuracanEvoSpyder_2022_Green_13.jpg'],'1'],
+  ['Lamborghini','Urus Capsule','84','2022','Orange',['Luxury cars', 'SUV', 'Supercars'],'3300','4125','27720','118800','1124','7553','32371','650','3,6','5,8','Lamborghini_Urus_2022_Orange_main.jpg',['Lamborghini_Urus_2022_Orange_1.jpg','Lamborghini_Urus_2022_Orange_2.jpg','Lamborghini_Urus_2022_Orange_3.jpg','Lamborghini_Urus_2022_Orange_4.jpg','Lamborghini_Urus_2022_Orange_5.jpg','Lamborghini_Urus_2022_Orange_6.jpg'],'1'],
+  ['Lamborghini','Urus','85','2020','Red',['Luxury cars', 'SUV', 'Supercars'],'3000','3750','25200','108000','1022','6866','29428','650','3,6','5,8','Lamborghini Urus, 2020 Red',['red_lamborghini-urus_2020_8280_de93916ab5e1a4202713475f0a79e75f.jpg','red_lamborghini-urus_2020_8281_6094e864a24fa722b51d9547bdf7d253.jpg','red_lamborghini-urus_2020_8282_988f061df02f5bba1fb5eb648aaf429a.jpg','red_lamborghini-urus_2020_8283_001c13cb782b5456d14434f6190a8438.jpg','red_lamborghini-urus_2020_8284_304fdab3d20aa74d399e64361374a801.jpg','red_lamborghini-urus_2020_8285_e880901c01767508d204b0e35c184c0e.jpg','red_lamborghini-urus_2020_8286_3db6712a46caf9dbf2b1ce3dfa49cded.jpg','red_lamborghini-urus_2020_8287_6a3228bde16870fc8ade1ac2f440c95c.jpg'],'1'],
+  ['Lamborghini','Huracan Spyder','86','2017','Red',['Luxury cars', 'Convertible cars', 'Supercars', 'Exotic cars'],'2500','3125','21000','90000','851','5722','24523','580','3,2','5,2','Lamborghini Huracan Spyder, 2017 Red',['red_lamborghini-huracan-spyder_2017_8081_d5d44f3790575bd8c378e177b945256b.jpg','red_lamborghini-huracan-spyder_2017_8082_f7eafd5fe4e15562936bb325a80b16fb.jpg','red_lamborghini-huracan-spyder_2017_8083_4a48f62a63db5b2025a88b2f815b65cd.jpg','red_lamborghini-huracan-spyder_2017_8084_80c0a766baaac5e5ef391149f3b2a7ad.jpg','red_lamborghini-huracan-spyder_2017_8085_17840253177abf106e2d2d2f3152a123.jpg','red_lamborghini-huracan-spyder_2017_8087_6a5929c7123b9179c411499dfe815e3b.jpg','red_lamborghini-huracan-spyder_2017_8088_af7ea0bdb172599f2f98ad11d4098f17.jpg'],'1'],
+  ['Lamborghini','Urus','87','2020','Black',['Luxury cars', 'SUV', 'Supercars'],'3000','3750','25200','108000','1022','6866','29428','650','3,6','5,8','Lamborghini_Urus_2020_Black_main.jpg',['Lamborghini_Urus_2020_Black_1.jpg','Lamborghini_Urus_2020_Black_2.jpg','Lamborghini_Urus_2020_Black_3.jpg','Lamborghini_Urus_2020_Black_4.jpg','Lamborghini_Urus_2020_Black_5.jpg','Lamborghini_Urus_2020_Black_6.jpg','Lamborghini_Urus_2020_Black_7.jpg','Lamborghini_Urus_2020_Black_8.jpg','Lamborghini_Urus_2020_Black_9.jpg','Lamborghini_Urus_2020_Black_10.jpg'],'1'],
+  ['Lamborghini','Huracan Evo Spyder','88','2020','Blue',['Luxury cars', 'Convertible cars', 'Supercars', 'Exotic cars'],'3000','3750','25200','108000','1022','6866','29428','631','3,1','5','Lamborghini_Huracan_Evo_Spyder_2020_Blue_main.jpg',['Lamborghini_Huracan_Evo_Spyder_2020_Blue_1.jpg','Lamborghini_Huracan_Evo_Spyder_2020_Blue_2.jpg','Lamborghini_Huracan_Evo_Spyder_2020_Blue_3.jpg','Lamborghini_Huracan_Evo_Spyder_2020_Blue_4.jpg','Lamborghini_Huracan_Evo_Spyder_2020_Blue_5.jpg','Lamborghini_Huracan_Evo_Spyder_2020_Blue_6.jpg'],'1'],
+  ['Lamborghini','Urus','89','2022','Grey',['Luxury cars', 'SUV', 'Supercars'],'3100','3875','26040','111600','1056','7095','30409','650','3,6','5,8','Lamborghini Urus, 2022 Grey',['grey_lamborghini-urus-v8tt_2022_3737_main_e6b07d1388e8bb771469e970c5258737.jpg','grey_lamborghini-urus-v8tt_2022_8871_c2b6461ee16bfa6bb70702e5fb9b882f.jpg','grey_lamborghini-urus-v8tt_2022_8872_affa72c7795398cd4f1556d12ee570c1.jpg','grey_lamborghini-urus-v8tt_2022_8873_2beed2ea5aebc49e43f47cc444385bf0.jpg','grey_lamborghini-urus-v8tt_2022_8874_1db425a9a8e2a6bfc7b41f7aa38cb371.jpg'],'1'],
+  ['Lamborghini','Urus','90','2021','Green',['Luxury cars', 'SUV', 'Supercars'],'2999','3749','25192','107964','1021','6864','29418','650','3,6','5,8','Lamborghini_Urus_2021_Green_main.jpg',['Lamborghini_Urus_2021_Green_1.jpg','Lamborghini_Urus_2021_Green_2.jpg','Lamborghini_Urus_2021_Green_3.jpg','Lamborghini_Urus_2021_Green_4.jpg','Lamborghini_Urus_2021_Green_5.jpg','Lamborghini_Urus_2021_Green_6.jpg','Lamborghini_Urus_2021_Green_7.jpg','Lamborghini_Urus_2021_Green_8.jpg','Lamborghini_Urus_2021_Green_9.jpg'],'1'],
+  ['Lamborghini','Urus','91','2019','Yellow',['Luxury cars', 'SUV', 'Supercars'],'2800','3500','23520','100800','954','6409','27466','650','3,6','5,8','Lamborghini Urus, 2019 Yellow',['yellow_lamborghini-urus_2019_9140_814833d33b386b0aba8d70ce9f6c93bc.jpg','yellow_lamborghini-urus_2019_9141_f66a941336b2ff395a5054683bc752e3.jpg','yellow_lamborghini-urus_2019_9142_e6b6883a9cfb619766336ebe091fb889.jpg','yellow_lamborghini-urus_2019_9143_91703e1b444661cc7e9f26b6e806657e.jpg'],'1'],
+  ['Lamborghini','Huracan Evo Spyder','92','2021','Yellow',['Luxury cars', 'Convertible cars', 'Supercars', 'Exotic cars'],'3100','3875','26040','111600','1056','7095','30409','640','2,9','4,7','Lamborghini_Evo_Spyder_2021_Yellow_main.jpg',['Lamborghini_Evo_Spyder_2021_Yellow_1.jpg','Lamborghini_Evo_Spyder_2021_Yellow_2.jpg','Lamborghini_Evo_Spyder_2021_Yellow_3.jpg','Lamborghini_Evo_Spyder_2021_Yellow_4.jpg'],'1'],
+  ['Lamborghini','Urus','93','2021','Black',['Luxury cars', 'SUV', 'Supercars'],'3600','4500','30240','129600','1226','8240','35313','650','3,6','5,8','Lamborghini Urus, 2021 Black',['black_lamborghini-urus_2021_7732_914b2fa8876b4226df6f6108c02f518a.jpg','black_lamborghini-urus_2021_7733_8589229f63a2c5a45111a89ccb64c2a4.jpg','black_lamborghini-urus_2021_7734_9f62eb82d9f4cc6603d170219d0a23e1.jpg','black_lamborghini-urus_2021_7735_3fb4d55491c499a03001744eabc69d26.jpg'],'1'],
+  ['Lamborghini','Urus Capsule','94','2021','Green',['Luxury cars', 'SUV', 'Supercars'],'3200','4000','26880','115200','1090','7324','31390','650','3,6','5,8','Lamborghini Urus Capsule, 2021 Green',['Lamborghini_Urus_Capsule_2021_Green_1.jpg','Lamborghini_Urus_Capsule_2021_Green_2.jpg','Lamborghini_Urus_Capsule_2021_Green_3.jpg','Lamborghini_Urus_Capsule_2021_Green_4.jpg','Lamborghini_Urus_Capsule_2021_Green_5.jpg','Lamborghini_Urus_Capsule_2021_Green_6.jpg','Lamborghini_Urus_Capsule_2021_Green_7.jpg','Lamborghini_Urus_Capsule_2021_Green_8.jpg','Lamborghini_Urus_Capsule_2021_Green_9.jpg','Lamborghini_Urus_Capsule_2021_Green_10.jpg'],'1'],
+  ['Lamborghini','Huracan Evo','95','2019','Orange',['Luxury cars', 'Supercars', 'Exotic cars'],'3000','3750','25200','108000','1022','6866','29428','580','3,2','5,2','Lamborghini Huracan Evo, 2019 Orange',['orange_lamborghini-huracan-evo_2019_7583_397ab0268ed1a34aaea000fa3acbe4cb.jpg','orange_lamborghini-huracan-evo_2019_7584_77a5f5747c0b01d1ea03db2d290d4bb0.jpg','orange_lamborghini-huracan-evo_2019_7585_9b20da318d83080e0c29c1f1839b6110.jpg','orange_lamborghini-huracan-evo_2019_7586_0078757001a6fb273fd9084024f8b323.jpg','orange_lamborghini-huracan-evo_2019_7587_bed8e629713a50bac4f36c8adc6c6a9f.jpg','orange_lamborghini-huracan-evo_2019_7588_ed3e9ef1cfcaff8d7c2260b42c272083.jpg'],'1'],
+  ['Lamborghini','Urus','96','2020','Yellow',['Luxury cars', 'SUV', 'Supercars'],'3000','3750','25200','108000','1022','6866','29428','650','3,6','5,8','yellow_lamborghini_urus_2020_3587_main.jpg',['yellow_lamborghini-urus_2020_8095_0905bdd20a1fb81bc6c4118b05f3c254.jpg','yellow_lamborghini-urus_2020_8096_cd11328c1b4af454eeb1fa931a555f8b.jpg','yellow_lamborghini-urus_2020_8097_1375f56561a371f7a55f3d7a8cc73676.jpg','yellow_lamborghini-urus_2020_8098_8c589cbb33d25739374dd7094071d76e.jpg','yellow_lamborghini-urus_2020_8099_dd7a6a8a35f5c45b9ecde7000b1a635c.jpg','yellow_lamborghini-urus_2020_8101_ba9411f337a588e84d3d603ce8beb458.jpg','yellow_lamborghini-urus_2020_8102_3970c90013590a9c2baae4b93810e49a.jpg'],'1'],
+  ['Lamborghini','Urus','97','2019','Grey',['Luxury cars', 'SUV', 'Supercars'],'2800','3500','23520','100800','954','6409','27466','650','3,6','5,8','Lamborghini Urus, 2019 Grey',['Lamborghini_Urus_2019_Grey_1.jpg','Lamborghini_Urus_2019_Grey_2.jpg','Lamborghini_Urus_2019_Grey_3.jpg','Lamborghini_Urus_2019_Grey_4.jpg','Lamborghini_Urus_2019_Grey_5.jpg','Lamborghini_Urus_2019_Grey_6.jpg'],'1'],
+  ['Lamborghini','Huracan Spyder','98','2017','Yellow',['Luxury cars', 'Convertible cars', 'Supercars', 'Exotic cars'],'2800','3500','23520','100800','954','6409','27466','610','2,5','4','Lamborghini Huracan Spyder, 2017 Yellow',['yellow_lamborghini-huracan-spyder_2017_1778.jpg','yellow_lamborghini-huracan-spyder_2017_1779.jpg','yellow_lamborghini-huracan-spyder_2017_1780.jpg','yellow_lamborghini-huracan-spyder_2017_1781.jpg'],'1'],
+  ['Lamborghini','Huracan','99','2019','Yellow',['Luxury cars', 'Supercars', 'Exotic cars'],'1999','2499','16792','71964','681','4575','19609','580','3,2','5,2','Lamborghini_Huracan_2019_Yellow_main.jpg',['Lamborghini_Huracan_2019_Yellow_1.jpg','Lamborghini_Huracan_2019_Yellow_2.jpg','Lamborghini_Huracan_2019_Yellow_3.jpg','Lamborghini_Huracan_2019_Yellow_4.jpg','Lamborghini_Huracan_2019_Yellow_5.jpg'],'1'],
+  ['Lamborghini','Aventador Roadster','100','2018','White',['Luxury cars', 'Convertible cars', 'Supercars', 'Exotic cars'],'5500','6875','46200','198000','1873','12589','53951','730','2,9','4,7','Lamborghini Aventador Roadster, 2018 White',['white_lamborghini-aventador-roadster_2018_4522_1942941e7cbca517021bf7ba169654ae.jpg','white_lamborghini-aventador-roadster_2018_4523_e8a076dcfd4f0fb48968df0fd12044b7.jpg','white_lamborghini-aventador-roadster_2018_4524_0fb038379f246d45eec5263af40b31a2.jpg'],'1'],
+  ['Lamborghini','Huracan Spyder','101','2018','Grey',['Luxury cars', 'Convertible cars', 'Supercars', 'Exotic cars'],'2800','3500','23520','100800','954','6409','27466','568','2,4','3,9','Lamborghini Huracan Spyder, 2018 Grey',['grey_lamborghini-huracan-spyder_2018_.jpg','grey_lamborghini-huracan-spyder_2018_.jpg_.jpg','grey_lamborghini-huracan-spyder_2018_.jpg_.jpg_.jpg','grey_lamborghini-huracan-spyder_2018_.jpg_.jpg_.jpg_.jpg'],'1'],
+  ['Lamborghini','Huracan Evo Coupe','102','2020','Black',['Luxury cars', 'Supercars', 'Exotic cars'],'2600','3250','21840','93600','886','5951','25504','640','2,9','4,7','Lamborghini_Huracan_Evo_Coupe_2020_Black_main.jpg',['Lamborghini_Huracan_Evo_Coupe_2020_Black_1.jpg','Lamborghini_Huracan_Evo_Coupe_2020_Black_2.jpg','Lamborghini_Huracan_Evo_Coupe_2020_Black_3.jpg','Lamborghini_Huracan_Evo_Coupe_2020_Black_4.jpg','Lamborghini_Huracan_Evo_Coupe_2020_Black_5.jpg','Lamborghini_Huracan_Evo_Coupe_2020_Black_6.jpg','Lamborghini_Huracan_Evo_Coupe_2020_Black_7.jpg','Lamborghini_Huracan_Evo_Coupe_2020_Black_8.jpg','Lamborghini_Huracan_Evo_Coupe_2020_Black_9.jpg','Lamborghini_Huracan_Evo_Coupe_2020_Black_10.jpg','Lamborghini_Huracan_Evo_Coupe_2020_Black_11.jpg'],'1'],
+  ['Lexus','LX 570 S','103','2021','White',['Luxury cars', 'SUV'],'850','1063','7140','30600','290','1946','8338','362','7,7','12,4','Lexus_LX570_2022_White_main.jpg',['Lexus_LX570_2022_White_1.jpg','Lexus_LX570_2022_White_2.jpg','Lexus_LX570_2022_White_3.jpg','Lexus_LX570_2022_White_4.jpg','Lexus_LX570_2022_White_5.jpg','Lexus_LX570_2022_White_6.jpg','Lexus_LX570_2022_White_7.jpg'],'1'],
+  ['Lexus','LX 570','104','2019','Black',['Luxury cars', 'SUV'],'799','999','6712','28764','272','1829','7838','362','7,7','12,4','Lexus_LX570_2019_Black_main.jpg',['Lexus_LX570_2019_Black_1.jpg','Lexus_LX570_2019_Black_2.jpg','Lexus_LX570_2019_Black_3.jpg','Lexus_LX570_2019_Black_4.jpg','Lexus_LX570_2019_Black_5.jpg','Lexus_LX570_2019_Black_6.jpg','Lexus_LX570_2019_Black_7.jpg','Lexus_LX570_2019_Black_8.jpg','Lexus_LX570_2019_Black_9.jpg','Lexus_LX570_2019_Black_10.jpg'],'1'],
+  ['Lexus','LX 570','105','2020','Silver',['Luxury cars', 'SUV'],'799','999','6712','28764','272','1829','7838','362','7,7','12,4','Lexus_LX570_2020_Silver_main.jpg',['Lexus_LX570_2020_Silver_1.jpg','Lexus_LX570_2020_Silver_2.jpg','Lexus_LX570_2020_Silver_3.jpg','Lexus_LX570_2020_Silver_4.jpg','Lexus_LX570_2020_Silver_5.jpg','Lexus_LX570_2020_Silver_6.jpg','Lexus_LX570_2020_Silver_7.jpg','Lexus_LX570_2020_Silver_8.jpg','Lexus_LX570_2020_Silver_9.jpg','Lexus_LX570_2020_Silver_10.jpg'],'1'],
+  ['Maserati','MC20','106','2022','Blue',['Luxury cars', 'Supercars'],'8000','10000','67200','288000','2725','18311','78474','630','4,8','7,7','Maserati_МС20_2022_Blue_main.jpg',['Maserati_МС20_2022_Blue_1.jpg','Maserati_МС20_2022_Blue_2.jpg','Maserati_МС20_2022_Blue_3.jpg','Maserati_МС20_2022_Blue_4.jpg','Maserati_МС20_2022_Blue_5.jpg'],'1'],
+  ['Maserati','Levante S','107','2016','White',['Luxury cars', 'SUV'],'900','1125','7560','32400','307','2060','8828','350','6','9,7','Maserati_Levante_2016_White_main.jpg',['Maserati_Levante_2016_White_1.jpg','Maserati_Levante_2016_White_2.jpg','Maserati_Levante_2016_White_3.jpg'],'1'],
+  ['Maserati','Levante','108','2017','Dark Blue',['Luxury cars', 'SUV'],'750','938','6300','27000','255','1717','7357','350','6','9,7','Maserati-Levante-2017-DarkBlue_main.jpg',['Maserati-Levante-2017-DarkBlue_1.jpg','Maserati-Levante-2017-DarkBlue_2.jpg','Maserati-Levante-2017-DarkBlue_3.jpg','Maserati-Levante-2017-DarkBlue_4.jpg','Maserati-Levante-2017-DarkBlue_5.jpg','Maserati-Levante-2017-DarkBlue_6.jpg','Maserati-Levante-2017-DarkBlue_7.jpg','Maserati-Levante-2017-DarkBlue_8.jpg'],'1'],
+  ['McLaren','720S','109','2020','Orange',['Luxury cars', 'Supercars'],'3800','4750','31920','136800','1294','8698','37275','710','2,9','4,7','McLaren_720S_Orange_2020_main.jpg',['McLaren_720S_Orange_2020_2.jpg','McLaren_720S_Orange_2020_3.jpg','McLaren_720S_Orange_2020_4.jpg','McLaren_720S_Orange_2020_5.jpg','McLaren_720S_Orange_2020_6.jpg','McLaren_720S_Orange_2020_7.jpg'],'1'],
+  ['McLaren','720S','110','2020','Black',['Luxury cars', 'Supercars'],'3800','4750','31920','136800','1294','8698','37275','710','2,9','4,7','McLaren_720S_Black_2020_main.jpg',['McLaren_720S_Black_2020_1.jpg','McLaren_720S_Black_2020_2.jpg','McLaren_720S_Black_2020_3.jpg','McLaren_720S_Black_2020_4.jpg','McLaren_720S_Black_2020_5.jpg','McLaren_720S_Black_2020_6.jpg','McLaren_720S_Black_2020_7.jpg'],'1'],
+  ['McLaren','720S','111','2018','Green',['Luxury cars', 'Supercars'],'3500','4375','29400','126000','1192','8011','34332','710','2,9','4,7','McLaren_720S_2018_Green_main.jpg',['McLaren_720S_2018_Green_1.jpg','McLaren_720S_2018_Green_2.jpg','McLaren_720S_2018_Green_3.jpg','McLaren_720S_2018_Green_4.jpg','McLaren_720S_2018_Green_5.jpg','McLaren_720S_2018_Green_6.jpg','McLaren_720S_2018_Green_7.jpg','McLaren_720S_2018_Green_8.jpg'],'1'],
+  ['McLaren','570S Spyder','112','2018','Blue',['Luxury cars', 'Convertible cars', 'Supercars', 'Exotic cars'],'2400','3000','20160','86400','817','5493','23542','570','3,2','5,2','McLaren_570S_2018_Blue_main.jpg',['McLaren_570S_2018_Blue_1.jpg','McLaren_570S_2018_Blue_2.jpg','McLaren_570S_2018_Blue_3.jpg','McLaren_570S_2018_Blue_4.jpg','McLaren_570S_2018_Blue_5.jpg','McLaren_570S_2018_Blue_6.jpg','McLaren_570S_2018_Blue_7.jpg','McLaren_570S_2018_Blue_8.jpg'],'1'],
+  ['McLaren','570S Spyder','113','2020','Orange',['Luxury cars', 'Convertible cars', 'Supercars', 'Exotic cars'],'2600','3250','21840','93600','886','5951','25504','570','3,2','5,2','McLaren 570S Spyder, 2019 Orange',['McLaren_570S_Spyder_2020_Orange_1.jpg','McLaren_570S_Spyder_2020_Orange_2.jpg','McLaren_570S_Spyder_2020_Orange_3.jpg','McLaren_570S_Spyder_2020_Orange_4.jpg'],'1'],
+  ['McLaren','570S Spyder','114','2020','Red',['Luxury cars', 'Convertible cars', 'Supercars', 'Exotic cars'],'2600','3250','21840','93600','886','5951','25504','570','3,2','5,2','McLaren 570S, 2019 Red',['McLaren_570S_2020_Red_1.jpg','McLaren_570S_2020_Red_2.jpg','McLaren_570S_2020_Red_3.jpg'],'1'],
+  ['McLaren','570S','115','2019','Orange',['Luxury cars', 'Convertible cars', 'Supercars', 'Exotic cars'],'2350','2938','19740','84600','800','5379','23052','570','3,2','5,2','McLaren_570S_2019_Orange_main.jpg',['McLaren_570S_2019_Orange_1.jpg','McLaren_570S_2019_Orange_2.jpg','McLaren_570S_2019_Orange_3.jpg','McLaren_570S_2019_Orange_4.jpg','McLaren_570S_2019_Orange_5.jpg','McLaren_570S_2019_Orange_6.jpg','McLaren_570S_2019_Orange_7.jpg','McLaren_570S_2019_Orange_8.jpg'],'1'],
+  ['Mercedes-Benz','Maybach S560','116','2020','Black',['Luxury cars', 'Exotic cars', 'Supercars'],'2500','3125','21000','90000','851','5722','24523','469','4,9','7,9','Mercedes_Maybach_S560_Black_main.jpg',['Mercedes_Maybach_S560_Black_1.jpg','Mercedes_Maybach_S560_Black_2.jpg','Mercedes_Maybach_S560_Black_3.jpg','Mercedes_Maybach_S560_Black_4.jpg','Mercedes_Maybach_S560_Black_5.jpg','Mercedes_Maybach_S560_Black_6.jpg','Mercedes_Maybach_S560_Black_7.jpg','Mercedes_Maybach_S560_Black_8.jpg'],'1'],
+  ['Mercedes-Benz','Maybach GLS 600','117','2021','Black',['Luxury cars', 'SUV'],'5000','6250','42000','180000','1703','11444','49046','469','4,9','7,9','Mercedes_Maybach_GLS600_Black_main.jpg',['Mercedes_Maybach_GLS600_Black_1.jpg','Mercedes_Maybach_GLS600_Black_2.jpg','Mercedes_Maybach_GLS600_Black_3.jpg','Mercedes_Maybach_GLS600_Black_4.jpg','Mercedes_Maybach_GLS600_Black_5.jpg','Mercedes_Maybach_GLS600_Black_6.jpg'],'1'],
+  ['Mercedes-Benz','Maybach S680','118','2022','Black',['Luxury cars'],'3500','4375','29400','126000','1192','8011','34332','236','9','14,5','Mercedes-Benz_Maybach-S680_2022_13666_13666_589625614-1_small.jpg',['Mercedes-Benz_Maybach-S680_2022_13666_13666_5896228023-1.jpg','Mercedes-Benz_Maybach-S680_2022_13666_13666_5896235939-1_small.jpg','Mercedes-Benz_Maybach-S680_2022_13666_13666_5896239862-1_small.jpg','Mercedes-Benz_Maybach-S680_2022_13666_13666_5896258958-1_small.jpg','Mercedes-Benz_Maybach-S680_2022_13666_13666_5896282675-1_small.jpg','Mercedes-Benz_Maybach-S680_2022_13666_13666_5896283119-1.jpg','Mercedes-Benz_Maybach-S680_2022_13666_13666_5896287358-1.jpg','Mercedes-Benz_Maybach-S680_2022_13666_13666_5896293980-1_small.jpg','Mercedes-Benz_Maybach-S680_2022_13666_13666_5897746931-15_small.jpg'],'1'],
+  ['Mercedes-Benz','G63 DOUBLE NIGHT PACKAGE','119','2022','White',['Luxury cars', 'SUV'],'2500','3125','21000','90000','851','5722','24523','595','4,4','7,1','Mercedes-Benz_AMG-G63-Double-Night-Package_2022_13565_13565_5760231054-1_small.jpg',['Mercedes-Benz_AMG-G63-Double-Night-Package_2022_13565_13565_5760226162-1_small.jpg','Mercedes-Benz_AMG-G63-Double-Night-Package_2022_13565_13565_5760284291-1_small.jpg','Mercedes-Benz_AMG-G63-Double-Night-Package_2022_13565_13565_5760244674-1.jpg','Mercedes-Benz_AMG-G63-Double-Night-Package_2022_13565_13565_5760273580-1.jpg','Mercedes-Benz_AMG-G63-Double-Night-Package_2022_13565_13565_5760280017-1.jpg','Mercedes-Benz_AMG-G63-Double-Night-Package_2022_13565_13565_5760291869-1.jpg','Mercedes-Benz_AMG-G63-Double-Night-Package_2022_13565_13565_5760297092-1_small.jpg'],'1'],
+  ['Mercedes-Benz','G63 AMG','120','2022','Black',['Luxury cars', 'SUV'],'2250','2813','18900','81000','766','5150','22071','595','4,4','7,1','Mercedes-Benz_AMG-G63_2022_13475_13475_5691478055-3_small.jpg',['Mercedes-Benz_AMG-G63_2022_13475_13475_5691379978-2_small.jpg','Mercedes-Benz_AMG-G63_2022_13475_13475_5691337653-2_small.jpg','Mercedes-Benz_AMG-G63_2022_13475_13475_5691329778-2_small.jpg','Mercedes-Benz_AMG-G63_2022_13475_13475_5691315645-2_small.jpg','Mercedes-Benz_AMG-G63_2022_13475_13475_569153943-4_small.jpg','Mercedes-Benz_AMG-G63_2022_13475_13475_569135191-2_small.jpg','Mercedes-Benz_AMG-G63_2022_13475_13475_5691345121-2_small.jpg'],'1'],
+  ['Mercedes-Benz','GT63S','121','2019','Gray',['Luxury cars'],'1800','2250','15120','64800','613','4120','17657','476','3,8','6,1','Mercedes_GT63S_2019_Gray_main.jpg',['Mercedes_GT63S_2019_Gray_1.jpg','Mercedes_GT63S_2019_Gray_2.jpg','Mercedes_GT63S_2019_Gray_3.jpg','Mercedes_GT63S_2019_Gray_4.jpg','Mercedes_GT63S_2019_Gray_5.jpg','Mercedes_GT63S_2019_Gray_6.jpg','Mercedes_GT63S_2019_Gray_7.jpg','Mercedes_GT63S_2019_Gray_8.jpg','Mercedes_GT63S_2019_Gray_9.jpg','Mercedes_GT63S_2019_Gray_10.jpg'],'1'],
+  ['Mercedes-Benz','С300','122','2020','Black',['Luxury cars', 'Convertible cars'],'300','375','2520','10800','102','687','2943','204','7,1','11,4','Mercedes-Benz_C300-Convertible_2020_main.jpg',['Mercedes-Benz_C300-Convertible_2020_1.jpg','Mercedes-Benz_C300-Convertible_2020_2.jpg','Mercedes-Benz_C300-Convertible_2020_3.jpg','Mercedes-Benz_C300-Convertible_2020_4.jpg','Mercedes-Benz_C300-Convertible_2020_5.jpg','Mercedes-Benz_C300-Convertible_2020_6.jpg','Mercedes-Benz_C300-Convertible_2020_7.jpg','Mercedes-Benz_C300-Convertible_2020_8.jpg','Mercedes-Benz_C300-Convertible_2020_9.jpg','Mercedes-Benz_C300-Convertible_2020_10.jpg'],'1'],
+  ['Mercedes-Benz','GLC','123','2021','Black',['Luxury cars', 'SUV'],'800','1000','6720','28800','272','1831','7847','249','10','16,1','Mercedes_GLC_2021_Black_main.jpg',['Mercedes_GLC_2021_Black_1.jpg','Mercedes_GLC_2021_Black_2.jpg','Mercedes_GLC_2021_Black_3.jpg','Mercedes_GLC_2021_Black_4.jpg','Mercedes_GLC_2021_Black_5.jpg','Mercedes_GLC_2021_Black_6.jpg','Mercedes_GLC_2021_Black_7.jpg','Mercedes_GLC_2021_Black_8.jpg','Mercedes_GLC_2021_Black_9.jpg','Mercedes_GLC_2021_Black_10.jpg','Mercedes_GLC_2021_Black_11.jpg','Mercedes_GLC_2021_Black_12.jpg'],'1'],
+  ['Mercedes-Benz','Maybach 650','124','2020','Silver',['Luxury cars'],'','','21000','72000','','5722','19619','503','4,8','7,7','Mercedes_Maybach_650_2020_Black_main.jpg',['Mercedes_Maybach_650_2020_Black_1.jpg','Mercedes_Maybach_650_2020_Black_2.jpg','Mercedes_Maybach_650_2020_Black_3.jpg','Mercedes_Maybach_650_2020_Black_4.jpg','Mercedes_Maybach_650_2020_Black_5.jpg','Mercedes_Maybach_650_2020_Black_6.jpg','Mercedes_Maybach_650_2020_Black_7.jpg','Mercedes_Maybach_650_2020_Black_8.jpg','Mercedes_Maybach_650_2020_Black_9.jpg','Mercedes_Maybach_650_2020_Black_10.jpg'],'1'],
+  ['Mercedes-Benz','G63','125','2020','White',['Luxury cars', 'SUV'],'2000','2500','16800','72000','681','4578','19619','585','4,5','7,2','Mercedes_G63_2020_White_main.jpg',['Mercedes_G63_2020_White_1.jpg','Mercedes_G63_2020_White_2.jpg','Mercedes_G63_2020_White_3.jpg','Mercedes_G63_2020_White_4.jpg','Mercedes_G63_2020_White_5.jpg','Mercedes_G63_2020_White_6.jpg','Mercedes_G63_2020_White_7.jpg','Mercedes_G63_2020_White_8.jpg','Mercedes_G63_2020_White_9.jpg','Mercedes_G63_2020_White_10.jpg','Mercedes_G63_2020_White_11.jpg'],'1'],
+  ['Mercedes-Benz','G63','126','2020','Red',['Luxury cars', 'SUV'],'2000','2500','16800','72000','681','4578','19619','585','4,5','7,2','Mercedes_G63_2020_Red_main.jpg',['Mercedes_G63_2020_Red_1.jpg','Mercedes_G63_2020_Red_2.jpg','Mercedes_G63_2020_Red_3.jpg','Mercedes_G63_2020_Red_4.jpg','Mercedes_G63_2020_Red_5.jpg','Mercedes_G63_2020_Red_6.jpg','Mercedes_G63_2020_Red_7.jpg','Mercedes_G63_2020_Red_8.jpg','Mercedes_G63_2020_Red_9.jpg','Mercedes_G63_2020_Red_10.jpg'],'1'],
+  ['Mercedes-Benz','GLS 450','127','2021','White',['Luxury cars', 'SUV'],'1200','1500','10080','43200','409','2747','11771','367','6,2','10','Mercedes_GLS_450_2021_White_main.jpg',['Mercedes_GLS_450_2021_White_1.jpg','Mercedes_GLS_450_2021_White_2.jpg','Mercedes_GLS_450_2021_White_3.jpg','Mercedes_GLS_450_2021_White_4.jpg','Mercedes_GLS_450_2021_White_5.jpg','Mercedes_GLS_450_2021_White_6.jpg','Mercedes_GLS_450_2021_White_7.jpg','Mercedes_GLS_450_2021_White_8.jpg','Mercedes_GLS_450_2021_White_9.jpg','Mercedes_GLS_450_2021_White_10.jpg','Mercedes_GLS_450_2021_White_11.jpg'],'1'],
+  ['Mercedes-Benz','С200','128','2021','White',['Luxury cars', 'Convertible cars'],'600','750','5040','21600','204','1373','5886','197','7,1','11,4','Mercedes_C200_2021_White_main.jpg',['Mercedes_C200_2021_White_1.jpg','Mercedes_C200_2021_White_2.jpg','Mercedes_C200_2021_White_3.jpg','Mercedes_C200_2021_White_4.jpg','Mercedes_C200_2021_White_5.jpg','Mercedes_C200_2021_White_6.jpg','Mercedes_C200_2021_White_7.jpg','Mercedes_C200_2021_White_8.jpg','Mercedes_C200_2021_White_9.jpg'],'1'],
+  ['Mercedes-Benz','V class','129','2021','Black',['Luxury cars'],'700','875','5880','25200','238','1602','6866','211','9,4','15,1','black_mercedes-vito-_2021_3820_main_b0f2a49608a389388258c3b8a9b07d85.jpg',['black_mercedes-vito-_2021_9238_f33446930d90be0f0ec5016b9e0b259a.jpg','black_mercedes-vito-_2021_9239_65eb3f80f70a42ea95528c5cab222c72.jpg','black_mercedes-vito-_2021_9240_8140a11804ac3a9cc91b3a2037c591cd.jpg'],'1'],
+  ['Mercedes-Benz','G63 class','130','2021','White',['Luxury cars', 'SUV'],'1700','2125','14280','61200','579','3891','16676','595','4,4','7,1','Mercedes_G63_lass_2021_White_main.jpg',['Mercedes_G63 _lass_2021_White_1.jpg','Mercedes_G63 _lass_2021_White_2.jpg','Mercedes_G63 _lass_2021_White_3.jpg','Mercedes_G63 _lass_2021_White_4.jpg','Mercedes_G63 _lass_2021_White_5.jpg','Mercedes_G63 _lass_2021_White_6.jpg'],'1'],
+  ['Mercedes-Benz','S500 Class','131','2021','Black',['Luxury cars'],'1700','2125','14280','61200','579','3891','16676','503','4,8','7,7','Mercedes_S500_Class_2021_Black_main.jpg',['Mercedes_S500_Class_2021_Black_1.jpg','Mercedes_S500_Class_2021_Black_2.jpg','Mercedes_S500_Class_2021_Black_3.jpg','Mercedes_S500_Class_2021_Black_4.jpg','Mercedes_S500_Class_2021_Black_5.jpg','Mercedes_S500_Class_2021_Black_6.jpg','Mercedes_S500_Class_2021_Black_7.jpg','Mercedes_S500_Class_2021_Black_8.jpg','Mercedes_S500_Class_2021_Black_9.jpg','Mercedes_S500_Class_2021_Black_10.jpg','Mercedes_S500_Class_2021_Black_11.jpg','Mercedes_S500_Class_2021_Black_12.jpg'],'1'],
+  ['Mercedes-Benz','G63 Edition','132','2019','Black',['Luxury cars', 'SUV'],'1800','2250','15120','64800','613','4120','17657','595','4,4','7,1','Mercedes_G63_Edition_2019_Black_main.jpg',['Mercedes_G63_Edition_2019_Black_1.jpg','Mercedes_G63_Edition_2019_Black_2.jpg','Mercedes_G63_Edition_2019_Black_3.jpg','Mercedes_G63_Edition_2019_Black_4.jpg','Mercedes_G63_Edition_2019_Black_5.jpg','Mercedes_G63_Edition_2019_Black_8.jpg','Mercedes_G63_Edition_2019_Black_9.jpg'],'1'],
+  ['Mercedes-Benz','S Class','133','2021','Black',['Luxury cars'],'1500','1875','12600','54000','511','3433','14714','442','5,2','8,4','Mercedes_S_Class_2021_Black_main.jpg',['Mercedes_S_Class_2021_Black_1.jpg','Mercedes_S_Class_2021_Black_2.jpg','Mercedes_S_Class_2021_Black_3.jpg','Mercedes_S_Class_2021_Black_4.jpg','Mercedes_S_Class_2021_Black_5.jpg','Mercedes_S_Class_2021_Black_6.jpg','Mercedes_S_Class_2021_Black_7.jpg'],'1'],
+  ['Mercedes-Benz','G63 class','134','2019','Black',['Luxury cars', 'SUV'],'','','','','','','','595','4,4','7,1','Mercedes_G63_class_2019_Black_main.jpg',['Mercedes_G63_class_2019_Black_1.jpg','Mercedes_G63_class_2019_Black_2.jpg','Mercedes_G63_class_2019_Black_3.jpg','Mercedes_G63_class_2019_Black_4.jpg','Mercedes_G63_class_2019_Black_5.jpg','Mercedes_G63_class_2019_Black_6.jpg','Mercedes_G63_class_2019_Black_7.jpg','Mercedes_G63_class_2019_Black_8.jpg','Mercedes_G63_class_2019_Black_9.jpg','Mercedes_G63_class_2019_Black_10.jpg','Mercedes_G63_class_2019_Black_11.jpg','Mercedes_G63_class_2019_Black_12.jpg','Mercedes_G63_class_2019_Black_13.jpg','Mercedes_G63_class_2019_Black_14.jpg'],'0'],
+  ['Mercedes-Benz','S500','135','2022','Black',['Luxury cars'],'1650','2063','13860','59400','562','3777','16185','442','5,2','8,4','Mercedes_S500_2022_Black_main.jpg',['Mercedes_S500_2022_Black_1.jpg','Mercedes_S500_2022_Black_2.jpg','Mercedes_S500_2022_Black_3.jpg','Mercedes_S500_2022_Black_4.jpg','Mercedes_S500_2022_Black_5.jpg','Mercedes_S500_2022_Black_6.jpg','Mercedes_S500_2022_Black_7.jpg'],'1'],
+  ['Mercedes-Benz','AMG GT-R','136','2018','Green',['Luxury cars'],'1600','2000','13440','57600','545','3662','15695','510','3,8','6,1','Mercedes_GTR_2018_Green_main.jpg',['Mercedes_GTR_2018_Green_1.jpg','Mercedes_GTR_2018_Green_2.jpg','Mercedes_GTR_2018_Green_3.jpg','Mercedes_GTR_2018_Green_4.jpg','Mercedes_GTR_2018_Green_5.jpg','Mercedes_GTR_2018_Green_6.jpg','Mercedes_GTR_2018_Green_7.jpg'],'1'],
+  ['Mercedes-Benz','G63','137','2019','White',['Luxury cars', 'SUV'],'1800','2250','15120','64800','613','4120','17657','577','4,5','7,2','Mercedes-Benz_G63_2019_White_1.jpg',['Mercedes-Benz_G63_2019_White_2.jpg','Mercedes-Benz_G63_2019_White_3.jpg','Mercedes-Benz_G63_2019_White_4.jpg','Mercedes-Benz_G63_2019_White_5.jpg'],'1'],
+  ['Mercedes-Benz','G63 Edition One','138','2019','White',['Luxury cars', 'SUV'],'1800','2250','15120','64800','613','4120','17657','577','4,5','7,2','Mercedes-Benz G63 Edition One, 2019 White',['Mercedes-Benz_G63_Edition_One_2019_White_1.jpg','Mercedes-Benz_G63_Edition_One_2019_White_2.jpg','Mercedes-Benz_G63_Edition_One_2019_White_3.jpg','Mercedes-Benz_G63_Edition_One_2019_White_4.jpg'],'1'],
+  ['Mercedes-Benz','G classG63','139','2020','Black',['Luxury cars', 'SUV'],'','','','','','','','595','4,4','7,1','Mercedes G class, G63, 2020 Black',['Mercedes_G_class_G63_2020_Black_1.jpg','Mercedes_G_class_G63_2020_Black_2.jpg','Mercedes_G_class_G63_2020_Black_3.jpg','Mercedes_G_class_G63_2020_Black_4.jpg','Mercedes_G_class_G63_2020_Black_5.jpg','Mercedes_G_class_G63_2020_Black_6.jpg','Mercedes_G_class_G63_2020_Black_7.jpg'],'0'],
+  ['Mercedes-Benz','G63','140','2020','Black',['Luxury cars', 'SUV'],'2000','2500','16800','72000','681','4578','19619','595','4,4','7,1','Mercedes_G63_2020_Black_main.jpg',['Mercedes_G63_2020_Black_1.jpg','Mercedes_G63_2020_Black_2.jpg','Mercedes_G63_2020_Black_3.jpg','Mercedes_G63_2020_Black_4.jpg','Mercedes_G63_2020_Black_5.jpg','Mercedes_G63_2020_Black_6.jpg','Mercedes_G63_2020_Black_7.jpg','Mercedes_G63_2020_Black_8.jpg','Mercedes_G63_2020_Black_9.jpg','Mercedes_G63_2020_Black_10.jpg','Mercedes_G63_2020_Black_11.jpg'],'1'],
+  ['Mercedes-Benz','GLC 300','141','2020','White',['Luxury cars'],'700','875','5880','25200','238','1602','6866','255','6,5','10,5','Mercedes GLC 300, 2020 White',['Mercedes-GLC-300_2020_White_1.jpg','Mercedes-GLC-300_2020_White_2.jpg','Mercedes-GLC-300_2020_White_3.jpg','Mercedes-GLC-300_2020_White_4.jpg','Mercedes-GLC-300_2020_White_5.jpg'],'1'],
+  ['Mercedes-Benz','CLA','142','2019','White',['Luxury cars'],'400','500','3360','14400','136','916','3924','221','6,9','11,1','Mercedes CLA, 2019 White',['Mercedes_CLA_2018_White_1.jpg','Mercedes_CLA_2018_White_2.jpg','Mercedes_CLA_2018_White_3.jpg','Mercedes_CLA_2018_White_4.jpg'],'1'],
+  ['Mercedes-Benz','E300 Class','143','2022','Black',['Luxury cars'],'800','1000','6720','28800','272','1831','7847','333','5,8','9,3','Mercedes_E300_Class_2021_Black_main.jpg',['Mercedes_E300 Class_2021_Black_1.jpg','Mercedes_E300 Class_2021_Black_2.jpg','Mercedes_E300 Class_2021_Black_3.jpg','Mercedes_E300 Class_2021_Black_4.jpg','Mercedes_E300 Class_2021_Black_5.jpg','Mercedes_E300 Class_2021_Black_6.jpg','Mercedes_E300 Class_2021_Black_7.jpg','Mercedes_E300 Class_2021_Black_8.jpg','Mercedes_E300 Class_2021_Black_9.jpg'],'1'],
+  ['Mercedes-Benz','C200','144','2018','White',['Luxury cars'],'500','625','4200','18000','170','1144','4905','205','7,1','11,4','Mercedes C200, 2018 White',['white_mercedes-c200_2018_4417_5450f7eced537335f01ff98b9e9bdfe2.jpg','white_mercedes-c200_2018_1319.jpg'],'0'],
+  ['Mercedes-Benz','GTC','145','2019','Yellow',['Luxury cars'],'1700','2125','14280','61200','579','3891','16676','577','3,6','5,8','Mercedes GTC, 2019 Yellow',['Mercedes_GTC_2019_Yellow_1.jpg','Mercedes_GTC_2019_Yellow_2.jpg','Mercedes_GTC_2019_Yellow_3.jpg','Mercedes_GTC_2019_Yellow_4.jpg','Mercedes_GTC_2019_Yellow_5.jpg'],'1'],
+  ['Mercedes-Benz','G class G63','146','2019','Black',['Luxury cars', 'SUV'],'','','','','','','','595','4,4','7,1','Mercedes G class G63, 2019 Black','','0'],
+  ['Mercedes-Benz','G63','147','2019','Black',['Luxury cars', 'SUV'],'1700','2125','14280','61200','579','3891','16676','585','4,5','7,2','Mercedes G63, 2019 Black',['Mercedes_G63_2019_Black_1.jpg','Mercedes_G63_2019_Black_2.jpg','Mercedes_G63_2019_Black_3.jpg','Mercedes_G63_2019_Black_4.jpg','Mercedes_G63_2019_Black_5.jpg','Mercedes_G63_2019_Black_6.jpg','Mercedes_G63_2019_Black_7.jpg'],'1'],
+  ['Mercedes-Benz','S500 Convertible','148','2017','White',['Luxury cars', 'Convertible cars'],'1500','1875','12600','54000','511','3433','14714','449','4,6','7,4','Mercedes S500 Convertible, 2017 White',['white_mercedes-s-class_2017_1.jpg','white_mercedes-s-class_2017_2.jpg'],'1'],
+  ['Mercedes-Benz','S500 Coupe Convertible','149','2017','Black',['Luxury cars', 'Convertible cars'],'1500','1875','12600','54000','511','3433','14714','449','4,6','7,4','Mercedes_S500_2017_Black_1.jpg',['Mercedes_S500_2017_Black_2.jpg','Mercedes_S500_2017_Black_3.jpg','Mercedes_S500_2017_Black_4.jpg'],'1'],
+  ['Mercedes-Benz','Brabus G63 700 Widestar','150','2021','Purple',['Luxury cars', 'SUV'],'4500','5625','37800','162000','1533','10300','44142','700','4,3','6,9','Mercedes-Benz_Brabus_G63_700_Widestar_2021_main.jpg',['Mercedes-Benz_Brabus_G63_700_Widestar_2021_1.jpg','Mercedes-Benz_Brabus_G63_700_Widestar_2021_2.jpg','Mercedes-Benz_Brabus_G63_700_Widestar_2021_3.jpg','Mercedes-Benz_Brabus_G63_700_Widestar_2021_4.jpg','Mercedes-Benz_Brabus_G63_700_Widestar_2021_5.jpg','Mercedes-Benz_Brabus_G63_700_Widestar_2021_6.jpg','Mercedes-Benz_Brabus_G63_700_Widestar_2021_7.jpg'],'1'],
+  ['Mercedes-Benz','V 250 VIP','151','2022','Black',['Luxury cars'],'2000','2500','16800','72000','681','4578','19619','236','9','14,5','Mercedes-Benz_V250_VIP_2022_Black_main.jpg',['Mercedes-Benz_V250_VIP_2022_Black_1.jpg','Mercedes-Benz_V250_VIP_2022_Black_2.jpg','Mercedes-Benz_V250_VIP_2022_Black_3.jpg','Mercedes-Benz_V250_VIP_2022_Black_4.jpg','Mercedes-Benz_V250_VIP_2022_Black_5.jpg','Mercedes-Benz_V250_VIP_2022_Black_6.jpg','Mercedes-Benz_V250_VIP_2022_Black_7.jpg','Mercedes-Benz_V250_VIP_2022_Black_9.jpg'],'1'],
+  ['Mercedes-Benz','A 45S AMG','152','2021','Black',['Luxury cars', 'SUV'],'1000','1250','8400','36000','341','2289','9809','421','3,9','6,3','Mercedes-Benz_AMG45S_2021_Black_main.jpg',['Mercedes-Benz_AMG45S_2021_Black_1.jpg','Mercedes-Benz_AMG45S_2021_Black_2.jpg','Mercedes-Benz_AMG45S_2021_Black_3.jpg','Mercedes-Benz_AMG45S_2021_Black_4.jpg','Mercedes-Benz_AMG45S_2021_Black_5.jpg','Mercedes-Benz_AMG45S_2021_Black_6.jpg','Mercedes-Benz_AMG45S_2021_Black_7.jpg','Mercedes-Benz_AMG45S_2021_Black_8.jpg','Mercedes-Benz_AMG45S_2021_Black_9.jpg','Mercedes-Benz_AMG45S_2021_Black_10.jpg','Mercedes-Benz_AMG45S_2021_Black_11.jpg'],'1'],
+  ['Mercedes-Benz','AMG G63','153','2021','Black',['Luxury cars', 'SUV'],'1800','2250','15120','64800','613','4120','17657','595','4,4','7,1','Mercedes-Benz_AMG_G_63_2021_Black_main.jpg',['Mercedes-Benz_AMG_G_63_2021_Black_1.jpg','Mercedes-Benz_AMG_G_63_2021_Black_2.jpg','Mercedes-Benz_AMG_G_63_2021_Black_3.jpg','Mercedes-Benz_AMG_G_63_2021_Black_4.jpg','Mercedes-Benz_AMG_G_63_2021_Black_5.jpg'],'1'],
+  ['Mercedes-Benz','AMG GLC 63S','154','2019','Black',['Luxury cars', 'SUV'],'1000','1250','8400','36000','341','2289','9809','476','4','6,4','Mercedes-Benz_AMG_GLC_63S_2019_Black_main.jpg',['Mercedes-Benz_AMG_GLC_63S_2019_Black_1.jpg','Mercedes-Benz_AMG_GLC_63S_2019_Black_2.jpg','Mercedes-Benz_AMG_GLC_63S_2019_Black_3.jpg'],'1'],
+  ['Mercedes-Benz','AMG GLC 63S','155','2020','Matt Gray',['Luxury cars', 'SUV'],'1000','1250','8400','36000','341','2289','9809','476','4','6,4','Mercedes-Benz_AMG_GLC_63S_2020_Gray_main.jpg',['Mercedes-Benz_AMG_GLC_63S_2020_Gray_1.jpg','Mercedes-Benz_AMG_GLC_63S_2020_Gray_2.jpg','Mercedes-Benz_AMG_GLC_63S_2020_Gray_3.jpg'],'1'],
+  ['Mercedes-Benz','AMG GLS 63S - 7 Seats','156','2018','White',['Luxury cars', 'SUV'],'','','','','','','','476','4','6,4','Mercedes_Benz_AMG_GLS63_S_2019_main.jpg',['Mercedes_Benz_GLS_63S_V8_2019-1 (2)_small.jpg','Mercedes_Benz_GLS_63S_V8_2019-1 (4)_small.jpg','Mercedes_Benz_GLS_63S_V8_2019-1 (5)_small.jpg','Mercedes_Benz_GLS_63S_V8_2019-1 (6)_small.jpg','Mercedes_Benz_AMG_GLS63_S_2019_8155_-10 (2)_small.jpg'],'0'],
+  ['Mercedes-Benz','AMG GT 63s Edition','157','2021','Matt Blue',['Luxury cars', 'SUV'],'1700','2125','14280','61200','579','3891','16676','367','3,5','5,6','Mercedes-Benz_AMG_GT_63s_Edition_2021_Blue_main.jpg',['Mercedes-Benz_AMG_GT_63s_Edition_2021_Blue_1.jpg','Mercedes-Benz_AMG_GT_63s_Edition_2021_Blue_2.jpg','Mercedes-Benz_AMG_GT_63s_Edition_2021_Blue_3.jpg'],'1'],
+  ['Mercedes-Benz','G63 class','158','2020','White',['Luxury cars', 'SUV'],'1700','2125','14280','61200','579','3891','16676','595','4,4','7,1','white_mercedes-g-class_2020_2682_main_c72e204be207e7f86678b1d0b9b6d956.jpg',['white_mercedes-g-class_2020_4782_c3f9c101b3865f87a0eb888315bbe8dc.jpg','white_mercedes-g-class_2020_4783_48ab96c18e1360e10becfe7853ba5acf.jpg','white_mercedes-g-class_2020_4784_e95d32789c4d77790c6476fbe3e70d4c.jpg','white_mercedes-g-class_2020_4785_25881a3740051774a767ae90825b0c7d.jpg'],'1'],
+  ['Mercedes-Benz','G63 class','159','2021','Gray',['Luxury cars', 'SUV'],'1700','2125','14280','61200','579','3891','16676','595','4,4','7,1','grey_mercedes-g63-class_2021_3607_main_00ed86b7b7f3baf1a2c500a13f9db5cd.jpg',['grey_mercedes-g63-class_2021_8241_ea40840bda3d1311bc696565f32a3a30.jpg','grey_mercedes-g63-class_2021_8242_e8ec31a7fb5f2eff334a1f2278e5f3e2.jpg','grey_mercedes-g63-class_2021_8243_47b4b63b9a3e5acec97d1701cc91d4d4.jpg','grey_mercedes-g63-class_2021_8244_e4ae1a394fa69b5f52a8abc3a02b52d5.jpg','grey_mercedes-g63-class_2021_8245_24448c3e759536f6519a9a1b48624abc.jpg','grey_mercedes-g63-class_2021_8246_d430930355f6046bb3e8c10e04e9233f.jpg','grey_mercedes-g63-class_2021_8247_cc84e739929a6cd3ddd938bc4e43af26.jpg'],'1'],
+  ['Mercedes-Benz','G63 class','160','2020','Black',['Luxury cars', 'SUV'],'1700','2125','14280','61200','579','3891','16676','595','4,4','7,1','black_mercedes-g-class_2020_3139_main_710eee22a8efb137bdf2720f62ebeeae.jpg',['black_mercedes-g-class_2020_6898_a84f070af16e83aa026d72b591a5b245.jpg','black_mercedes-g-class_2020_6899_cbe3b249e11085cddfa8cb433450a831.jpg','black_mercedes-g-class_2020_6900_e0ce6d4bb3eaf6306928c400bab22c06.jpg'],'1'],
+  ['Mercedes-Benz','G63 class','161','2021','Black',['Luxury cars', 'SUV'],'1700','2125','14280','61200','579','3891','16676','595','4,4','7,1','black_mercedes-g-class_2021_3631_main_dc65c31b251e00aa1fb83e2fef35aa9f.jpg',['black_mercedes-g-class_2021_8436_65a08d86a49c97224cc0891f3508147b.jpg','black_mercedes-g-class_2021_8437_c561137f37441b410a9b4a633f092603.jpg','black_mercedes-g-class_2021_8438_e55707713100ba74e82b48bc637c5d2c.jpg','black_mercedes-g-class_2021_8440_4fa588c282e4e3215939fc1260e785d3.jpg','black_mercedes-g-class_2021_8441_c988163a3f3446ef04957edc398a1dfc.jpg','black_mercedes-g-class_2021_8442_6b6622892282c43e688e16ef820d2837.jpg','black_mercedes-g-class_2021_8443_baa7a483b31f59c4f4816f010a1a75fe.jpg'],'1'],
+  ['Mercedes-Benz','E300','162','2018','White',['Luxury cars'],'400','500','3360','14400','136','916','3924','252','7,4','11,9','Mercedes-Benz_E300_2018_White_main.jpg',['Mercedes-Benz_E300_2018_White_1.jpg','Mercedes-Benz_E300_2018_White_2.jpg','Mercedes-Benz_E300_2018_White_3.jpg','Mercedes-Benz_E300_2018_White_4.jpg','Mercedes-Benz_E300_2018_White_5.jpg'],'1'],
+  ['Mercedes-Benz','G63','163','2022','Black',['Luxury cars', 'SUV'],'2200','2750','18480','79200','749','5035','21580','595','4,4','7,1','Mercedes-Benz_G63_2022_Black_main.jpg',['Mercedes-Benz_G63_2022_Black_1.jpg','Mercedes-Benz_G63_2022_Black_2.jpg','Mercedes-Benz_G63_2022_Black_3.jpg','Mercedes-Benz_G63_2022_Black_4.jpg','Mercedes-Benz_G63_2022_Black_5.jpg'],'1'],
+  ['Mercedes-Benz','G63','164','2022','Gray',['Luxury cars', 'SUV'],'2200','2750','18480','79200','749','5035','21580','595','4,4','7,1','Mercedes-Benz_G63_2022_Gray_main.jpg',['Mercedes-Benz_G63_2022_Gray_1.jpg','Mercedes-Benz_G63_2022_Gray_2.jpg','Mercedes-Benz_G63_2022_Gray_3.jpg','Mercedes-Benz_G63_2022_Gray_4.jpg','Mercedes-Benz_G63_2022_Gray_5.jpg'],'1'],
+  ['Mercedes-Benz','S450','165','2020','Black',['Luxury cars'],'750','938','6300','27000','255','1717','7357','367','5,2','8,4','Mercedes-Benz_S450_2020_Black_main.jpg',['Mercedes-Benz_S450_2020_Black_1.jpg','Mercedes-Benz_S450_2020_Black_2.jpg','Mercedes-Benz_S450_2020_Black_3.jpg','Mercedes-Benz_S450_2020_Black_4.jpg','Mercedes-Benz_S450_2020_Black_5.jpg','Mercedes-Benz_S450_2020_Black_6.jpg'],'1'],
+  ['Mercedes-Benz','S450','166','2020','Pearl White',['Luxury cars'],'750','938','6300','27000','255','1717','7357','367','5,2','8,4','Mercedes-Benz_S450_2020_White_main.jpg',['Mercedes-Benz_S450_2020_White_1.jpg','Mercedes-Benz_S450_2020_White_2.jpg','Mercedes-Benz_S450_2020_White_4.jpg','Mercedes-Benz_S450_2020_White_5.jpg'],'1'],
+  ['Mercedes-Benz','GT','167','2020','Blue',['Luxury cars'],'1200','1500','10080','43200','409','2747','11771','462','3,7','6','Mercedes-Benz_GT_2020_Blue_main.jpg',['Mercedes-Benz_GT_2020_Blue_1.jpg','Mercedes-Benz_GT_2020_Blue_2.jpg','Mercedes-Benz_GT_2020_Blue_3.jpg','Mercedes-Benz_GT_2020_Blue_4.jpg','Mercedes-Benz_GT_2020_Blue_5.jpg'],'1'],
+  ['Mercedes-Benz','GT','168','2019','Green',['Luxury cars'],'1400','1750','11760','50400','477','3204','13733','557','3,6','5,8','Mercedes-Benz_GT_2019_Green_main.jpg',['Mercedes-Benz_GT_2019_Green_1.jpg','Mercedes-Benz_GT_2019_Green_2.jpg','Mercedes-Benz_GT_2019_Green_3.jpg','Mercedes-Benz_GT_2019_Green_4.jpg','Mercedes-Benz_GT_2019_Green_5.jpg','Mercedes-Benz_GT_2019_Green_6.jpg','Mercedes-Benz_GT_2019_Green_7.jpg','Mercedes-Benz_GT_2019_Green_8.jpg','Mercedes-Benz_GT_2019_Green_9.jpg','Mercedes-Benz_GT_2019_Green_10.jpg'],'1'],
+  ['Mercedes-Benz','A 220','169','2019','White',['Luxury cars'],'400','500','3360','14400','136','916','3924','163','8','12,9','MercedesBenz_A220_2019_White_main.jpg',['MercedesBenz_A220_2019_White_1.jpg','MercedesBenz_A220_2019_White_2.jpg','MercedesBenz_A220_2019_White_3.jpg'],'1'],
+  ['Mercedes-Benz','C 200 Cabrio','170','2018','White',['Luxury cars', 'Convertible cars'],'400','500','3360','14400','136','916','3924','205','7,1','11,4','white_mercedes-c200_2018_1566_main.jpg',['white_mercedes-c200_2018_2533.jpg','white_mercedes-c200_2018_2536.jpg','white_mercedes-c200_2018_2537.jpg'],'1'],
+  ['Mercedes-Benz','E 300','171','2019','White',['Luxury cars'],'500','625','4200','18000','170','1144','4905','184','7,7','12,4','white_mercedes-e300-class_2019_3799_main_93684e86fe2969cf50b37e6a6869f725.jpg',['white_mercedes-e300-class_2019_9149_6cbe9aacd41a155ca633f64bda82c3d0.jpg','white_mercedes-e300-class_2019_9150_2a21862079766be398ea00872bff72d9.jpg','white_mercedes-e300-class_2019_9151_fff87d615c32be121f99ddd439d71fed.jpg','white_mercedes-e300-class_2019_9152_6ef21e686873beeffb71563fc2ced4f1.jpg','white_mercedes-e300-class_2019_9153_6eefa18192e62e9cf9c7429783e0d2e7.jpg'],'1'],
+  ['Mercedes-Benz','GLC 200','172','2020','White',['Luxury cars', 'SUV'],'700','875','5880','25200','238','1602','6866','249','10','16,5','Mercedes_GLC200_2020_White_main.jpg',['Mercedes_GLC200_2020_White_1.jpg','Mercedes_GLC200_2020_White_2.jpg','Mercedes_GLC200_2020_White_3.jpg','Mercedes_GLC200_2020_White_4.jpg'],'1'],
+  ['Mercedes-Benz','GLC 300','173','2020','Black',['Luxury cars', 'SUV'],'700','875','5880','25200','238','1602','6866','255','6,5','10,5','Mercedes-Benz_GLC300_2020_Black_main.jpg',['Mercedes-Benz_GLC300_2020_Black_1.jpg','Mercedes-Benz_GLC300_2020_Black_3.jpg','Mercedes-Benz_GLC300_2020_Black_4.jpg','Mercedes-Benz_GLC300_2020_Black_5.jpg','Mercedes-Benz_GLC300_2020_Black_6.jpg'],'1'],
+  ['Mercedes-Benz','S450','174','2018','Black',['Luxury cars'],'1200','1500','10080','43200','409','2747','11771','422','5,2','8,4','Mercedes-Benz_S450_2018_Black_main.jpg',['Mercedes-Benz_S450_2018_Black_1.jpg','Mercedes-Benz_S450_2018_Black_2.jpg','Mercedes-Benz_S450_2018_Black_3.jpg','Mercedes-Benz_S450_2018_Black_4.jpg','Mercedes-Benz_S450_2018_Black_5.jpg'],'1'],
+  ['Mercedes-Benz','GLE 63','175','2017','White',['Luxury cars', 'SUV'],'1000','1250','8400','36000','341','2289','9809','557','4,3','6,9','white_mercedes-gle-amg-63_2017_1976.jpg',['white_mercedes-gle-amg-63_2017_1977.jpg','white_mercedes-gle-amg-63_2017_1978','white_mercedes-gle-amg-63_2017_1979'],'1'],
+  ['Mercedes-Benz','G63','176','2016','White',['Luxury cars', 'SUV'],'1000','1250','8400','36000','341','2289','9809','595','4,4','7,1','white_mercedes-g63_2016_1139_main_49e7ee02fba41144210ded404cc4f156.jpg',['white_mercedes-g63_2016_3318_83f5082a4019f6d35a832c263e0ba765.jpg','white_mercedes-g63_2016_3319_b6f0ddb35620a1f945f33d11e1a6bb48.jpg','white_mercedes-g63_2016_4528_820bb92e341e305696af63d607d00a4a.jpg'],'1'],
+  ['Mercedes-Benz','G63','177','2020','White',['Luxury cars', 'SUV'],'','','','','','','','595','4,4','7,1','Mercedes-Benz_G63_2020_White_main.jpg',['Mercedes-Benz_G63_2020_White_1.jpg','Mercedes-Benz_G63_2020_White_2.jpg','Mercedes-Benz_G63_2020_White_3.jpg','Mercedes-Benz_G63_2020_White_4.jpg'],'0'],
+  ['Mercedes-Benz','Maybach','178','2018','White',['Luxury cars'],'2300','2875','19320','82800','783','5264','22561','503','4,8','7,7','Mercedes-Maybach-2018_1.jpg',['Mercedes-Maybach-2018_2.jpg','Mercedes-Maybach-2018_3.jpg','Mercedes-Maybach-2018_4.jpg'],'1'],
+  ['Mercedes-Benz','Viano','179','2020','Black',['Luxury cars'],'1000','1250','8400','36000','341','2289','9809','258','9','14,5','Merecedes-Benz-V-Class-2020_1.jpg',['Merecedes-Benz-V-Class-2020_2.jpg','Merecedes-Benz-V-Class-2020_3.jpg','Merecedes-Benz-V-Class-2020_4.jpg'],'1'],
+  ['Mercedes-Benz','AMG GLC 63S','180','2018','White',['Luxury cars', 'SUV'],'1000','1250','8400','36000','341','2289','9809','476','4','6,4','BMW_mercedes-amg_glc_63_main.jpg',['BMW_mercedes-amg_glc_63_1.jpg','BMW_mercedes-amg_glc_63_2.jpg','BMW_mercedes-amg_glc_63_3.jpg','BMW_mercedes-amg_glc_63_4.jpg','BMW_mercedes-amg_glc_63_5.jpg','BMW_mercedes-amg_glc_63_6.jpg','BMW_mercedes-amg_glc_63_7.jpg'],'1'],
+  ['Mercedes-Benz','AMG G63','181','2021','White',['Luxury cars', 'SUV'],'1800','2250','15120','64800','613','4120','17657','595','4,4','7,1','Mercedes_AMG_G63_2021_White_main.jpg',['Mercedes_AMG_G63_2021_White_1.jpg','Mercedes_AMG_G63_2021_White_2.jpg','Mercedes_AMG_G63_2021_White_3.jpg','Mercedes_AMG_G63_2021_White_4.jpg','Mercedes_AMG_G63_2021_White_5.jpg','Mercedes_AMG_G63_2021_White_6.jpg','Mercedes_AMG_G63_2021_White_7.jpg'],'1'],
+  ['MINI','Cooper','182','2016','Blue',['Luxury cars'],'300','375','2520','10800','102','687','2943','208','6,1','9,8','Mini-cooper_2016_Blue_main.jpg',['Mini-cooper_2016_Blue_1.jpg','Mini-cooper_2016_Blue_2.jpg'],'1'],
+  ['Mini','Cooper','183','2019','Silver',['Luxury cars', 'Convertible cars'],'400','500','3360','14400','136','916','3924','208','6,1','9,8','Mini Cooper, 2019 Silver',['grey_mini-cooper-cabrio_2019_9137_969615274acb62c140006bcb01fbc7e1.jpg','grey_mini-cooper-cabrio_2019_9138_a53ee543b5909f2ba5dac7da513c4840.jpg','grey_mini-cooper-cabrio_2019_9139_6108bc09a488eb9e3739c12e2dda98e7.jpg'],'1'],
+  ['Mini','Cooper','184','2019','Black',['Luxury cars'],'400','500','3360','14400','136','916','3924','208','6,1','9,8','Mini Cooper, 2019 Black',['Mini_Cooper_2019_Black_1.jpg','Mini_Cooper_2019_Black_2.jpg','Mini_Cooper_2019_Black_3.jpg','Mini_Cooper_2019_Black_4.jpg'],'1'],
+  ['Mini','Cooper','185','2016','White',['Luxury cars'],'300','375','2520','10800','102','687','2943','208','6,1','9,8','Mini_2016_White_1.jpg',['Mini_2016_White_2.jpg','Mini_2016_White_3.jpg','Mini_2016_White_4.jpg','Mini_2016_White_5.jpg'],'1'],
+  ['Nissan','PATROL LE PLATINUM','186','2022','White',['Luxury cars', 'SUV'],'750','938','6300','27000','255','1717','7357','400','6,6','10,6','Nissan_PATROL_LEPLATINUM_2022_White_main.jpg',['Nissan_PATROL LE PLATINUM_2022_White_1.jpg','Nissan_PATROL LE PLATINUM_2022_White_2.jpg','Nissan_PATROL LE PLATINUM_2022_White_3.jpg','Nissan_PATROL LE PLATINUM_2022_White_4.jpg','Nissan_PATROL LE PLATINUM_2022_White_5.jpg','Nissan_PATROL LE PLATINUM_2022_White_6.jpg'],'1'],
+  ['Nissan','Patrol','187','2021','Beige',['Luxury cars', 'SUV'],'550','688','4620','19800','187','1259','5395','400','6,6','10,6','Nassan_Patrol_Biege_2021_main.jpg',['Nassan_Patrol_Biege_2021_1.jpg','Nassan_Patrol_Biege_2021_2.jpg'],'1'],
+  ['Nissan','Patrol','188','2019','White',['Luxury cars', 'SUV'],'500','625','4200','18000','170','1144','4905','400','6,6','10,6','Nissan_Patrol_2019_White_main.jpg',['Nissan_Patrol_2019_White_1.jpg','Nissan_Patrol_2019_White_2.jpg','Nissan_Patrol_2019_White_3.jpg','Nissan_Patrol_2019_White_4.jpg','Nissan_Patrol_2019_White_5.jpg','Nissan_Patrol_2019_White_6.jpg','Nissan_Patrol_2019_White_7.jpg','Nissan_Patrol_2019_White_8.jpg'],'1'],
+  ['Nissan','Patrol','189','2020','Blue',['Luxury cars', 'SUV'],'600','750','5040','21600','204','1373','5886','400','6,6','10,6','Nissan_Patrol_2020_blue_main.jpg',['Nissan_Patrol_2020_blue_1.jpg','Nissan_Patrol_2020_blue_2.jpg','Nissan_Patrol_2020_blue_3.jpg'],'1'],
+  ['Nissan','Patrol','190','2020','Gray',['Luxury cars', 'SUV'],'600','750','5040','21600','204','1373','5886','400','6,6','10,6','Nissan_Patrol_2020_Gray_main.jpg',['Nissan_Patrol_2020_Gray_1.jpg','Nissan_Patrol_2020_Gray_2.jpg','Nissan_Patrol_2020_Gray_3.jpg'],'1'],
+  ['Nissan','Patrol','191','2022','White',['Luxury cars', 'SUV'],'600','750','5040','21600','204','1373','5886','428','6,6','10,6','Nissan_Patrol_2022_White_main.jpg',['Nissan_Patrol_2022_White_1.jpg','Nissan_Patrol_2022_White_2.jpg','Nissan_Patrol_2022_White_3.jpg','Nissan_Patrol_2022_White_4.jpg','Nissan_Patrol_2022_White_5.jpg','Nissan_Patrol_2022_White_6.jpg','Nissan_Patrol_2022_White_7.jpg','Nissan_Patrol_2022_White_8.jpg','Nissan_Patrol_2022_White_9.jpg','Nissan_Patrol_2022_White_10.jpg','Nissan_Patrol_2022_White_11.jpg'],'1'],
+  ['Nissan','Patrol V8 Platinum','192','2021','Beige',['Luxury cars', 'SUV'],'550','688','4620','19800','187','1259','5395','400','6,6','10,6','Nissan Patrol V8 Platinum, 2021 Beige',['Nissan_Patrol_V8_Platinum_2021_Beige_1.jpg','Nissan_Patrol_V8_Platinum_2021_Beige_2.jpg','Nissan_Patrol_V8_Platinum_2021_Beige_3.jpg','Nissan_Patrol_V8_Platinum_2021_Beige_4.jpg','Nissan_Patrol_V8_Platinum_2021_Beige_5.jpg','Nissan_Patrol_V8_Platinum_2021_Beige_6.jpg'],'0'],
+  ['Nissan','Patrol V6','193','2021','Silver Grey',['Luxury cars', 'SUV'],'500','625','4200','18000','170','1144','4905','400','6,6','10,6','Nissan Patrol V6, 2021 Silver Grey',['Nissan_Patrol_V6_2021_Silver_Grey_1.jpg','Nissan_Patrol_V6_2021_Silver_Grey_3.jpg','Nissan_Patrol_V6_2021_Silver_Grey_4.jpg','Nissan_Patrol_V6_2021_Silver_Grey_5.jpg','Nissan_Patrol_V6_2021_Silver_Grey_6.jpg','Nissan_Patrol_V6_2021_Silver_Grey_7.jpg'],'1'],
+  ['Nissan','Patrol','194','2020','Black',['Luxury cars', 'SUV'],'600','750','5040','21600','204','1373','5886','400','6,6','10,6','Nissan_Patrol_2020_Black_main.jpg',['Nissan_Patrol_2020_Black_1.jpg','Nissan_Patrol_2020_Black_2.jpg','Nissan_Patrol_2020_Black_3.jpg','Nissan_Patrol_2020_Black_4.jpg','Nissan_Patrol_2020_Black_5.jpg','Nissan_Patrol_2020_Black_6.jpg'],'1'],
+  ['Nissan','Patrol','195','2019','Black',['Luxury cars', 'SUV'],'500','625','4200','18000','170','1144','4905','400','6,6','10,6','Nissan_Patrol_2019_Black_main.jpg',['Nissan_Patrol_2019_Black_1.jpg','Nissan_Patrol_2019_Black_2.jpg','Nissan_Patrol_2019_Black_3.jpg','Nissan_Patrol_2019_Black_4.jpg','Nissan_Patrol_2019_Black_5.jpg','Nissan_Patrol_2019_Black_6.jpg'],'1'],
+  ['Porsche','911 GT3','196','2022','Blue',['Luxury cars', 'Supercars'],'3500','4375','29400','126000','1192','8011','34332','400','4,3','6,9','Porsche_911_GT3_2022_Blue_main.jpg',['Porsche_911_GT3_2022_Blue_1.jpg','Porsche_911_GT3_2022_Blue_2.jpg','Porsche_911_GT3_2022_Blue_3.jpg','Porsche_911_GT3_2022_Blue_4.jpg','Porsche_911_GT3_2022_Blue_5.jpg','Porsche_911_GT3_2022_Blue_6.jpg','Porsche_911_GT3_2022_Blue_7.jpg','Porsche_911_GT3_2022_Blue_8.jpg','Porsche_911_GT3_2022_Blue_9.jpg'],'1'],
+  ['Porsche','Boxster 718 cabrio','197','2019','White',['Luxury cars', 'Convertible cars', 'Exotic cars', 'Supercars'],'800','1000','6720','28800','272','1831','7847','315','5,1','8,2','white_porsche-boxster_2019_3632_main_9e12720f183a5f683bd2726487609de5.jpg',['white_porsche-boxster_2019_8379_8ae8bf1060c249a62d536d5aa87fe7c0.jpg','white_porsche-boxster_2019_8380_53b68c7bb4e1c0a72866e4342ad0d4e8.jpg','white_porsche-boxster_2019_8381_1bb869a31f194c69ae26cb593df7bf90.jpg','white_porsche-boxster_2019_8382_7d72fe87d5c7f372df11f1f41eccc1c5.jpg','white_porsche-boxster_2019_8383_d5f734d1c8b6d3169e33c5009f094547.jpg','white_porsche-boxster_2019_8384_40e743fdd0ebef5a288f4f92dbb75633.jpg','white_porsche-boxster_2019_8385_de3f591826c0de752bd66dcca973a346.jpg'],'1'],
+  ['Porsche','Boxster 718 cabrio','198','2019','Orange',['Luxury cars', 'Convertible cars', 'Exotic cars', 'Supercars'],'800','1000','6720','28800','272','1831','7847','315','5,1','8,2','orange_porsche-boxster-718_2019_3639_main_d643f531cc8c69eb07dfae040f089e0a.jpg',['orange_porsche-boxster-718_2019_8430_52edb41546bc9873f5e5117c47c27dd9.jpg','orange_porsche-boxster-718_2019_8431_942b967ddb6dac2124bb9392bfda2756.jpg','orange_porsche-boxster-718_2019_8432_a6174cda1590af823602dde2754d53bd.jpg','orange_porsche-boxster-718_2019_8433_dd53a07579b830093a4486c972ae1b2b.jpg','orange_porsche-boxster-718_2019_8434_4e77e19bcee7063796eff9e9cdfb52d9.jpg','orange_porsche-boxster-718_2019_8435_204aa5fd4a15eb713b3520f5e5599713.jpg'],'1'],
+  ['Porsche','Cayman','199','2018','Orange',['Luxury cars', 'Supercars'],'700','875','5880','25200','238','1602','6866','365','4,1','6,7','PORSCHE-CAYMAN_Orange_2018_main.jpg',['PORSCHE-CAYMAN_Orange_2018_1.jpg','PORSCHE-CAYMAN_Orange_2018_2.jpg','PORSCHE-CAYMAN_Orange_2018_3.jpg','PORSCHE-CAYMAN_Orange_2018_4.jpg','PORSCHE-CAYMAN_Orange_2018_5.jpg','PORSCHE-CAYMAN_Orange_2018_6.jpg','PORSCHE-CAYMAN_Orange_2018_7.jpg'],'1'],
+  ['Porsche','Boxster','200','2019','White',['Luxury cars', 'Convertible cars', 'Exotic cars', 'Supercars'],'1100','1375','9240','39600','375','2518','10790','315','5,1','8,2','white_porsche-boxster_2019_3632_main_9e12720f183a5f683bd2726487609de5.jpg',['white_porsche-boxster_2019_8379_8ae8bf1060c249a62d536d5aa87fe7c0.jpg','white_porsche-boxster_2019_8380_53b68c7bb4e1c0a72866e4342ad0d4e8.jpg','white_porsche-boxster_2019_8381_1bb869a31f194c69ae26cb593df7bf90.jpg','white_porsche-boxster_2019_8382_7d72fe87d5c7f372df11f1f41eccc1c5.jpg','white_porsche-boxster_2019_8383_d5f734d1c8b6d3169e33c5009f094547.jpg','white_porsche-boxster_2019_8384_40e743fdd0ebef5a288f4f92dbb75633.jpg','white_porsche-boxster_2019_8385_de3f591826c0de752bd66dcca973a346.jpg'],'1'],
+  ['Porsche','Carrera 911','201','2020','White',['Luxury cars', 'Convertible cars', 'Supercars'],'1900','2375','15960','68400','647','4349','18638','400','4,3','6,9','white_porsche-911-carrera_2020_3391_1e882abd1debb9287d22e8f5393e6291.jpg',['white_porsche-911-carrera_2020_2079_main_3c96159a5bd3a2b67be15f657232b883.jpg','white_porsche-911-carrera_2020_3380_ad73378a30aa4c52665261673fc2cbf1.jpg','white_porsche-911-carrera_2020_3381_c4172ecdeaf129b28f7baebff96f88b4.jpg','white_porsche-911-carrera_2020_3382_99e1f17a9649942706839e60a080a755.jpg','white_porsche-911-carrera_2020_3383_f759263a8aff3e005b760c64ae9742a0.jpg','white_porsche-911-carrera_2020_3384_73a7cfa673abf4c9ee45fa832df95c9e.jpg','white_porsche-911-carrera_2020_3385_8a3928a4885e6e3114130f29b8daef4e.jpg','white_porsche-911-carrera_2020_3386_76fa1c7a9ad453cc24b0b208142d747a.jpg','white_porsche-911-carrera_2020_3387_ed551a5161f010be0156c3f637673eec.jpg','white_porsche-911-carrera_2020_3393_3bc4a7ad7caa3062f62930bf0dd5a38f.jpg'],'1'],
+  ['Porsche','Targa 4S 911','202','2021','White',['Luxury cars', 'Supercars'],'2000','2500','16800','72000','681','4578','19619','480','3,8','6,1','Porsche-911-Targa-4S-white_main.jpg',['Porsche-911-Targa-4S-white_1.jpg','Porsche-911-Targa-4S-white_2.jpg','Porsche-911-Targa-4S-white_3.jpg','Porsche-911-Targa-4S-white_4.jpg','Porsche-911-Targa-4S-white_5.jpg','Porsche-911-Targa-4S-white_6.jpg','Porsche-911-Targa-4S-white_7.jpg'],'1'],
+  ['Porsche','Panamera','203','2018','Black',['Luxury cars', 'Supercars'],'1000','1250','8400','36000','341','2289','9809','330','5,8','9,3','black_porsche-panamera_2018_1728.jpg',['black_porsche-panamera_2018_1727.jpg','black_porsche-panamera_2018_1729.jpg'],'1'],
+  ['Porsche','Carrera S 992','204','2021','Blue',['Luxury cars', 'Supercars'],'1300','1625','10920','46800','443','2975','12752','400','4,3','6,9','Porsche_Carrera_S_992_Blue_main.jpg',['Porsche_Carrera_S_992_Blue_1.jpg','Porsche_Carrera_S_992_Blue_2.jpg','Porsche_Carrera_S_992_Blue_3.jpg','Porsche_Carrera_S_992_Blue_4.jpg','Porsche_Carrera_S_992_Blue_5.jpg','Porsche_Carrera_S_992_Blue_6.jpg','Porsche_Carrera_S_992_Blue_7.jpg','Porsche_Carrera_S_992_Blue_8.jpg','Porsche_Carrera_S_992_Blue_9.jpg','Porsche_Carrera_S_992_Blue_10.jpg','Porsche_Carrera_S_992_Blue_11.jpg','Porsche_Carrera_S_992_Blue_12.jpg','Porsche_Carrera_S_992_Blue_13.jpg'],'1'],
+  ['Porsche','911 GTS Cabrio','205','2019','Red',['Luxury cars', 'Convertible cars', 'Supercars'],'1200','1500','10080','43200','409','2747','11771','450','3,7','6','Porsche_Carerra_4GTS-1_2019_Red_main.jpg',['Porsche_Carerra_4GTS-1_2019_Red_1.jpg','Porsche_Carerra_4GTS-1_2019_Red_2.jpg','Porsche_Carerra_4GTS-1_2019_Red_3.jpg','Porsche_Carerra_4GTS-1_2019_Red_4.jpg','Porsche_Carerra_4GTS-1_2019_Red_5.jpg','Porsche_Carerra_4GTS-1_2019_Red_6.jpg','Porsche_Carerra_4GTS-1_2019_Red_7.jpg','Porsche_Carerra_4GTS-1_2019_Red_8.jpg'],'1'],
+  ['Porsche','Cayenne','206','2021','White',['Luxury cars', 'SUV'],'900','1125','7560','32400','307','2060','8828','550','4,1','6,6','Porche_Cayenne_2021_White_main.jpg',['Porche_Cayenne_2021_White_1.jpg','Porche_Cayenne_2021_White_2.jpg','Porche_Cayenne_2021_White_3.jpg','Porche_Cayenne_2021_White_4.jpg','Porche_Cayenne_2021_White_5.jpg','Porche_Cayenne_2021_White_6.jpg','Porche_Cayenne_2021_White_7.jpg','Porche_Cayenne_2021_White_8.jpg','Porche_Cayenne_2021_White_9.jpg'],'1'],
+  ['Porsche','Cayenne GTS','207','2021','White',['Luxury cars', 'SUV'],'1300','1625','10920','46800','443','2975','12752','460','4,8','7,7','Porshe_Cayenne_GTS_2021_White_main.jpg',['Porshe_Cayenne_GTS_2021_White_1.jpg','Porshe_Cayenne_GTS_2021_White_2.jpg','Porshe_Cayenne_GTS_2021_White_3.jpg','Porshe_Cayenne_GTS_2021_White_4.jpg','Porshe_Cayenne_GTS_2021_White_5.jpg','Porshe_Cayenne_GTS_2021_White_6.jpg','Porshe_Cayenne_GTS_2021_White_7.jpg','Porshe_Cayenne_GTS_2021_White_8.jpg','Porshe_Cayenne_GTS_2021_White_9.jpg','Porshe_Cayenne_GTS_2021_White_10.jpg'],'1'],
+  ['Porsche','Cayman GTS','208','2021','Red',['Luxury cars', 'Supercars'],'1000','1250','8400','36000','341','2289','9809','400','3,1','5','Porsche_Cayman_GTS_2021_Red_main.jpg',['Porsche_Cayman_GTS_2021_Red_1.jpg','Porsche_Cayman_GTS_2021_Red_2.jpg','Porsche_Cayman_GTS_2021_Red_3.jpg','Porsche_Cayman_GTS_2021_Red_4.jpg','Porsche_Cayman_GTS_2021_Red_5.jpg','Porsche_Cayman_GTS_2021_Red_6.jpg','Porsche_Cayman_GTS_2021_Red_7.jpg','Porsche_Cayman_GTS_2021_Red_8.jpg','Porsche_Cayman_GTS_2021_Red_9.jpg','Porsche_Cayman_GTS_2021_Red_10.jpg','Porsche_Cayman_GTS_2021_Red_11.jpg'],'1'],
+  ['Porsche','911 Turbo S','209','2020','Silver',['Luxury cars', 'Supercars'],'2200','2750','18480','79200','749','5035','21580','650','2,7','4,3','Porsche_911_Turbo_S_2020_Silver_main.jpg',['Porsche_911_Turbo_S_2020_Silver_1.jpg','Porsche_911_Turbo_S_2020_Silver_2.jpg','Porsche_911_Turbo_S_2020_Silver_3.jpg','Porsche_911_Turbo_S_2020_Silver_4.jpg','Porsche_911_Turbo_S_2020_Silver_5.jpg','Porsche_911_Turbo_S_2020_Silver_6.jpg','Porsche_911_Turbo_S_2020_Silver_7.jpg','Porsche_911_Turbo_S_2020_Silver_8.jpg','Porsche_911_Turbo_S_2020_Silver_9.jpg','Porsche_911_Turbo_S_2020_Silver_10.jpg','Porsche_911_Turbo_S_2020_Silver_11.jpg'],'1'],
+  ['Porsche','Panamera','210','2022','Maroon',['Luxury cars', 'Supercars'],'1200','1500','10080','43200','409','2747','11771','330','5,8','9,3','Porsche_Panamera_2022_Marooon_3.jpg',['Porsche_Panamera_2022_Marooon_1.jpg','Porsche_Panamera_2022_Marooon_2.jpg','Porsche_Panamera_2022_Marooon_4.jpg','Porsche_Panamera_2022_Marooon_5.jpg'],'1'],
+  ['Porsche','Boxster GTS','211','2019','Black',['Luxury cars', 'Convertible cars', 'Exotic cars', 'Supercars'],'900','1125','7560','32400','307','2060','8828','315','5,1','8,2','Porsche Boxster GTS, 2019 Black',['black_porsche-boxster_2019_8222_00604331dfb7cf357e7a8d5c6535f7e8.jpg','black_porsche-boxster_2019_8223_b22423decc4738ec139dc20de3ddbd53.jpg','black_porsche-boxster_2019_8224_12dc660a3907e4acf8b7e6a1694de947.jpg','black_porsche-boxster_2019_8225_5637e41b545f529e732808e905c89bd1.jpg','black_porsche-boxster_2019_8226_2e1e908fe54f4672948817835857e4a8.jpg','black_porsche-boxster_2019_8227_ee2ea48a6b451352ab7ba86945cd31ab.jpg','black_porsche-boxster_2019_8228_8c4ccbdb97eb5a5178193664882ceaa8.jpg'],'1'],
+  ['Porsche','911 Carrera Cabrio','212','2021','Green',['Luxury cars', 'Convertible cars', 'Supercars'],'1500','1875','12600','54000','511','3433','14714','400','4,3','6,9','Porsche 911 Carrera Cabrio, 2021 Green',['Porsche_911_Carrera_Cabrio_2021_Green_1.jpg','Porsche_911_Carrera_Cabrio_2021_Green_2.jpg','Porsche_911_Carrera_Cabrio_2021_Green_3.jpg','Porsche_911_Carrera_Cabrio_2021_Green_4.jpg','Porsche_911_Carrera_Cabrio_2021_Green_5.jpg','Porsche_911_Carrera_Cabrio_2021_Green_6.jpg'],'1'],
+  ['Porsche','Cayenne','213','2019','Black',['Luxury cars', 'SUV'],'900','1125','7560','32400','307','2060','8828','434','4,1','6,6','Porsche_Cayenne_2019_Black_main.jpg',['Porsche_Cayenne_2019_Black_1.jpg','Porsche_Cayenne_2019_Black_2.jpg','Porsche_Cayenne_2019_Black_3.jpg','Porsche_Cayenne_2019_Black_4.jpg','Porsche_Cayenne_2019_Black_5.jpg','Porsche_Cayenne_2019_Black_6.jpg','Porsche_Cayenne_2019_Black_7.jpg','Porsche_Cayenne_2019_Black_8.jpg','Porsche_Cayenne_2019_Black_9.jpg','Porsche_Cayenne_2019_Black_10.jpg','Porsche_Cayenne_2019_Black_11.jpg','Porsche_Cayenne_2019_Black_12.jpg'],'1'],
+  ['Porsche','911 Carrera','214','2018','Blue',['Luxury cars', 'Supercars', 'Convertible cars'],'1300','1625','10920','46800','443','2975','12752','400','4,3','6,9','Porsche 911 Carrera, 2018 Blue',['blue_porsche-911-carrera_2018_8288_bc82148cb062118e36e8ca699dad0d98.jpg','blue_porsche-911-carrera_2018_8290_4af8b3e793a35d8b07f5d8b5d04e84ce.jpg','blue_porsche-911-carrera_2018_8291_a321dd674915b94a75421252e99acf2a.jpg','blue_porsche-911-carrera_2018_8292_a7ab2ee7990d46e77ed15d7b17dbf2f3.jpg','blue_porsche-911-carrera_2018_8293_eb29b83a1e2b38874901876440754e11.jpg','blue_porsche-911-carrera_2018_8294_b7d9f11068753808daf8fb2242502dd0.jpg'],'1'],
+  ['Porsche','Cayenne Coupe','215','2020','Black',['Luxury cars', 'SUV'],'1000','1250','8400','36000','341','2289','9809','434','4,1','6,6','Porsche_Cayenne_Coupe_2020_Black_main.jpg',['Porsche_Cayenne_Coupe_2020_Black_1.jpg','Porsche_Cayenne_Coupe_2020_Black_2.jpg','Porsche_Cayenne_Coupe_2020_Black_3.jpg','Porsche_Cayenne_Coupe_2020_Black_4.jpg','Porsche_Cayenne_Coupe_2020_Black_5.jpg','Porsche_Cayenne_Coupe_2020_Black_6.jpg','Porsche_Cayenne_Coupe_2020_Black_7.jpg','Porsche_Cayenne_Coupe_2020_Black_8.jpg','Porsche_Cayenne_Coupe_2020_Black_9.jpg'],'1'],
+  ['Porsche','Macan','216','2021','White',['Luxury cars', 'SUV'],'800','1000','6720','28800','272','1831','7847','254','5,4','8,5','Porshe_Macan_White_2021_main.jpg',['Porshe_Macan_White_2021_1.jpg','Porshe_Macan_White_2021_2.jpg','Porshe_Macan_White_2021_3.jpg','Porshe_Macan_White_2021_4.jpg','Porshe_Macan_White_2021_5.jpg','Porshe_Macan_White_2021_6.jpg','Porshe_Macan_White_2021_7.jpg','Porshe_Macan_White_2021_8.jpg'],'1'],
+  ['Porsche','Macan','217','2021','Black',['Luxury cars', 'SUV'],'800','1000','6720','28800','272','1831','7847','227','6,7','10,8','Porshe_Macan_Black_2021_main.jpg',['Porshe_Macan_Black_2021_1.jpg','Porshe_Macan_Black_2021_2.jpg','Porshe_Macan_Black_2021_3.jpg','Porshe_Macan_Black_2021_4.jpg','Porshe_Macan_Black_2021_5.jpg','Porshe_Macan_Black_2021_6.jpg','Porshe_Macan_Black_2021_7.jpg','Porshe_Macan_Black_2021_8.jpg'],'1'],
+  ['Porsche','911 Carrera S Spyder','218','2021','Black',['Luxury cars', 'Supercars', 'Convertible cars'],'1700','2125','14280','61200','579','3891','16676','400','4,3','6,9','Porsche_911_Carrera_S_Spyder_2021_Black_main.jpg',['Porsche_911_Carrera_S_Spyder_2021_Black_1.jpg','Porsche_911_Carrera_S_Spyder_2021_Black_2.jpg','Porsche_911_Carrera_S_Spyder_2021_Black_3.jpg'],'1'],
+  ['Porsche','Cayenne Coupe','219','2020','White',['Luxury cars', 'SUV'],'1100','1375','9240','39600','375','2518','10790','434','4,1','6,6','Porsche_Cayenne_Coupe_2020_White_main.jpg',['Porsche_Cayenne Coupe_2020_White_1.jpg','Porsche_Cayenne Coupe_2020_White_2.jpg','Porsche_Cayenne Coupe_2020_White_3.jpg'],'1'],
+  ['Range Rover','Velar','220','2020','Grey',['Luxury cars', 'SUV'],'650','813','5460','23400','221','1488','6376','380','8,9','14,3','grey_range-rover-velar_2020_3650_main_bab0db275950f599aca80be3b82d1147.jpg',['grey_range-rover-velar_2020_8485_82134f95defe6beb508000ca568d01d8.jpg','grey_range-rover-velar_2020_8486_a80c236843f3e08772fd318ba4c97c47.jpg','grey_range-rover-velar_2020_8487_a9b39dac517ff4f6eec138783d9df361.jpg','grey_range-rover-velar_2020_8488_ed76597539daeed84ba5289cad603779.jpg','grey_range-rover-velar_2020_8489_daeb2a76e2e964d6d8fe3d45d1c75745.jpg','grey_range-rover-velar_2020_8490_4c971c99dc4db1bf60ee79a40f0d9611.jpg','grey_range-rover-velar_2020_8491_09a47115abf3c0179c2900b723be728f.jpg'],'1'],
+  ['Range Rover','Sport','221','2020','Black',['Luxury cars', 'SUV'],'800','1000','6720','28800','272','1831','7847','340','7,2','11,6','Range Rover Sport, 2020 Black',['black_range-rover-sport_2020_8478_287ad0b8e58f84eaad56b5a224027074.jpg','black_range-rover-sport_2020_8481_9ade56d8ffa74f5663e91ee17b57e4ec.jpg','black_range-rover-sport_2020_8483_4b8c1f951d444ab299f2e295a1cc9ea1.jpg','black_range-rover-sport_2020_8484_15ec473a2fb7599b02622cb915b188d2.jpg'],'1'],
+  ['Range Rover','Vogue','222','2020','White',['Luxury cars', 'SUV'],'900','1125','7560','32400','307','2060','8828','335','7,5','12,1','Range Rover Vogue, 2020 White',['Range_Rover_Vogue_2020_White_1.jpg','Range_Rover_Vogue_2020_White_2.jpg','Range_Rover_Vogue_2020_White_3.jpg','Range_Rover_Vogue_2020_White_4.jpg','Range_Rover_Vogue_2020_White_5.jpg','Range_Rover_Vogue_2020_White_6.jpg','Range_Rover_Vogue_2020_White_7.jpg'],'1'],
+  ['Range Rover','SVR','223','2021','Orange',['Luxury cars', 'SUV'],'1400','1750','11760','50400','477','3204','13733','340','4,3','6,9','Range_Rover_SVR_2021_Orange_main.jpg',['Range_Rover_SVR_2021_Orange_1.jpg','Range_Rover_SVR_2021_Orange_2.jpg','Range_Rover_SVR_2021_Orange_3.jpg','Range_Rover_SVR_2021_Orange_4.jpg','Range_Rover_SVR_2021_Orange_5.jpg','Range_Rover_SVR_2021_Orange_6.jpg','Range_Rover_SVR_2021_Orange_7.jpg','Range_Rover_SVR_2021_Orange_8.jpg','Range_Rover_SVR_2021_Orange_9.jpg','Range_Rover_SVR_2021_Orange_10.jpg'],'1'],
+  ['Range Rover','Sport','224','2020','Gray',['Luxury cars', 'SUV'],'750','938','6300','27000','255','1717','7357','340','7,2','11,6','Range_Rover_Spoort_2020_Gray_main.jpg',['Range_Rover_Spoort_2020_Gray_1.jpg','Range_Rover_Spoort_2020_Gray_2.jpg','Range_Rover_Spoort_2020_Gray_3.jpg','Range_Rover_Spoort_2020_Gray_4.jpg','Range_Rover_Spoort_2020_Gray_5.jpg','Range_Rover_Spoort_2020_Gray_6.jpg','Range_Rover_Spoort_2020_Gray_7.jpg'],'1'],
+  ['Range Rover','SVR','225','2019','Orange',['Luxury cars', 'SUV'],'1600','2000','13440','57600','545','3662','15695','340','7,2','11,6','Range-rover-SVR-2019_SVR_1.jpg',['Range-rover-SVR-2019_SVR_2.jpg','Range-rover-SVR-2019_SVR_3.jpg','Range-rover-SVR-2019_SVR_4.jpg'],'1'],
+  ['Range Rover','HSE Vogue','226','2018','White',['Luxury cars', 'SUV'],'1000','1250','8400','36000','341','2289','9809','376','7,2','11,6','white_range-rover-vogue-hse_2018_3146_main_a543c45d206d1add55a99df00ab0f3a7.jpg',['white_range-rover-vogue-hse_2018_6909_1a285f236eb09cd29a6f7605c4a50139.jpg','white_range-rover-vogue-hse_2018_6910_532655813c80cc0f1ea8fa6b94215529.jpg'],'1'],
+  ['Range Rover','HSE Vogue','227','2018','Black',['Luxury cars', 'SUV'],'1000','1250','8400','36000','341','2289','9809','376','7,2','11,6','black_range-rover-sport-hse_2018_1150_main.jpg',['black_range-rover-sport-hse_2018_1760.jpg','black_range-rover-sport-hse_2018_1761.jpg','black_range-rover-sport-hse_2018_1762.jpg','black_range-rover-sport-hse_2018_1763.jpg','black_range-rover-sport-hse_2018_1764.jpg'],'1'],
+  ['Range Rover','Vogue','228','2019','Black',['Luxury cars', 'SUV'],'1000','1250','8400','36000','341','2289','9809','335','7,5','12,1','Range Rover Vogue, 2019 Black',['Range_Rover_Vogue_2019_Black_1.jpg','Range_Rover_Vogue_2019_Black_2.jpg','Range_Rover_Vogue_2019_Black_3.jpg'],'1'],
+  ['Range Rover','Vogue','229','2020','Black',['Luxury cars', 'SUV'],'850','1063','7140','30600','290','1946','8338','335','7,5','12,1','Range_Rover_Vogue_2020_Black_main.jpg',['Range_Rover_Vogue_2020_Black_1.jpg','Range_Rover_Vogue_2020_Black_2.jpg','Range_Rover_Vogue_2020_Black_3.jpg','Range_Rover_Vogue_2020_Black_4.jpg','Range_Rover_Vogue_2020_Black_5.jpg','Range_Rover_Vogue_2020_Black_6.jpg'],'1'],
+  ['Range Rover','HSE Vogue','230','2019','Black',['Luxury cars', 'SUV'],'1100','1375','9240','39600','375','2518','10790','335','7,5','12,1','Range Rover Vogue HSE, 2019 Black',['black_range-rover-vogue-hse_2019_3718_main_8f99d53f7be5d9d391b0e499ce66f5a9.jpg','black_range-rover-vogue-hse_2019_8777_9bba462537cfb13a74ef4577809c6b21.jpg','black_range-rover-vogue-hse_2019_8778_71cb19b0ffb5c176e0bda606488556ed.jpg','black_range-rover-vogue-hse_2019_8779_603763445b8cd376cf998e41b1a81cf4.jpg','black_range-rover-vogue-hse_2019_8780_4e9c5efc29e89260728198e5e9d12a5c.jpg','black_range-rover-vogue-hse_2019_8781_1623f84614d96ca05de66c78e86356b8.jpg','black_range-rover-vogue-hse_2019_8782_b6dd30d3cbba01c12ec549846e086098.jpg','black_range-rover-vogue-hse_2019_8783_9e7401e0612c9ddd2058bb856310e149.jpg'],'1'],
+  ['Range Rover','SVR','231','2020','Black',['Luxury cars', 'SUV'],'1400','1750','11760','50400','477','3204','13733','340','7,2','11,6','Range_Rover_SVR_2020_Black_main.jpg',['Range_Rover_SVR_2020_Black_1.jpg','Range_Rover_SVR_2020_Black_2.jpg','Range_Rover_SVR_2020_Black_3.jpg'],'1'],
+  ['Range Rover','Velar','232','2020','Black',['Luxury cars', 'SUV'],'650','813','5460','23400','221','1488','6376','380','8,9','14,3','Range Rover Velar, 2020 Black',['Range_Rover_Velar_2020_Black_1.jpg','Range_Rover_Velar_2020_Black_2.jpg','Range_Rover_Velar_2020_Black_3.jpg','Range_Rover_Velar_2020_Black_4.jpg'],'1'],
+  ['Range Rover','Sport','233','2019','Black',['Luxury cars', 'SUV'],'750','938','6300','27000','255','1717','7357','376','7,2','11,6','Range_Rover_Sport_2019_Black_main.jpg',['Range_Rover_Sport_2019_Black_1.jpg','Range_Rover_Sport_2019_Black_2.jpg','Range_Rover_Sport_2019_Black_3.jpg','Range_Rover_Sport_2019_Black_4.jpg','Range_Rover_Sport_2019_Black_5.jpg'],'1'],
+  ['Range Rover','Vogue','234','2019','Blue',['Luxury cars', 'SUV'],'850','1063','7140','30600','290','1946','8338','375','5,3','8,5','Range_Rover_Vogue_2019_Blue_main.jpg',['Range_Rover_Vogue_2019_Blue_1.jpg','Range_Rover_Vogue_2019_Blue_2.jpg','Range_Rover_Vogue_2019_Blue_3.jpg','Range_Rover_Vogue_2019_Blue_4.jpg','Range_Rover_Vogue_2019_Blue_5.jpg','Range_Rover_Vogue_2019_Blue_6.jpg','Range_Rover_Vogue_2019_Blue_7.jpg','Range_Rover_Vogue_2019_Blue_8.jpg','Range_Rover_Vogue_2019_Blue_9.jpg'],'1'],
+  ['Range Rover','SVR','235','2019','Blue',['Luxury cars', 'SUV'],'1100','1375','9240','39600','375','2518','10790','340','7,2','11,6','Range_Rover_SVR_2019_Blue_main.jpg',['Range_Rover_SVR_2019_Blue_1.jpg','Range_Rover_SVR_2019_Blue_2.jpg','Range_Rover_SVR_2019_Blue_3.jpg','Range_Rover_SVR_2019_Blue_4.jpg','Range_Rover_SVR_2019_Blue_5.jpg'],'1'],
+  ['Range Rover','Sport','236','2020','White',['Luxury cars', 'SUV'],'800','1000','6720','28800','272','1831','7847','340','7,2','11,6','white_range-rover-sport_2020_3645_main_d26d8e17ae8c6d8e86c1f0ab4870f164.jpg',['white_range-rover-sport_2020_3645_main_d26d8e17ae8c6d8e86c1f0ab4870f164.jpg','white_range-rover-sport_2020_8458_3daaccab2c08ca63d4f766d4dc7ac796.jpg','white_range-rover-sport_2020_8459_9e59a9266f0286b1b515660c6fa1e1e4.jpg','white_range-rover-sport_2020_8460_6c2b78dac58182e6cecfad86b80d3e19.jpg','white_range-rover-sport_2020_8461_e42345a8ff5aa9fb3625f5991b79b2bd.jpg','white_range-rover-sport_2020_8462_0a42765041496eab28af6c323f3dc492.jpg','white_range-rover-sport_2020_8463_43060b64188f439b532e89e8ecc767fe.jpg','white_range-rover-sport_2020_8464_c754b6d37cfa99b4437e47fa91c133c2.jpg'],'1'],
+  ['Range Rover','SVR','237','2021','Black/Blue',['Luxury cars', 'SUV'],'1200','1500','10080','43200','409','2747','11771','340','4,3','6,9','Range_Rover_SVR_2021_BlueBlack_main.jpg',['Range_Rover_SVR_2021_BlueBlack_1.jpg','Range_Rover_SVR_2021_BlueBlack_2.jpg','Range_Rover_SVR_2021_BlueBlack_3.jpg','Range_Rover_SVR_2021_BlueBlack_4.jpg','Range_Rover_SVR_2021_BlueBlack_5.jpg','Range_Rover_SVR_2021_BlueBlack_6.jpg','Range_Rover_SVR_2021_BlueBlack_7.jpg','Range_Rover_SVR_2021_BlueBlack_8.jpg'],'1'],
+  ['Rolls Royce','Dawn','238','2018','Red',['Luxury cars', 'Convertible cars'],'3000','3750','25200','108000','1022','6866','29428','593','5,3','8,5','Rolls Royce Dawn, 2018 Red',['red_rolls-royce-dawn_2018_8394_d5e8f55f22ff9622927ad09a36ec9121.jpg','red_rolls-royce-dawn_2018_8395_ec3c505897922283690e08f027c5092a.jpg','red_rolls-royce-dawn_2018_8396_6f8ec46e3407b161fea17e12d480a7cd.jpg','red_rolls-royce-dawn_2018_8397_84762764be9a398086576a0f397f296e.jpg','red_rolls-royce-dawn_2018_8398_6eda4a8a7c471928853076b871034516.jpg','red_rolls-royce-dawn_2018_8399_bfa7c17195c502464128a13e88dad6ff.jpg','red_rolls-royce-dawn_2018_8400_bdc99ed4c50a95cd7acda4ca2c0f6fb8.jpg'],'1'],
+  ['Rolls Royce','Cullinan','239','2019','White',['Luxury cars', 'SUV', 'Exotic Cars'],'3300','4125','27720','118800','1124','7553','32371','563','6,7','10,8','Rolls Royce Cullinan, 2019 White',['Rolls_Royce_Cullinan_2019_White_1.jpg','Rolls_Royce_Cullinan_2019_White_2.jpg','Rolls_Royce_Cullinan_2019_White_3.jpg','Rolls_Royce_Cullinan_2019_White_4.jpg','Rolls_Royce_Cullinan_2019_White_5.jpg','Rolls_Royce_Cullinan_2019_White_6.jpg','Rolls_Royce_Cullinan_2019_White_7.jpg'],'1'],
+  ['Rolls Royce','Wraith Badge','240','2018','Black',['Luxury cars', 'Exotic Cars'],'2200','2750','18480','79200','749','5035','21580','624','4,6','7,4','Rolls Royce Wraith Badge, 2018 Black',['Rolls_Royce_Wraith_Badge_2018_Black_1.jpg','Rolls_Royce_Wraith_Badge_2018_Black_2.jpg','Rolls_Royce_Wraith_Badge_2018_Black_3.jpg','Rolls_Royce_Wraith_Badge_2018_Black_4.jpg','Rolls_Royce_Wraith_Badge_2018_Black_5.jpg','Rolls_Royce_Wraith_Badge_2018_Black_6.jpg','Rolls_Royce_Wraith_Badge_2018_Black_7.jpg','Rolls_Royce_Wraith_Badge_2018_Black_8.jpg'],'1'],
+  ['Rolls Royce','Phantom','241','2021','Black',['Luxury cars', 'Exotic Cars'],'5000','6250','42000','180000','1703','11444','49046','563','5,4','8,7','Rolls-Royce Phantom, 2021 Black',['Rolls-Royce_Phantom_2021_Black_1.jpg','Rolls-Royce_Phantom_2021_Black_2.jpg','Rolls-Royce_Phantom_2021_Black_3.jpg','Rolls-Royce_Phantom_2021_Black_4.jpg'],'1'],
+  ['Rolls Royce','Cullinan','242','2020','Black',['Luxury cars', 'SUV'],'5300','6625','44520','190800','1805','12131','51989','563','6,7','10,8','black_rolls-royce-cullinan_2020_2081_main_60d89f75c4bae438bfe5f7a30ca3dd38.jpg',['black_rolls-royce-cullinan_2020_3415_0adc80c77cc10ce4464d0976a9516add.jpg','black_rolls-royce-cullinan_2020_3416_42b24237e4b4fb312bae7295aa5892fe.jpg','black_rolls-royce-cullinan_2020_3418_9585d606eccb8b7f9eb17864ee77aff3.jpg','black_rolls-royce-cullinan_2020_3419_0a889febb9b07c5661199f61b3622d1f.jpg','black_rolls-royce-cullinan_2020_3421_9d24a560adaba8ce805e3d2a86368394.jpg','black_rolls-royce-cullinan_2020_3423_927c42d33ac96eeebd579129b42a50aa.jpg','black_rolls-royce-cullinan_2020_3424_d27791469bbcba28595e1966d55aba4c.jpg','black_rolls-royce-cullinan_2020_3425_154f2cd1ae90e41f567f6bf018953b0f.jpg','black_rolls-royce-cullinan_2020_3426_3d60d82683921ce2a395a8e5f84941ef.jpg','black_rolls-royce-cullinan_2020_3427_41408c4b0ae34307256a00d0b9e1c7b7.jpg','black_rolls-royce-cullinan_2020_3428_72aa3ebb4b541d67a9b778adc14a44fb.jpg','black_rolls-royce-cullinan_2020_3429_3f2a2898ed7db8411f2014d9ba6b74e9.jpg','black_rolls-royce-cullinan_2020_3431_34f8d4b47440b96613e781397bbbb9cc.jpg','black_rolls-royce-cullinan_2020_3434_8bfef8963a5df55506b58f480396d74c.jpg'],'1'],
+  ['Rolls Royce','Wraith','243','2019','White',['Luxury cars', 'Exotic Cars'],'2000','2500','16800','72000','681','4578','19619','624','4,6','7,4','Rolls Royce Wraith, 2019 White',['white_rolls-royce-wraith_2019_8209_bda08a58fe38a21ca0ac28451d0c829d.jpg','white_rolls-royce-wraith_2019_8210_73376121cecaf38aab2cb3e0da07cd25.jpg','white_rolls-royce-wraith_2019_8211_162f3053a2b0acd26c06a9fe93ea83b2.jpg','white_rolls-royce-wraith_2019_8212_6e6f7cf2ba18819a77ba28f8d2393cc5.jpg','white_rolls-royce-wraith_2019_8213_c80efe10cb4c1da257a963eb2cd6d974.jpg','white_rolls-royce-wraith_2019_8214_d548717f9052e6c9035eb64b20c03006.jpg','white_rolls-royce-wraith_2019_8215_252b4d64e12a11eed461c35129a3c490.jpg'],'1'],
+  ['Rolls Royce','Wraith Black Badge','244','2019','Maroon',['Luxury cars', 'Exotic Cars'],'2700','3375','22680','97200','920','6180','26485','624','4,6','7,4','Rolls Royce Wraith Black Badge, 2019 Maroon',['Rolls_Royce_Wraith_Black_Badge_2019_Maroon_1.jpg','Rolls_Royce_Wraith_Black_Badge_2019_Maroon_2.jpg','Rolls_Royce_Wraith_Black_Badge_2019_Maroon_3.jpg','Rolls_Royce_Wraith_Black_Badge_2019_Maroon_4.jpg','Rolls_Royce_Wraith_Black_Badge_2019_Maroon_5.jpg','Rolls_Royce_Wraith_Black_Badge_2019_Maroon_6.jpg','Rolls_Royce_Wraith_Black_Badge_2019_Maroon_7.jpg','Rolls_Royce_Wraith_Black_Badge_2019_Maroon_8.jpg'],'1'],
+  ['Rolls Royce','Cullinan','245','2022','Green',['Luxury cars', 'SUV', 'Exotic Cars'],'4200','5250','35280','151200','1431','9613','41199','563','6,7','10,8','Rolls Royce Cullinan, 2022 Green',['green_rolls-royce-cullinan_2022_8882_d77d540b288bf51a4578cc1306f49624.jpg','green_rolls-royce-cullinan_2022_8883_f0ad0840b579e090cd63b130264ebece.jpg','green_rolls-royce-cullinan_2022_8884_5359c1d4d3cf2f3f3e4affbf315770d2.jpg'],'1'],
+  ['Rolls Royce','Dawn','246','2018','White',['Luxury cars', 'Convertible cars', 'Exotic Cars'],'3000','3750','25200','108000','1022','6866','29428','593','5,3','8,5','Rolls Royce Dawn, 2018 White',['Rolls_Royce_Dawn_2018_White_1.jpg','Rolls_Royce_Dawn_2018_White_2.jpg','Rolls_Royce_Dawn_2018_White_3.jpg','Rolls_Royce_Dawn_2018_White_4.jpg','Rolls_Royce_Dawn_2018_White_5.jpg','Rolls_Royce_Dawn_2018_White_6.jpg'],'1'],
+  ['Rolls Royce','Dawn Black Badge','247','2019','Red',['Luxury cars', 'Convertible cars', 'Exotic Cars'],'3300','4125','27720','118800','1124','7553','32371','570','4,9','7,9','Rolls_Royce_DawnBlackBadge_2019_Red_main',['Rolls_Royce_DawnBlackBadge_2019_Red_1.jpg','Rolls_Royce_DawnBlackBadge_2019_Red_2.jpg','Rolls_Royce_DawnBlackBadge_2019_Red_3.jpg','Rolls_Royce_DawnBlackBadge_2019_Red_4.jpg','Rolls_Royce_DawnBlackBadge_2019_Red_5.jpg','Rolls_Royce_DawnBlackBadge_2019_Red_6.jpg','Rolls_Royce_DawnBlackBadge_2019_Red_7.jpg','Rolls_Royce_DawnBlackBadge_2019_Red_8.jpg','Rolls_Royce_DawnBlackBadge_2019_Red_9.jpg','Rolls_Royce_DawnBlackBadge_2019_Red_10.jpg','Rolls_Royce_DawnBlackBadge_2019_Red_11.jpg'],'1'],
+  ['Rolls Royce','Cullinan Badge','248','2021','Black',['Luxury cars', 'SUV', 'Exotic Cars'],'4500','5625','37800','162000','1533','10300','44142','563','6,7','10,8','Rolls_Royce_Cullinan_Badge_2021_Black_main.jpg',['Rolls_Royce_Cullinan_Badge_2021_Black_1.jpg','Rolls_Royce_Cullinan_Badge_2021_Black_2.jpg','Rolls_Royce_Cullinan_Badge_2021_Black_3.jpg','Rolls_Royce_Cullinan_Badge_2021_Black_4.jpg','Rolls_Royce_Cullinan_Badge_2021_Black_5.jpg','Rolls_Royce_Cullinan_Badge_2021_Black_6.jpg','Rolls_Royce_Cullinan_Badge_2021_Black_7.jpg','Rolls_Royce_Cullinan_Badge_2021_Black_8.jpg','Rolls_Royce_Cullinan_Badge_2021_Black_9.jpg','Rolls_Royce_Cullinan_Badge_2021_Black_10.jpg','Rolls_Royce_Cullinan_Badge_2021_Black_11.jpg'],'1'],
+  ['Rolls Royce','Cullinan Badge','249','2020','Black',['Luxury cars', 'SUV', 'Exotic Cars'],'4800','6000','40320','172800','1635','10986','47084','563','6,7','10,8','Rolls_Royce_Cullinan_Badge_2020_Black_main.jpg',['Rolls_Royce_Cullinan_Badge_2020_Black_1.jpg','Rolls_Royce_Cullinan_Badge_2020_Black_2.jpg','Rolls_Royce_Cullinan_Badge_2020_Black_3.jpg','Rolls_Royce_Cullinan_Badge_2020_Black_4.jpg','Rolls_Royce_Cullinan_Badge_2020_Black_5.jpg','Rolls_Royce_Cullinan_Badge_2020_Black_6.jpg','Rolls_Royce_Cullinan_Badge_2020_Black_7.jpg','Rolls_Royce_Cullinan_Badge_2020_Black_8.jpg','Rolls_Royce_Cullinan_Badge_2020_Black_9.jpg','Rolls_Royce_Cullinan_Badge_2020_Black_10.jpg','Rolls_Royce_Cullinan_Badge_2020_Black_11.jpg','Rolls_Royce_Cullinan_Badge_2020_Black_12.jpg','Rolls_Royce_Cullinan_Badge_2020_Black_13.jpg','Rolls_Royce_Cullinan_Badge_2020_Black_14.jpg','Rolls_Royce_Cullinan_Badge_2020_Black_15.jpg','Rolls_Royce_Cullinan_Badge_2020_Black_16.jpg','Rolls_Royce_Cullinan_Badge_2020_Black_17.jpg'],'1'],
+  ['Rolls Royce','Wraith Black Badge','250','2020','Black',['Luxury cars', 'Exotic Cars'],'2500','3125','21000','90000','851','5722','24523','624','4,6','7,4','Rolls_Royce_Wraith-BLACK_BADGE_2020_Black_main.jpg',['Rolls_Royce_Wraith-BLACK_BADGE_2020_Black_2.jpg','Rolls_Royce_Wraith-BLACK_BADGE_2020_Black_3.jpg','Rolls_Royce_Wraith-BLACK_BADGE_2020_Black_4.jpg','Rolls_Royce_Wraith-BLACK_BADGE_2020_Black_5.jpg','Rolls_Royce_Wraith-BLACK_BADGE_2020_Black_6.jpg'],'1'],
+  ['Rolls Royce','Cullinan','251','2021','Black',['Luxury cars', 'SUV', 'Exotic Cars'],'3999','4999','33592','143964','1362','9153','39227','563','6,7','10,8','Rolls_Royce_Cullinan_2021_Black_main.jpg',['Rolls_Royce_Cullinan_2021_Black_1.jpg','Rolls_Royce_Cullinan_2021_Black_2.jpg','Rolls_Royce_Cullinan_2021_Black_3.jpg','Rolls_Royce_Cullinan_2021_Black_4.jpg','Rolls_Royce_Cullinan_2021_Black_5.jpg','Rolls_Royce_Cullinan_2021_Black_6.jpg','Rolls_Royce_Cullinan_2021_Black_7.jpg','Rolls_Royce_Cullinan_2021_Black_8.jpg','Rolls_Royce_Cullinan_2021_Black_9.jpg','Rolls_Royce_Cullinan_2021_Black_10.jpg'],'1'],
+  ['Rolls Royce','Dawn','252','2019','White',['Luxury cars', 'Convertible cars', 'Exotic Cars'],'3300','4125','27720','118800','1124','7553','32371','593','5,3','8,5','Rolls_Royce_Dawn_2019_White_main.jpg',['Rolls_Royce_Dawn_2019_White_1.jpg','Rolls_Royce_Dawn_2019_White_2.jpg','Rolls_Royce_Dawn_2019_White_3.jpg'],'1'],
+  ['Rolls Royce','Ghost','253','2017','Black',['Luxury cars', 'Exotic Cars'],'2600','3250','21840','93600','886','5951','25504','563','4,9','7,9','Rolls_Royce_Ghost_2017_Black_main.jpg',['Rolls_Royce_Ghost_2017_Black_1.jpg','Rolls_Royce_Ghost_2017_Black_2.jpg','Rolls_Royce_Ghost_2017_Black_3.jpg'],'1'],
+  ['Rolls Royce','Dawn','254','2017','Blue',['Luxury cars', 'Convertible cars', 'Exotic Cars'],'3500','4375','29400','126000','1192','8011','34332','563','4,9','7,9','Rolls_Royce_Dawn_2017_Blue',['Rolls_Royce_Dawn_2017_Blue_1.jpg','Rolls_Royce_Dawn_2017_Blue_2.jpg','Rolls_Royce_Dawn_2017_Blue_3.jpg','Rolls_Royce_Dawn_2017_Blue_4.jpg'],'1'],
+  ['Rolls Royce','Phantom','255','2021','Grey',['Luxury cars', 'Exotic Cars'],'4500','5625','37800','162000','1533','10300','44142','563','5,4','8,7','dark-grey_rolls-royce-phantom_2021_3735_main_8bc29ba8592bcb4dedb5c544794f0f3d.jpg',['dark-grey_rolls-royce-phantom_2021_8856_511927905cc51fb62917970640789d46.jpg','dark-grey_rolls-royce-phantom_2021_8857_606db1945f0c61b56f8a88db6841cb9a.jpg','dark-grey_rolls-royce-phantom_2021_8858_12838f4b516b47872c2c3eade5e3e7a7.jpg','dark-grey_rolls-royce-phantom_2021_8859_5ca1967a6d7e2ed459d464e41f8a8a4b.jpg','dark-grey_rolls-royce-phantom_2021_8860_3c80f8cd8270c02833929d5137525bd6.jpg','dark-grey_rolls-royce-phantom_2021_8861_5bdfd12bbce5584648d9cdb04059770d.jpg','dark-grey_rolls-royce-phantom_2021_8862_1808330c28363234db334588192bd157.jpg'],'1'],
+  ['Rolls Royce','Ghost Black Badge','256','2022','Black',['Luxury cars', 'Exotic Cars'],'4500','5625','37800','162000','1533','10300','44142','563','4,9','7,9','black_rolls-royce-ghost_2022_3828_main_3cc003061fc295424fb8f3c87c2ae366.jpg',['black_rolls-royce-ghost_2022_9300_e5cce3a34a8059acb8942d2ec2b77757.jpg','black_rolls-royce-ghost_2022_9301_b43ac841c635fb7a6446d45fcfb91f01.jpg','black_rolls-royce-ghost_2022_9302_1aa7a69f51f2ab0099e09c753c8c8bf1.jpg','black_rolls-royce-ghost_2022_9303_4a3775719ce80ade364ffeb545e73626.jpg','black_rolls-royce-ghost_2022_9304_9d26071bff0f46c4dd9bdb0abeac04f1.jpg','black_rolls-royce-ghost_2022_9305_c868207677ba0ed2f350ecd6e368f0be.jpg','black_rolls-royce-ghost_2022_9306_c0e9a04f1adaba36f3cd5032c23865d5.jpg'],'1'],
+  ['Rolls Royce','Ghost','257','2022','Grey',['Luxury cars', 'Exotic Cars'],'4500','5625','37800','162000','1533','10300','44142','563','4,9','7,9','Rolls-Royce-Ghost-2022_Gray_main.jpg',['Rolls-Royce-Ghost-2022_Gray_1.jpg','Rolls-Royce-Ghost-2022_Gray_2.jpg','Rolls-Royce-Ghost-2022_Gray_3.jpg','Rolls-Royce-Ghost-2022_Gray_4.jpg','Rolls-Royce-Ghost-2022_Gray_5.jpg'],'1'],
+  ['Rolls Royce','Ghost','258','2022','White',['Luxury cars', 'Exotic Cars'],'4200','5250','35280','151200','1431','9613','41199','563','4,9','7,9','white_rolls-royce-ghost_2022_3734_main_eea1d3bd67cfab9517cee84dae820ae2.jpg',['white_rolls-royce-ghost_2022_8849_95107c9a2553d5a75184baba6aa78ffe.jpg','white_rolls-royce-ghost_2022_8850_40f48dfd19b1cef029c001696bfe63c3.jpg','white_rolls-royce-ghost_2022_8851_2b784a5d3a1b70655d1b9d21b359013f.jpg','white_rolls-royce-ghost_2022_8852_7ee093046684058fd33c5e77381e29ce.jpg','white_rolls-royce-ghost_2022_8853_9075b42ae5bb37b8dc7ac961e3c4cfbe.jpg','white_rolls-royce-ghost_2022_8854_29dc74927ba161e748e87efffec88967.jpg','white_rolls-royce-ghost_2022_8855_3db588001ec9ae157d96c08c865d0526.jpg'],'1'],
+  ['Rolls Royce','Dawn','259','2021','White',['Luxury cars', 'Convertible cars', 'Exotic Cars'],'3800','4750','31920','136800','1294','8698','37275','563','5','8,1','Rolls_Royce_Dawn_White_2021_main.jpg',['Rolls_Royce_Dawn_White_2021_1.jpg','Rolls_Royce_Dawn_White_2021_2.jpg','Rolls_Royce_Dawn_White_2021_3.jpg','Rolls_Royce_Dawn_White_2021_4.jpg','Rolls_Royce_Dawn_White_2021_5.jpg'],'1'],
+  ['Rolls Royce','Dawn','260','2018','Brown Silver',['Luxury cars', 'Exotic Cars'],'3000','3750','25200','108000','1022','6866','29428','563','4,9','7,9','Rolls_Royece_Dawn_Brown_Silver_2019_main.jpg',['Rolls_Royece_Dawn_Brown Silver_2019_1.jpg'],'1'],
+  ['Rolls Royce','Wraith','261','2019','Black Silver',['Luxury cars', 'Exotic Cars'],'2000','2500','16800','72000','681','4578','19619','624','4,6','7,4','black_rolls-royce-wraith_2019_3616_main_550ad7afcd056149403274ac16a646e9.jpg',['black_rolls-royce-wraith_2019_8295_7085a1c7b95f3b33efdefb016d74e597.jpg','black_rolls-royce-wraith_2019_8296_c46f4db7dba7cb894743cd8b09d29640.jpg','black_rolls-royce-wraith_2019_8297_d27479eeee20c7b79ff0debb1b107508.jpg','black_rolls-royce-wraith_2019_8298_3ab66023b014467552d442678c455fb7.jpg','black_rolls-royce-wraith_2019_8299_5402d00e892d49f5ed737b8b221d0550.jpg','black_rolls-royce-wraith_2019_8300_2edcd0f833524358acde04d8891d8b9a.jpg','black_rolls-royce-wraith_2019_8301_d258bff3df912377134bb93571f1fe9a.jpg'],'1'],
+  ['Rolls Royce','Cullinan','262','2020','Brown',['Luxury cars', 'SUV', 'Exotic Cars'],'3800','4750','31920','136800','1294','8698','37275','563','6,7','10,8','Rolls-Royce_Cullinan_Brown_main.jpg','','1'],
+  ['Rolls Royce','Ghost','263','2021','Maroon',['Luxury cars', 'Exotic Cars'],'5500','6875','46200','198000','1873','12589','53951','563','4,9','7,9','Rolls-Royce-Ghost-2021_Maroon_1.jpg',['Rolls-Royce-Ghost-2021_Maroon_2.jpg','Rolls-Royce-Ghost-2021_Maroon_3.jpg','Rolls-Royce-Ghost-2021_Maroon_4.jpg'],'1'],
+  ['Rolls Royce','Ghost','264','2017','Brown/Silver',['Luxury cars', 'Exotic Cars'],'2600','3250','21840','93600','886','5951','25504','563','4,9','7,9','brown_rolls-royce-ghost_2017_1135_main.jpg',['brown_rolls-royce-ghost_2017_1730.jpg','brown_rolls-royce-ghost_2017_1731.jpg','brown_rolls-royce-ghost_2017_1732.jpg','brown_rolls-royce-ghost_2017_1733.jpg'],'1'],
+  ['Rolls Royce','Dawn','265','2016','White',['Luxury cars', 'Convertible cars', 'Exotic Cars'],'3000','3750','25200','108000','1022','6866','29428','570','4,9','7,9','Rolls_Royce_Dawn_2016_White_main.jpg',['Rolls_Royce_Dawn_2016_White_1.jpg','Rolls_Royce_Dawn_2016_White_2.jpg','Rolls_Royce_Dawn_2016_White_3.jpg','Rolls_Royce_Dawn_2016_White_4.jpg','Rolls_Royce_Dawn_2016_White_5.jpg','Rolls_Royce_Dawn_2016_White_6.jpg','Rolls_Royce_Dawn_2016_White_7.jpg','Rolls_Royce_Dawn_2016_White_8.jpg','Rolls_Royce_Dawn_2016_White_9.jpg','Rolls_Royce_Dawn_2016_White_10.jpg'],'1'],
+  ['Rolls Royce','Dawn Black Badge','266','2018','Black',['Luxury cars', 'Convertible cars', 'Exotic Cars'],'3300','4125','27720','118800','1124','7553','32371','570','4,8','7,7','Rolls_Royce_Dawn_Black_Badge_2018_Black_main.jpg',['Rolls_Royce_Dawn_Black_Badge_2018_Black_1.jpg','Rolls_Royce_Dawn_Black_Badge_2018_Black_2.jpg','Rolls_Royce_Dawn_Black_Badge_2018_Black_3.jpg','Rolls_Royce_Dawn_Black_Badge_2018_Black_4.jpg','Rolls_Royce_Dawn_Black_Badge_2018_Black_5.jpg','Rolls_Royce_Dawn_Black_Badge_2018_Black_6.jpg','Rolls_Royce_Dawn_Black_Badge_2018_Black_7.jpg','Rolls_Royce_Dawn_Black_Badge_2018_Black_8.jpg','Rolls_Royce_Dawn_Black_Badge_2018_Black_9.jpg','Rolls_Royce_Dawn_Black_Badge_2018_Black_10.jpg'],'1'],
+  ['Rolls Royce','Cullinan Black Badge','267','2022','Blue',['Luxury cars', 'SUV', 'Exotic Cars'],'5000','6250','42000','180000','1703','11444','49046','563','6,7','10,8','Rolls-royce_Cullinan_BB_Blue_2022_main.jpg',['Rolls-royce_Cullinan_BB_Blue_2022_1.jpg','Rolls-royce_Cullinan_BB_Blue_2022_2.jpg'],'1'],
+  [
+    'Tesla', //brand[0]
+    'Model X', //model[1]
+    '268', //id[2]
+    '2018', //year[3]
+    'Black', //color[4]
+    ['Luxury cars', 'SUV', 'Exotic Cars'], //cats[5]
+    '1500', //price[6]
+    '1875', //pda[7]
+    '12600', //pwa[8]
+    '54000', //pma[9]
+    '511', //pdd[10]
+    '3433', //pwd[11]
+    '14714', //pmd[12]
+    '1024', //hp[13]
+    '2,6', //kmh[14]
+    '4,2', //mph[15]
+    'Tesla_Model_X_2018_Black_main.jpg', //photo[16]
+    ['Tesla_Model_X_2018_Black_1.jpg','Tesla_Model_X_2018_Black_2.jpg','Tesla_Model_X_2018_Black_3.jpg','Tesla_Model_X_2018_Black_4.jpg'], //photos[17]
+    '1' //active[18]
+  ],
 
 
-
-$args = [
-  'post_type' => 'page',
-  'numberposts' => -1
 ];
 
 
-echo '<pre>';
+// $colors = get_terms('color');
+// $yearss = get_terms('year');
+// $models = get_terms('model');
 
-foreach (get_posts($args) as $key => $post) {
-  // if ($key > 5) break;
-  $new_title = '';
-  $new_desk = '';
+foreach($db_cars as $key=>$car) {
+  // if($key>0) break;
+  $post_name = $car[0].' - '.$car[1].' - '.$car[2];
+  
+  // echo gettype($car[17]);
 
-  // print_r(get_post_meta($post->ID));
-  if (array_key_exists($post->post_title, $db)) {
-    $color = 'yellow';
-    // echo $db[$post->post_title][0].' ----- ';
-    // echo update_post_meta($post->ID, '_genesis_title', $db[$post->post_title][0]);
-    // echo update_post_meta($post->ID, '_genesis_description', $db[$post->post_title][1]);
-    if($db[$post->post_title][2] !== '') {
-      $src = get_page_by_title( pathinfo( 'http://black.cq77457.tmweb.ru/wp-content/uploads/2022/07/'.$db[$post->post_title][2] )['filename'], "OBJECT", 'attachment' );
-      set_post_thumbnail( $post, $src->ID );
-      $color = 'orange';
+  if(!get_page_by_title( $post_name, 'OBJECT', 'car' )){
+    echo '<p style="background-color:lightblue">';
+    $my_postarr = array(
+      'post_name'    => $car[0].' - '.$car[1].' - '.$car[2],
+      'post_title'    => $car[0].' - '.$car[1].' - '.$car[2],
+      'post_type'   => 'car',
+      'post_status'   => 'publish', // опубликованный пост
+    );
+    $post_id = wp_insert_post( $my_postarr );
+    $image_name = str_replace(['.jpg','.jpeg','.png','.PNG','.JPG','.JPEG','.webp','.WEBP'],'',$car[16]);
+    $src = get_page_by_title( pathinfo( 'http://black.cq77457.tmweb.ru/wp-content/uploads/2022/07/'.$image_name )['filename'], "OBJECT", 'attachment' );
+    if($src){
+      set_post_thumbnail( $post_id, $src->ID );
+    } else {
+      echo '<span style="background-color:orange">Нет картинки! http://black.cq77457.tmweb.ru/wp-content/uploads/2022/07/'.$car[16].'</span>';
     }
-    echo '<p style="background:'.$color.'">';
+
+    carbon_set_post_meta($post_id, 'price', $car[6]);
+    carbon_set_post_meta($post_id, 'crm_id', $car[2]);
+    carbon_set_post_meta($post_id, 'active', $car[18]);
+    carbon_set_post_meta($post_id, 'hp', $car[13]);
+    carbon_set_post_meta($post_id, 'kmh', $car[14]);
+    carbon_set_post_meta($post_id, 'mph', $car[15]);
+
+    carbon_set_post_meta($post_id, 'price_day_aed', $car[7]);
+    carbon_set_post_meta($post_id, 'price_week_aed', $car[8]);
+    carbon_set_post_meta($post_id, 'price_month_aed', $car[9]);
+
+    carbon_set_post_meta($post_id, 'price_day_dollar', $car[10]);
+    carbon_set_post_meta($post_id, 'price_week_dollar', $car[11]);
+    carbon_set_post_meta($post_id, 'price_month_dollar', $car[12]);
+
+
+    wp_set_object_terms($post_id, [$car[0],$car[1]], 'model');
+    wp_set_object_terms($post_id, $car[3], 'year');
+    wp_set_object_terms($post_id, $car[4], 'color');
+    wp_set_object_terms($post_id, $car[5], 'category');
+
+    foreach($car[17] as $key=>$photo){
+      $photo_name = str_replace(['.jpg','.jpeg','.png','.PNG','.JPG','.JPEG','.webp','.WEBP'],'',$photo);
+      $att = get_page_by_title( pathinfo( 'http://black.cq77457.tmweb.ru/wp-content/uploads/2022/07/'.$photo_name)['filename'], "OBJECT", 'attachment' );
+      if($att){
+        carbon_set_post_meta( $post_id, 'photos['.$key.']/photo',$att->ID);
+      } else {
+        echo '<span style="background-color:orange">Нет аттача! http://black.cq77457.tmweb.ru/wp-content/uploads/2022/07/'.$car[16].'</span><br>';
+      }
+    }
+    echo $post_id.' '.$car[0].' - '.$car[1].' - '.$car[2].' added!</p>';
   } else {
-    echo '<p>';
-    $src = [];
+    echo '<p style="background-color:coral">Car Exists</p>';
   }
-  echo get_the_post_thumbnail($post->ID,'thumbnail');
-  // echo get_post_meta($post->ID)['_genesis_title'][0];
-  // echo '<br>';
-  // echo get_post_meta($post->ID)['_genesis_description'][0];
-  echo '<br>';
-  echo $post->post_title;
-  echo '</p>';
   echo '<hr>';
 }
-
-echo '</pre>';
-
-
-// _genesis_title
-// _genesis_description
+echo '<p>FIN!</p>';

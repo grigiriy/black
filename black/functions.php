@@ -191,3 +191,4 @@ require_once __DIR__ . '/theme-helpers/tax.php';
 require_once __DIR__ . '/theme-helpers/cpt.php';
 add_action('init', 'add_new_taxonomies', 0);
 add_action('init', 'true_register_post_type_init');
+
