@@ -14,6 +14,7 @@ get_header(); ?>
 			?>
 
       <?php get_template_part('template-parts/section','banner'); ?>
+			<?php get_template_part('template-parts/section','catalog'); ?>
 			<?php get_template_part('template-parts/section','cars'); ?>
 			<?php the_content(); ?>
 			<?php get_template_part('template-parts/section','text'); ?>

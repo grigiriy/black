@@ -12,6 +12,8 @@ get_header(); ?>
 			while (have_posts()) :
 				the_post();
 			?>
+			<?php get_template_part('template-parts/section','banner'); ?>
+			<?php get_template_part('template-parts/section','cars'); ?>
       <div class="container">
 				<?php get_template_part('template-parts/section','product'); ?>
 				<?php get_template_part('template-parts/section','form'); ?>
