@@ -14,6 +14,7 @@
       //     )
       //   )
       // ];
+      
       $cur_model_terms = get_the_terms($post->ID, 'model');
       $cur_model_term_ids = [];
       
@@ -35,14 +36,14 @@
         )
       ];
 
-      foreach (get_posts($args) as $car) { ?>
+      foreach (get_posts($args) as $car) {
+        $color = get_the_terms($car->ID, 'color')[0]->name;
+        $year = get_the_terms($car->ID, 'year')[0]->name;
+        $price_from = carbon_get_post_meta($car->ID,'price_day_dollar');
+        ?>
         <li class="car">
           <a href="<?= get_the_permalink($car); ?>">
-            <?php if (1 > 2) { ?>
-              <img src="https://cdn.shopify.com/s/files/1/0587/6875/2824/products/ScreenShot2022-04-19at7.39.14PM.png" alt="<?= $car->post_title; ?>">
-            <?php } else { ?>
-              <?= get_the_post_thumbnail($car->ID, 'small'); ?>
-            <?php } ?>
+            <?= get_the_post_thumbnail($car->ID, 'small'); ?>
           </a>
           <div class="info">
             <div class="row">
@@ -50,15 +51,15 @@
               <p>Reserve now</p>
             </div>
             <div class="row">
-              <p>Orange</p>
+              <p><?= $color;?></p>
               <p>For $500</p>
             </div>
             <button>Reserve now</button>
           </div>
           <div class="credintails">
-            <div class="col">$1190 Daily</div>
-            <div class="col central">Orange</div>
-            <div class="col">Black Interior</div>
+            <div class="col">$<?= $price_from;?> Daily</div>
+            <div class="col central"><?= $color;?></div>
+            <div class="col"><?= $year;?></div>
           </div>
         </li>
       <?php } ?>

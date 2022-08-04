@@ -30,11 +30,7 @@
     foreach (get_posts($args) as $car) { ?>
       <li>
         <a href="<?= get_the_permalink($car); ?>">
-          <?php if (1 > 2) { ?>
-            <img src="https://cdn.shopify.com/s/files/1/0587/6875/2824/products/ScreenShot2022-04-19at7.39.14PM.png" alt="<?= $car->post_title; ?>">
-          <?php } else { ?>
-            <?= get_the_post_thumbnail($car->ID, 'small'); ?>
-          <?php } ?>
+          <?= get_the_post_thumbnail($car->ID, 'small'); ?>
         </a>
         <a href="<?= get_the_permalink($car); ?>"><?= $car->post_title; ?></a>
       </li>
