@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 
-<?php if (!is_user_logged_in()) wp_die('log in, please'); ?>
+<?php
+if (!is_user_logged_in()) wp_die('log in, please');
+?>
 
 <head>
 	<meta charset="<?php bloginfo('charset'); ?>">

@@ -192,3 +192,29 @@ require_once __DIR__ . '/theme-helpers/cpt.php';
 add_action('init', 'add_new_taxonomies', 0);
 add_action('init', 'true_register_post_type_init');
 
+add_action('wp_ajax_get_modal', 'get_modal');
+add_action('wp_ajax_nopriv_get_modal', 'get_modal');
+
+function get_modal()
+{
+  $car_id = $_POST['car_id'];
+  render_modal_inner($car_id);
+  return true;
+}
+
+function render_modal_inner($car_id)
+{
+  set_query_var('car_id', $car_id);
+  ob_start();
+  get_template_part('template-parts/modal', 'inner');
+  wp_reset_postdata();
+  wp_send_json_success(ob_get_clean());
+  wp_die();
+}
+
+
+function crop_id($title = '') {
+	$title_splitted = explode('-',$title);
+	$title = $title_splitted[1] ? $title_splitted[0].' '.$title_splitted[1] : $title;
+	return $title;
+}

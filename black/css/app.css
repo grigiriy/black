@@ -4322,34 +4322,38 @@ section#cars .cars-list .car{
       margin-bottom: 1.5rem;
     }
 
-section#cars .cars-list .car >a{
+section#cars .cars-list .car >p{
+        cursor: pointer;
+      }
+
+section#cars .cars-list .car >p{
         padding: 0px;
       }
 
-section#cars .cars-list .car >a img{
+section#cars .cars-list .car >p img{
           padding: 0px;
         }
 
 @media (min-width: 640px){
-          section#cars .cars-list .car >a img{
+          section#cars .cars-list .car >p img{
             padding: 1rem;
           }
         }
 
-section#cars .cars-list .car >a img{
+section#cars .cars-list .car >p img{
           -o-object-fit: cover;
              object-fit: cover;
         }
 
-section#cars .cars-list .car >a img{
+section#cars .cars-list .car >p img{
           aspect-ratio: 16 / 9;
         }
 
-section#cars .cars-list .car >a img{
+section#cars .cars-list .car >p img{
           width: 100%;
         }
 
-section#cars .cars-list .car >a img{
+section#cars .cars-list .car >p img{
           -o-object-position: center;
              object-position: center;
         }
@@ -5810,6 +5814,11 @@ section.call a span{
         margin: 0px;
       }
 
+.modal .modal-body #slider .carousel__slide img{
+          margin-left: auto;
+          margin-right: auto;
+        }
+
 .modal .modal-body #thumbs{
       display: flex;
     }
@@ -5846,6 +5855,10 @@ section.call a span{
 .modal .modal-body #thumbs .carousel__slide{
         padding: 0px;
       }
+
+.modal .modal-body #thumbs .carousel__slide img{
+          aspect-ratio: 16 / 9;
+        }
 
 .modal .modal-body .cta{
       margin-top: 1rem;

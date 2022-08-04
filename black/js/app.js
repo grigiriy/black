@@ -3123,25 +3123,51 @@
   // resources/js/app.js
   new import_air_datepicker.default("#rangeDateFrom");
   new import_air_datepicker.default("#rangeDateTo");
-  var mainCarousel = new y(document.querySelector("#slider"), {
-    Dots: false
-  });
-  var thumbCarousel = new y(document.querySelector("#thumbs"), {
-    Sync: {
-      target: mainCarousel,
-      friction: 0
-    },
-    Dots: false,
-    Navigation: false,
-    center: true,
-    infinite: false
-  });
   (function($2) {
     $2(".burger").click(function() {
       $2("#burger").toggleClass("active");
     });
     $2(".accordeon_headline").on("click", function() {
       $2(this).parent().toggleClass("open");
+    });
+    $2("body").click(function(e2) {
+      if ($2(e2.target).is(".js-close")) {
+        $2("body").removeClass("modal-active");
+      }
+    });
+    $2(".js-modal-init").click(function(e2) {
+      let car_id = $2(e2.target).parents(".car").data("id");
+      let modal_inner = $2(".modal");
+      console.log(car_id);
+      $2.ajax({
+        url: "/wp-admin/admin-ajax.php",
+        type: "POST",
+        dataType: "json",
+        data: {
+          action: "get_modal",
+          car_id
+        },
+        success: function(data) {
+          modal_inner.html(data.data);
+          $2("body").addClass("modal-active");
+          const mainCarousel = new y(document.querySelector("#slider"), {
+            Dots: false
+          });
+          const thumbCarousel = new y(document.querySelector("#thumbs"), {
+            Sync: {
+              target: mainCarousel,
+              friction: 0
+            },
+            Dots: false,
+            Navigation: false,
+            center: true,
+            infinite: false
+          });
+        },
+        error: function(jqXHR, status, errorThrown) {
+          console.log("\u041E\u0428\u0418\u0411\u041A\u0410: " + errorThrown);
+        }
+      });
     });
   })(jQuery);
 })();
