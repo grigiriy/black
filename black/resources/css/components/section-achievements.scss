@@ -6,15 +6,15 @@ section.achievements {
   @apply bg-center;
   background-image: url(https://cdn.shopify.com/s/files/1/0587/6875/2824/t/6/assets/pf-bca29839--LMBO-NREGRO-3.jpeg);
 
-  .flex {
+  .achievements-wrapper {
     @apply pt-4;
     @apply sm:pt-8;
     @apply justify-between;
-    @apply flex-wrap;
+    @apply flex flex-wrap;
     @apply mb-28;
     @apply sm:mb-16;
 
-    +.flex{
+    +.achievements-wrapper{
       @apply mb-8;
     }
 

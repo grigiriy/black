@@ -4,9 +4,9 @@ footer {
   @apply mb-0;
   @apply text-neutral-400;
 
-  >.flex {
+  .footer-wrapper {
     @apply container;
-    @apply flex-wrap;
+    @apply flex flex-wrap;
 
     .col {
       @apply w-full;

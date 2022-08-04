@@ -16,8 +16,8 @@ section#popular {
     }
   }
 
-  .flex {
-    @apply flex-wrap;
+  .popular-wrapper {
+    @apply flex flex-wrap;
 
     .item {
       @apply mb-0;

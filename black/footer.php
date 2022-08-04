@@ -1,5 +1,5 @@
 <footer>
-	<div class="flex">
+	<div class="footer-wrapper">
 		<div class="col">
 			<p class="subheader">Top</p>
 			<ul class="uppercase">

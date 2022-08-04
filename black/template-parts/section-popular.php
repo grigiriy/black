@@ -29,7 +29,7 @@ $pb = [
 <section id="popular">
   <div class="container">
     <p class="headline">Popular Brands</p>
-    <div class="flex">
+    <div class="popular-wrapper">
       <?php foreach ($pb as $item) { ?>
         <a class="item" href="<?= $item['href']; ?>">
           <img src="<?= $item['img']; ?>" alt="<?= $item['name']; ?>">

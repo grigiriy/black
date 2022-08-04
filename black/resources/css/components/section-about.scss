@@ -11,8 +11,8 @@ section#about {
     @apply mb-4; 
   }
 
-  .flex {
-    @apply flex-wrap;
+  .about-wrapper {
+    @apply flex flex-wrap;
     @apply sm:flex-nowrap;
 
     .item {

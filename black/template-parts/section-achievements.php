@@ -10,7 +10,7 @@ $achievs_2 = [
 ?>
 <section class="achievements">
 <div class="container">
-  <div class="flex">
+  <div class="achievements-wrapper">
   <?php foreach ($achievs_1 as $item) { ?>
     <div>
       <p class="number"><?= $item['number']; ?></p>
@@ -18,7 +18,7 @@ $achievs_2 = [
     </div>
   <?php } ?>
   </div>
-  <div class="flex">
+  <div class="achievements-wrapper">
   <?php foreach ($achievs_2 as $item) { ?>
     <div>
       <p class="number"><?= $item['number']; ?></p>
