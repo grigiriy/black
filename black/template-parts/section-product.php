@@ -1,5 +1,6 @@
 <section id="product">
   <div class="col">
+    <?php if(1>2){ ?>
     <div id="slider" class="carousel">
         <div class="carousel__slide">  
           <?= get_the_post_thumbnail(); ?>
@@ -26,6 +27,7 @@
       </div>
       <?php } ?>
     </div>
+    <?php } ?>
   </div>
   <div class="col">
     <h1 class="headline"><?php the_title(); ?></h1>

@@ -1,6 +1,6 @@
 section#cars {
   @apply bg-neutral-100;
-  @apply mb-0;
+  @apply mb-0 pt-6;
 
   .cars-list {
     @apply flex;
@@ -70,7 +70,6 @@ section#cars {
       .credintails {
         @apply flex;
         @apply sm:mx-4;
-        @apply mb-4;
         @apply p-0;
         @apply border-b;
         @apply border-x;

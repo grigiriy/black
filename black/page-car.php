@@ -14,15 +14,16 @@ get_header(); ?>
 			?>
 			<?php get_template_part('template-parts/section','banner'); ?>
 			<?php get_template_part('template-parts/section','cars'); ?>
+			<?php if(1>2){ ?>
       <div class="container">
 				<?php get_template_part('template-parts/section','product'); ?>
 				<?php get_template_part('template-parts/section','form'); ?>
 			</div>
+			<?php } ?>
 			<?php the_content(); ?>
       <?php get_template_part('template-parts/section','popular'); ?>
       <?php get_template_part('template-parts/section','fleet'); ?>
-      <div class="container">
-			</div>
+			<?php get_template_part('template-parts/modal'); ?>
 			<?php endwhile; ?>
 
 		<?php endif; ?>
