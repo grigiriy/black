@@ -64,6 +64,18 @@
       <?= carbon_get_post_meta($car_id,'price_week_aed');?> AED
       </div>
     </div>
+
+    <div class="credintails">
+      <div class="col">
+        <p>per month</p>
+      </div>
+      <div class="col central">
+      <?= carbon_get_post_meta($car_id,'price_month_dollar');?> USD
+      </div>
+      <div class="col">
+      <?= carbon_get_post_meta($car_id,'price_month_aed');?> AED
+      </div>
+    </div>
   </div>
   <p class="cta">Reserve now</p>
   <form>
