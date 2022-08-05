@@ -1,12 +1,11 @@
 import AirDatepicker from 'air-datepicker';
 import {Fancybox, Carousel, Panzoom} from '@fancyapps/ui';
+import IMask from 'imask';
 
 new AirDatepicker('#rangeDateFrom');
 new AirDatepicker('#rangeDateTo');
 
-
 (function ($) {
-
   $('.burger').click(function () {
     $('#burger').toggleClass('active');
   });
@@ -15,15 +14,13 @@ new AirDatepicker('#rangeDateTo');
     $(this).parent().toggleClass('open');
   });
 
-  $('body').click(function(e){
-    if(
-      $(e.target).is('.js-close')
-      ){
-        $('body').removeClass('modal-active');
+  $('body').click(function (e) {
+    if ($(e.target).is('.js-close')) {
+      $('body').removeClass('modal-active');
     }
-  })
+  });
 
-  $('.js-modal-init').click(function(e){
+  $('.js-modal-init').click(function (e) {
     let car_id = $(e.target).parents('.car').data('id');
     let modal_inner = $('.modal');
 
@@ -41,26 +38,28 @@ new AirDatepicker('#rangeDateTo');
         modal_inner.html(data.data);
         $('body').addClass('modal-active');
 
-        const mainCarousel = new Carousel(document.querySelector("#slider"), {
+        var phoneMask = IMask(document.getElementById('tel'), {
+          mask: '+{0}(000)000-00-00'
+        });
+
+        const mainCarousel = new Carousel(document.querySelector('#slider'), {
           Dots: false
         });
-        
-        const thumbCarousel = new Carousel(document.querySelector("#thumbs"), {
+
+        const thumbCarousel = new Carousel(document.querySelector('#thumbs'), {
           Sync: {
             target: mainCarousel,
-            friction: 0,
+            friction: 0
           },
           Dots: false,
           Navigation: false,
           center: true,
-          infinite: false,
+          infinite: false
         });
       },
       error: function (jqXHR, status, errorThrown) {
         console.log('ОШИБКА: ' + errorThrown);
       }
     });
-
-  })
-
+  });
 })(jQuery);
