@@ -78,7 +78,7 @@
     </div>
   </div>
   <p class="cta">Reserve now</p>
-  <form>
+  <form id="submit_form">
     <div class="input-wrapper">
       <label for="name">Name</label>
       <input type="text" id="name" name="name">

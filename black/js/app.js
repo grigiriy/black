@@ -6383,19 +6383,19 @@
       }
     });
     $2(".js-modal-init").click(function(e2) {
-      let car_id = $2(e2.target).parents(".car").data("id");
-      let modal_inner = $2(".modal");
-      console.log(car_id);
+      let car_id2 = $2(e2.target).parents(".car").data("id");
+      let modal_inner2 = $2(".modal");
+      console.log(car_id2);
       $2.ajax({
         url: "/wp-admin/admin-ajax.php",
         type: "POST",
         dataType: "json",
         data: {
           action: "get_modal",
-          car_id
+          car_id: car_id2
         },
         success: function(data) {
-          modal_inner.html(data.data);
+          modal_inner2.html(data.data);
           $2("body").addClass("modal-active");
           var phoneMask = IMask(document.getElementById("tel"), {
             mask: "+{0}(000)000-00-00"
@@ -6413,6 +6413,24 @@
             center: true,
             infinite: false
           });
+        },
+        error: function(jqXHR, status, errorThrown) {
+          console.log("\u041E\u0428\u0418\u0411\u041A\u0410: " + errorThrown);
+        }
+      });
+    });
+    $2("#submit_form").submit(function() {
+      $2.ajax({
+        url: "/wp-admin/admin-ajax.php",
+        type: "POST",
+        dataType: "json",
+        data: {
+          action: "submit_modal",
+          car_id
+        },
+        success: function(data) {
+          modal_inner.html(data.data);
+          $2("body").addClass("modal-active");
         },
         error: function(jqXHR, status, errorThrown) {
           console.log("\u041E\u0428\u0418\u0411\u041A\u0410: " + errorThrown);

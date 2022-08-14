@@ -7,13 +7,16 @@ Container::make('post_meta', 'Параметры автомобиля')
   // ->show_on_template( 'page-example.php' )
   ->show_on_post_type('car')
   ->add_fields([
-    Field::make('text', 'price', 'Цена')
-      ->set_width(30),
+    Field::make('text', 'price', 'ХЗ')
+      ->set_width(25),
     Field::make('text', 'crm_id', 'ID')
-      ->set_width(30),
-      Field::make('checkbox', 'active', 'Активна')
+      ->set_width(25),
+    Field::make('checkbox', 'active', 'Активна')
       ->set_option_value( '1' )
-      ->set_width(30),
+      ->set_width(25),
+    Field::make('checkbox', 'promo', 'Ранжирование')
+      ->set_option_value( '1' )
+      ->set_width(25),
 
 
     Field::make('text', 'price_day_aed', 'Цена день, AED')

@@ -62,4 +62,28 @@ new AirDatepicker('#rangeDateTo');
       }
     });
   });
+
+  $('#submit_form').submit(function(){
+    
+
+
+    $.ajax({
+      url: '/wp-admin/admin-ajax.php',
+      type: 'POST',
+      dataType: 'json',
+      data: {
+        action: 'submit_modal',
+        car_id: car_id
+      },
+      success: function (data) {
+        modal_inner.html(data.data);
+        $('body').addClass('modal-active');
+
+      },
+      error: function (jqXHR, status, errorThrown) {
+        console.log('ОШИБКА: ' + errorThrown);
+      }
+    });
+
+  })
 })(jQuery);
